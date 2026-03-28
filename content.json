@@ -1,0 +1,527 @@
+{
+  "version": 1,
+  "topics": [
+    {
+      "id": "t1",
+      "title": "Mulțimi & Algebră",
+      "subtitle": "Operații cu mulțimi, ecuații",
+      "iconName": "number.square.fill",
+      "colorHex": "#007AFF",
+      "lessons": [
+        {
+          "id": "t1l1",
+          "title": "Operații cu mulțimi",
+          "xpReward": 80,
+          "questions": [
+            {
+              "id": "t1l1q1",
+              "text": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Care este A ∪ B?",
+              "type": "multipleChoice",
+              "options": ["{1, 2, 3, 4}", "{2, 3}", "{1, 4}", "{1, 2, 3, 4, 5}"],
+              "correctIndex": 0,
+              "explanation": "Reuniunea A ∪ B conține toate elementele din A și B: {1, 2, 3, 4}."
+            },
+            {
+              "id": "t1l1q2",
+              "text": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Care este A ∩ B?",
+              "type": "multipleChoice",
+              "options": ["{2, 3}", "{1, 4}", "{1, 2, 3, 4}", "{}"],
+              "correctIndex": 0,
+              "explanation": "Intersecția A ∩ B conține elementele comune: {2, 3}."
+            },
+            {
+              "id": "t1l1q3",
+              "text": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Care este A \\ B?",
+              "type": "multipleChoice",
+              "options": ["{1}", "{4}", "{2, 3}", "{1, 4}"],
+              "correctIndex": 0,
+              "explanation": "Diferența A \\ B conține elementele din A care nu sunt în B: {1}."
+            },
+            {
+              "id": "t1l1q4",
+              "text": "Mulțimea vidă ∅ este submulțime a oricărei mulțimi.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Prin definiție, ∅ ⊆ A pentru orice mulțime A."
+            },
+            {
+              "id": "t1l1q5",
+              "text": "Fie A = {a, b, c}. Câte submulțimi are A?",
+              "type": "multipleChoice",
+              "options": ["8", "6", "4", "3"],
+              "correctIndex": 0,
+              "explanation": "O mulțime cu n elemente are 2ⁿ submulțimi. 2³ = 8."
+            },
+            {
+              "id": "t1l1q6",
+              "text": "A ∪ A = A pentru orice mulțime A.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Reuniunea unei mulțimi cu ea însăși este mulțimea inițială."
+            }
+          ]
+        },
+        {
+          "id": "t1l2",
+          "title": "Ecuații de gradul I",
+          "xpReward": 80,
+          "questions": [
+            {
+              "id": "t1l2q1",
+              "text": "Care este soluția ecuației 2x + 6 = 0?",
+              "type": "multipleChoice",
+              "options": ["x = -3", "x = 3", "x = -6", "x = 6"],
+              "correctIndex": 0,
+              "explanation": "2x = -6, deci x = -3."
+            },
+            {
+              "id": "t1l2q2",
+              "text": "Ecuația 3x - 9 = 0 are soluția x = 3.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "3x = 9, deci x = 3. Corect!"
+            },
+            {
+              "id": "t1l2q3",
+              "text": "Care este soluția ecuației 5x + 10 = 25?",
+              "type": "multipleChoice",
+              "options": ["x = 3", "x = 5", "x = 7", "x = -3"],
+              "correctIndex": 0,
+              "explanation": "5x = 15, deci x = 3."
+            },
+            {
+              "id": "t1l2q4",
+              "text": "Ecuația ax + b = 0 (a ≠ 0) are întotdeauna o soluție unică.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "x = -b/a este întotdeauna unica soluție când a ≠ 0."
+            },
+            {
+              "id": "t1l2q5",
+              "text": "Care este soluția ecuației -4x + 8 = 0?",
+              "type": "multipleChoice",
+              "options": ["x = 2", "x = -2", "x = 4", "x = -4"],
+              "correctIndex": 0,
+              "explanation": "-4x = -8, deci x = 2."
+            },
+            {
+              "id": "t1l2q6",
+              "text": "Dacă x - 7 = 0, atunci x = 7.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "x = 7 este soluția directă."
+            }
+          ]
+        },
+        {
+          "id": "t1l3",
+          "title": "Ecuații de gradul II",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "t1l3q1",
+              "text": "Formula discriminantului ecuației ax² + bx + c = 0 este:",
+              "type": "multipleChoice",
+              "options": ["Δ = b² - 4ac", "Δ = b² + 4ac", "Δ = 4ac - b²", "Δ = b - 4ac"],
+              "correctIndex": 0,
+              "explanation": "Discriminantul Δ = b² - 4ac determină natura rădăcinilor."
+            },
+            {
+              "id": "t1l3q2",
+              "text": "Ecuația x² - 5x + 6 = 0 are două rădăcini reale distincte.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Δ = 25 - 24 = 1 > 0, deci două rădăcini reale distincte."
+            },
+            {
+              "id": "t1l3q3",
+              "text": "Care sunt rădăcinile ecuației x² - 5x + 6 = 0?",
+              "type": "multipleChoice",
+              "options": ["x₁=2, x₂=3", "x₁=1, x₂=6", "x₁=-2, x₂=-3", "x₁=2, x₂=-3"],
+              "correctIndex": 0,
+              "explanation": "x = (5 ± 1)/2, deci x₁ = 2, x₂ = 3."
+            },
+            {
+              "id": "t1l3q4",
+              "text": "Dacă Δ < 0, ecuația de gradul II nu are rădăcini reale.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Δ < 0 înseamnă că √Δ nu este real, deci nu există rădăcini reale."
+            },
+            {
+              "id": "t1l3q5",
+              "text": "Suma rădăcinilor x₁ + x₂ pentru ax² + bx + c = 0 este:",
+              "type": "multipleChoice",
+              "options": ["-b/a", "b/a", "c/a", "-c/a"],
+              "correctIndex": 0,
+              "explanation": "Relațiile lui Viète: x₁ + x₂ = -b/a."
+            },
+            {
+              "id": "t1l3q6",
+              "text": "Produsul rădăcinilor x₁ · x₂ pentru x² + 5x + 6 = 0 este 6.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "x₁ · x₂ = c/a = 6/1 = 6."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Funcții",
+      "subtitle": "Funcții liniare și pătratice",
+      "iconName": "chart.line.uptrend.xyaxis",
+      "colorHex": "#34C759",
+      "lessons": [
+        {
+          "id": "t2l1",
+          "title": "Funcția liniară f(x) = ax + b",
+          "xpReward": 80,
+          "questions": [
+            {
+              "id": "t2l1q1",
+              "text": "Graficul funcției f(x) = 2x + 1 trece prin originea axelor?",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "f(0) = 1 ≠ 0, deci graficul nu trece prin origine."
+            },
+            {
+              "id": "t2l1q2",
+              "text": "Care este panta (coeficientul angular) al funcției f(x) = -3x + 5?",
+              "type": "multipleChoice",
+              "options": ["-3", "5", "3", "-5"],
+              "correctIndex": 0,
+              "explanation": "Panta este coeficientul lui x, adică a = -3."
+            },
+            {
+              "id": "t2l1q3",
+              "text": "Funcția f(x) = 2x - 4 este crescătoare.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "a = 2 > 0, deci funcția este strict crescătoare pe ℝ."
+            },
+            {
+              "id": "t2l1q4",
+              "text": "Zeroul funcției f(x) = 3x - 6 este:",
+              "type": "multipleChoice",
+              "options": ["x = 2", "x = -2", "x = 6", "x = 3"],
+              "correctIndex": 0,
+              "explanation": "3x - 6 = 0 → x = 2."
+            },
+            {
+              "id": "t2l1q5",
+              "text": "Funcția f(x) = -x + 3 este descrescătoare pe ℝ.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "a = -1 < 0, deci funcția este strict descrescătoare."
+            },
+            {
+              "id": "t2l1q6",
+              "text": "Intersecția graficului f(x) = x + 2 cu axa Oy este:",
+              "type": "multipleChoice",
+              "options": ["(0, 2)", "(0, -2)", "(-2, 0)", "(2, 0)"],
+              "correctIndex": 0,
+              "explanation": "f(0) = 2, deci intersecția cu Oy este (0, 2)."
+            }
+          ]
+        },
+        {
+          "id": "t2l2",
+          "title": "Funcția de gradul II f(x) = ax² + bx + c",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "t2l2q1",
+              "text": "Graficul funcției f(x) = x² - 4x + 3 este o:",
+              "type": "multipleChoice",
+              "options": ["Parabolă cu ramuri în sus", "Dreaptă", "Parabolă cu ramuri în jos", "Hiperbola"],
+              "correctIndex": 0,
+              "explanation": "a = 1 > 0, deci parabola are ramurile îndreptate în sus."
+            },
+            {
+              "id": "t2l2q2",
+              "text": "Vârful parabolei f(x) = x² - 4x + 3 are x = 2.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "xV = -b/(2a) = 4/2 = 2."
+            },
+            {
+              "id": "t2l2q3",
+              "text": "Care este valoarea minimă a funcției f(x) = x² - 4x + 3?",
+              "type": "multipleChoice",
+              "options": ["f(2) = -1", "f(0) = 3", "f(1) = 0", "f(3) = 0"],
+              "correctIndex": 0,
+              "explanation": "f(2) = 4 - 8 + 3 = -1 este valoarea minimă (vârful parabolei)."
+            },
+            {
+              "id": "t2l2q4",
+              "text": "Dacă a < 0, parabola are ramurile îndreptate în jos.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Semnul lui a determină deschiderea parabolei."
+            },
+            {
+              "id": "t2l2q5",
+              "text": "Zerouri ale funcției f(x) = x² - 4x + 3 sunt:",
+              "type": "multipleChoice",
+              "options": ["x=1 și x=3", "x=2 și x=4", "x=-1 și x=-3", "x=0 și x=4"],
+              "correctIndex": 0,
+              "explanation": "f(1) = 0 și f(3) = 0, deci x=1, x=3."
+            },
+            {
+              "id": "t2l2q6",
+              "text": "Funcția f(x) = -2x² + 1 are un maxim global.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "a = -2 < 0, parabola are ramuri în jos, deci există maxim în vârf."
+            }
+          ]
+        },
+        {
+          "id": "t2l3",
+          "title": "Proprietăți: monotonie, intersecții",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "t2l3q1",
+              "text": "Funcția f(x) = x² este monoton crescătoare pe intervalul:",
+              "type": "multipleChoice",
+              "options": ["[0, +∞)", "(-∞, 0]", "(-∞, +∞)", "[-1, 1]"],
+              "correctIndex": 0,
+              "explanation": "f(x) = x² este descrescătoare pe (-∞, 0] și crescătoare pe [0, +∞)."
+            },
+            {
+              "id": "t2l3q2",
+              "text": "Graficul f(x) = x² - 1 intersectează Ox în două puncte.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "x² - 1 = 0 → x = ±1, deci două puncte de intersecție cu Ox."
+            },
+            {
+              "id": "t2l3q3",
+              "text": "Care este intersecția graficului f(x) = x² + 2x cu axa Oy?",
+              "type": "multipleChoice",
+              "options": ["(0, 0)", "(0, 2)", "(0, -2)", "(2, 0)"],
+              "correctIndex": 0,
+              "explanation": "f(0) = 0, deci graficul trece prin origine."
+            },
+            {
+              "id": "t2l3q4",
+              "text": "Funcția f(x) = 3x + 1 este monoton crescătoare pe ℝ.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Orice funcție liniară cu a > 0 este strict crescătoare pe ℝ."
+            },
+            {
+              "id": "t2l3q5",
+              "text": "Zeroul funcției f(x) = 2x² - 8 este:",
+              "type": "multipleChoice",
+              "options": ["x = ±2", "x = 4", "x = ±4", "x = 2"],
+              "correctIndex": 0,
+              "explanation": "2x² = 8 → x² = 4 → x = ±2."
+            },
+            {
+              "id": "t2l3q6",
+              "text": "Dacă f(x) = ax + b cu a ≠ 0, graficul intersectează Ox exact o dată.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "O dreaptă cu pantă nenulă intersectează Ox exact în punctul x = -b/a."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Geometrie plană",
+      "subtitle": "Triunghiuri, patrulatere, cerc",
+      "iconName": "triangle.fill",
+      "colorHex": "#FF9500",
+      "lessons": [
+        {
+          "id": "t3l1",
+          "title": "Triunghiuri — Pitagora, arii",
+          "xpReward": 80,
+          "questions": [
+            {
+              "id": "t3l1q1",
+              "text": "Teorema lui Pitagora spune că într-un triunghi dreptunghic:",
+              "type": "multipleChoice",
+              "options": ["a² + b² = c²", "a + b = c", "a² - b² = c²", "a² + b² = 2c"],
+              "correctIndex": 0,
+              "explanation": "Suma pătratelor catetelor = pătratul ipotenuzei: a² + b² = c²."
+            },
+            {
+              "id": "t3l1q2",
+              "text": "Aria unui triunghi cu baza b și înălțimea h este A = b·h/2.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Formula ariei triunghiului: A = (b × h) / 2."
+            },
+            {
+              "id": "t3l1q3",
+              "text": "Un triunghi dreptunghic are catetele 3 și 4. Ipotenuza este:",
+              "type": "multipleChoice",
+              "options": ["5", "7", "6", "√7"],
+              "correctIndex": 0,
+              "explanation": "3² + 4² = 9 + 16 = 25 = 5². Ipotenuza = 5."
+            },
+            {
+              "id": "t3l1q4",
+              "text": "Suma unghiurilor unui triunghi este 180°.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Proprietate fundamentală: suma unghiurilor oricărui triunghi = 180°."
+            },
+            {
+              "id": "t3l1q5",
+              "text": "Aria unui triunghi echilateral cu latura a este:",
+              "type": "multipleChoice",
+              "options": ["a²√3/4", "a²/2", "a·√3/2", "a²√3"],
+              "correctIndex": 0,
+              "explanation": "A = a²√3/4 este formula pentru triunghiul echilateral."
+            },
+            {
+              "id": "t3l1q6",
+              "text": "Un triunghi isoscel are cel puțin două laturi egale.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Prin definiție, un triunghi isoscel are exact două laturi egale."
+            }
+          ]
+        },
+        {
+          "id": "t3l2",
+          "title": "Patrulatere — proprietăți, arii",
+          "xpReward": 80,
+          "questions": [
+            {
+              "id": "t3l2q1",
+              "text": "Aria unui dreptunghi cu laturile a și b este:",
+              "type": "multipleChoice",
+              "options": ["A = a·b", "A = 2(a+b)", "A = a²+b²", "A = (a+b)/2"],
+              "correctIndex": 0,
+              "explanation": "Aria dreptunghiului = lungime × lățime = a·b."
+            },
+            {
+              "id": "t3l2q2",
+              "text": "Suma unghiurilor unui patrulater este 360°.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Orice patrulater convex are suma unghiurilor = 360°."
+            },
+            {
+              "id": "t3l2q3",
+              "text": "Aria unui trapez cu bazele a, b și înălțimea h este:",
+              "type": "multipleChoice",
+              "options": ["(a+b)·h/2", "a·b·h", "(a+b)/h", "a·h"],
+              "correctIndex": 0,
+              "explanation": "A = (a + b) × h / 2 este formula ariei trapezului."
+            },
+            {
+              "id": "t3l2q4",
+              "text": "Un pătrat este un dreptunghi cu toate laturile egale.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Un pătrat este un dreptunghi cu toate laturile egale și unghiuri drepte."
+            },
+            {
+              "id": "t3l2q5",
+              "text": "Diagonalele unui romb sunt:",
+              "type": "multipleChoice",
+              "options": ["Perpendiculare între ele", "Egale în lungime", "Paralele", "Niciuna"],
+              "correctIndex": 0,
+              "explanation": "Diagonalele unui romb se intersectează perpendicular."
+            },
+            {
+              "id": "t3l2q6",
+              "text": "Aria unui pătrat cu latura 5 cm este 25 cm².",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "A = 5² = 25 cm²."
+            }
+          ]
+        },
+        {
+          "id": "t3l3",
+          "title": "Cercul — lungime, arie, unghi",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "t3l3q1",
+              "text": "Lungimea cercului de rază r este:",
+              "type": "multipleChoice",
+              "options": ["2πr", "πr²", "πr", "2πr²"],
+              "correctIndex": 0,
+              "explanation": "Circumferința = 2πr (sau πd, unde d = 2r)."
+            },
+            {
+              "id": "t3l3q2",
+              "text": "Aria cercului de rază r este A = πr².",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Formula ariei cercului: A = πr²."
+            },
+            {
+              "id": "t3l3q3",
+              "text": "Un unghi înscris în cerc este jumătate din unghiul central corespunzător.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Teorema unghiului înscris: unghiul înscris = 1/2 din unghiul central."
+            },
+            {
+              "id": "t3l3q4",
+              "text": "Aria unui sector de cerc cu raza r și unghiul α (în grade) este:",
+              "type": "multipleChoice",
+              "options": ["πr²α/360", "2πrα/360", "πr²/α", "rα/2"],
+              "correctIndex": 0,
+              "explanation": "Aria sectorului = (α/360) × πr²."
+            },
+            {
+              "id": "t3l3q5",
+              "text": "Lungimea unui cerc de rază 7 cm este aproximativ 44 cm (π ≈ 22/7).",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "C = 2 × 22/7 × 7 = 44 cm."
+            },
+            {
+              "id": "t3l3q6",
+              "text": "Un unghi înscris care se sprijină pe diametru măsoară:",
+              "type": "multipleChoice",
+              "options": ["90°", "180°", "45°", "60°"],
+              "correctIndex": 0,
+              "explanation": "Teorema lui Thales: orice unghi înscris în semicerc este drept (90°)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
