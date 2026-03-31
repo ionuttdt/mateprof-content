@@ -2,6 +2,7 @@
   "version": 1,
   "minAppVersion": "1.1",
   "adsEnabled": true,
+  "examDate": "2026-06-25",
   "topics": [
     {
       "id": "t1",
