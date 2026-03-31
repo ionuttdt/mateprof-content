@@ -1,6 +1,7 @@
 {
   "version": 1,
   "minAppVersion": "1.1",
+  "adsEnabled": true,
   "topics": [
     {
       "id": "t1",
@@ -6016,6 +6017,214 @@
               ],
               "correctIndex": 0,
               "explanation": "Al = πrg = π×3×5 = 15π."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hardTopics": [
+    {
+      "id": "h1",
+      "title": "Algebră avansată",
+      "subtitle": "Ecuații, inecuații și sisteme complexe",
+      "iconName": "bolt.trianglebadge.exclamationmark.fill",
+      "colorHex": "#D32F2F",
+      "lessons": [
+        {
+          "id": "h1l1",
+          "title": "Ecuații de gradul II – probleme grele",
+          "xpReward": 150,
+          "questions": [
+            {
+              "id": "h1l1q1",
+              "text": "Ecuația x² − 6x + k = 0 are două soluții reale egale. Care este valoarea lui k?",
+              "type": "multipleChoice",
+              "options": ["6", "9", "12", "3"],
+              "correctIndex": 1,
+              "explanation": "Δ = 0 ⇒ 36 − 4k = 0 ⇒ k = 9. Soluțiile egale apar când discriminantul este zero."
+            },
+            {
+              "id": "h1l1q2",
+              "text": "Dacă x₁ și x₂ sunt soluțiile ecuației x² − 5x + 6 = 0, cât este x₁² + x₂²?",
+              "type": "multipleChoice",
+              "options": ["25", "11", "13", "17"],
+              "correctIndex": 2,
+              "explanation": "x₁+x₂=5, x₁·x₂=6. x₁²+x₂² = (x₁+x₂)² − 2x₁x₂ = 25 − 12 = 13."
+            },
+            {
+              "id": "h1l1q3",
+              "text": "Rezolvați: |2x − 3| = 7. Suma soluțiilor este:",
+              "type": "multipleChoice",
+              "options": ["3", "5", "2", "7"],
+              "correctIndex": 0,
+              "explanation": "2x−3=7 ⇒ x=5; 2x−3=−7 ⇒ x=−2. Suma: 5+(−2) = 3."
+            },
+            {
+              "id": "h1l1q4",
+              "text": "Sistemul: x + y = 7, xy = 10. Cât este x² + y²?",
+              "type": "multipleChoice",
+              "options": ["39", "49", "29", "59"],
+              "correctIndex": 2,
+              "explanation": "x²+y² = (x+y)² − 2xy = 49 − 20 = 29."
+            },
+            {
+              "id": "h1l1q5",
+              "text": "Câte soluții reale are ecuația x⁴ − 5x² + 4 = 0?",
+              "type": "multipleChoice",
+              "options": ["2", "3", "4", "1"],
+              "correctIndex": 2,
+              "explanation": "Substituția t=x²: t²−5t+4=0 ⇒ t=1, t=4 ⇒ x=±1, x=±2. Deci 4 soluții reale."
+            }
+          ]
+        },
+        {
+          "id": "h1l2",
+          "title": "Inecuații și intervale",
+          "xpReward": 150,
+          "questions": [
+            {
+              "id": "h1l2q1",
+              "text": "Rezolvați: x² − 4x + 3 < 0. Soluția este:",
+              "type": "multipleChoice",
+              "options": ["x ∈ (−∞, 1) ∪ (3, +∞)", "x ∈ (1, 3)", "x ∈ [1, 3]", "x ∈ (−3, −1)"],
+              "correctIndex": 1,
+              "explanation": "x²−4x+3 = (x−1)(x−3). Produsul este negativ între rădăcini: x ∈ (1, 3)."
+            },
+            {
+              "id": "h1l2q2",
+              "text": "Câte numere naturale verifică inecuația 2x + 1 ≤ 15?",
+              "type": "multipleChoice",
+              "options": ["7", "8", "6", "9"],
+              "correctIndex": 1,
+              "explanation": "2x ≤ 14 ⇒ x ≤ 7. Numerele naturale: 0, 1, 2, 3, 4, 5, 6, 7 → 8 numere."
+            },
+            {
+              "id": "h1l2q3",
+              "text": "Mulțimea soluțiilor inecuației |x − 2| ≤ 3 este:",
+              "type": "multipleChoice",
+              "options": ["[−1, 5]", "(−1, 5)", "[−5, 1]", "(−3, 3)"],
+              "correctIndex": 0,
+              "explanation": "|x−2| ≤ 3 ⇒ −3 ≤ x−2 ≤ 3 ⇒ −1 ≤ x ≤ 5, deci x ∈ [−1, 5]."
+            },
+            {
+              "id": "h1l2q4",
+              "text": "Dacă (x−1)/(x+2) > 0, atunci x aparține:",
+              "type": "multipleChoice",
+              "options": ["(−2, 1)", "(−∞, −2) ∪ (1, +∞)", "(1, +∞)", "(−∞, −2)"],
+              "correctIndex": 1,
+              "explanation": "Fracția este pozitivă când ambii factori au același semn: x<−2 sau x>1."
+            },
+            {
+              "id": "h1l2q5",
+              "text": "Inecuația x² + 2x + 5 > 0 este verificată de:",
+              "type": "multipleChoice",
+              "options": ["niciun x real", "x > 0", "orice x real", "x > −1"],
+              "correctIndex": 2,
+              "explanation": "Δ = 4−20 = −16 < 0, coeficient pozitiv ⇒ expresia este mereu pozitivă, pentru orice x real."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h2",
+      "title": "Geometrie avansată",
+      "subtitle": "Demonstrații, arii și volume complexe",
+      "iconName": "pentagon.fill",
+      "colorHex": "#B71C1C",
+      "lessons": [
+        {
+          "id": "h2l1",
+          "title": "Triunghiuri – proprietăți avansate",
+          "xpReward": 150,
+          "questions": [
+            {
+              "id": "h2l1q1",
+              "text": "Într-un triunghi dreptunghic, catetele au 6 cm și 8 cm. Lungimea medianei la ipotenuză este:",
+              "type": "multipleChoice",
+              "options": ["7 cm", "4 cm", "5 cm", "6 cm"],
+              "correctIndex": 2,
+              "explanation": "Ipotenuza = √(36+64) = 10. Mediana la ipotenuză = ipotenuza/2 = 5 cm."
+            },
+            {
+              "id": "h2l1q2",
+              "text": "Un triunghi echilateral are latura de 6 cm. Aria sa este:",
+              "type": "multipleChoice",
+              "options": ["18 cm²", "9√3 cm²", "12√3 cm²", "36 cm²"],
+              "correctIndex": 1,
+              "explanation": "A = (l²√3)/4 = (36√3)/4 = 9√3 cm²."
+            },
+            {
+              "id": "h2l1q3",
+              "text": "Într-un triunghi cu laturile 5, 12 și 13, care este sinusul celui mai mare unghi?",
+              "type": "multipleChoice",
+              "options": ["5/13", "12/13", "1", "5/12"],
+              "correctIndex": 2,
+              "explanation": "5² + 12² = 25 + 144 = 169 = 13². Triunghiul este dreptunghic, sin(90°) = 1."
+            },
+            {
+              "id": "h2l1q4",
+              "text": "Raza cercului circumscris unui triunghi dreptunghic cu ipotenuza de 10 cm este:",
+              "type": "multipleChoice",
+              "options": ["10 cm", "5 cm", "5√2 cm", "10√2 cm"],
+              "correctIndex": 1,
+              "explanation": "Raza cercului circumscris = ipotenuza/2 = 10/2 = 5 cm."
+            },
+            {
+              "id": "h2l1q5",
+              "text": "Într-un triunghi, o linie mijlocie are 7 cm. Latura paralelă cu aceasta are:",
+              "type": "multipleChoice",
+              "options": ["3.5 cm", "7 cm", "14 cm", "10.5 cm"],
+              "correctIndex": 2,
+              "explanation": "Linia mijlocie este jumătate din latura paralelă. Deci latura = 2 × 7 = 14 cm."
+            }
+          ]
+        },
+        {
+          "id": "h2l2",
+          "title": "Corpuri geometrice – probleme complexe",
+          "xpReward": 150,
+          "questions": [
+            {
+              "id": "h2l2q1",
+              "text": "Un con are raza bazei 3 cm și generatoarea 5 cm. Aria laterală este:",
+              "type": "multipleChoice",
+              "options": ["15π cm²", "9π cm²", "30π cm²", "45π cm²"],
+              "correctIndex": 0,
+              "explanation": "Al = πrg = π × 3 × 5 = 15π cm²."
+            },
+            {
+              "id": "h2l2q2",
+              "text": "O sferă are aria de 100π cm². Raza sferei este:",
+              "type": "multipleChoice",
+              "options": ["10 cm", "25 cm", "5 cm", "√10 cm"],
+              "correctIndex": 2,
+              "explanation": "A = 4πr² = 100π ⇒ r² = 25 ⇒ r = 5 cm."
+            },
+            {
+              "id": "h2l2q3",
+              "text": "Volumul unui cilindru cu raza 4 cm și înălțimea 10 cm este:",
+              "type": "multipleChoice",
+              "options": ["40π cm³", "80π cm³", "160π cm³", "320π cm³"],
+              "correctIndex": 2,
+              "explanation": "V = πr²h = π × 16 × 10 = 160π cm³."
+            },
+            {
+              "id": "h2l2q4",
+              "text": "Diagonala unui cub cu latura 4 cm este:",
+              "type": "multipleChoice",
+              "options": ["4√2 cm", "4√3 cm", "8 cm", "8√2 cm"],
+              "correctIndex": 1,
+              "explanation": "Diagonala cubului = l√3 = 4√3 cm."
+            },
+            {
+              "id": "h2l2q5",
+              "text": "Un tetraedru regulat are muchia de 6 cm. Volumul său este:",
+              "type": "multipleChoice",
+              "options": ["18√2 cm³", "36√2 cm³", "72√2 cm³", "12√2 cm³"],
+              "correctIndex": 0,
+              "explanation": "V = a³√2/12 = 216√2/12 = 18√2 cm³."
             }
           ]
         }
