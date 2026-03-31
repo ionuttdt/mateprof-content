@@ -57,12 +57,12 @@
               "text": "Calculați: 8 × (12 + 3) =",
               "type": "multipleChoice",
               "options": [
-                "120",
                 "99",
+                "120",
                 "96",
                 "108"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Se rezolvă paranteza: 12 + 3 = 15, apoi 8 × 15 = 120."
             },
             {
@@ -81,12 +81,12 @@
               "text": "Care este câtul împărțirii 156 : 12?",
               "type": "multipleChoice",
               "options": [
-                "13",
                 "12",
+                "13",
                 "14",
                 "15"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "156 : 12 = 13, deoarece 13 × 12 = 156."
             },
             {
@@ -142,12 +142,12 @@
               "text": "Care este restul împărțirii lui 47 la 5?",
               "type": "multipleChoice",
               "options": [
-                "2",
                 "3",
+                "2",
                 "7",
                 "1"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "47 = 5 × 9 + 2, deci restul este 2."
             },
             {
@@ -173,12 +173,12 @@
               "text": "Calculați: 2⁵ =",
               "type": "multipleChoice",
               "options": [
-                "32",
-                "16",
                 "64",
+                "16",
+                "32",
                 "10"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "2⁵ = 2 × 2 × 2 × 2 × 2 = 32."
             },
             {
@@ -197,12 +197,12 @@
               "text": "Calculați: 3² × 3³ =",
               "type": "multipleChoice",
               "options": [
-                "243",
-                "27",
                 "81",
+                "27",
+                "243",
                 "729"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "3² × 3³ = 3²⁺³ = 3⁵ = 243."
             },
             {
@@ -210,12 +210,12 @@
               "text": "Care este valoarea expresiei (2³)² ?",
               "type": "multipleChoice",
               "options": [
-                "64",
-                "32",
                 "12",
+                "32",
+                "64",
                 "128"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "(2³)² = 2³ˣ² = 2⁶ = 64."
             },
             {
@@ -234,12 +234,12 @@
               "text": "Calculați: 5³ : 5¹ =",
               "type": "multipleChoice",
               "options": [
-                "25",
+                "15",
                 "5",
                 "125",
-                "15"
+                "25"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "5³ : 5¹ = 5³⁻¹ = 5² = 25."
             },
             {
@@ -326,12 +326,12 @@
               "text": "Care dintre următoarele numere este divisibil cu 3?",
               "type": "multipleChoice",
               "options": [
-                "126",
                 "125",
+                "126",
                 "128",
                 "131"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Suma cifrelor: 1 + 2 + 6 = 9, care este divisibil cu 3."
             },
             {
@@ -350,12 +350,12 @@
               "text": "Care dintre următoarele numere este divisibil cu 9?",
               "type": "multipleChoice",
               "options": [
-                "234",
+                "241",
                 "235",
                 "238",
-                "241"
+                "234"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Suma cifrelor: 2 + 3 + 4 = 9, divisibil cu 9."
             },
             {
@@ -374,12 +374,12 @@
               "text": "Câți divizori are numărul 12?",
               "type": "multipleChoice",
               "options": [
-                "6",
-                "4",
                 "3",
+                "4",
+                "6",
                 "5"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Divizorii lui 12: {1, 2, 3, 4, 6, 12} — în total 6 divizori."
             },
             {
@@ -398,12 +398,12 @@
               "text": "Care este descompunerea în factori primi a lui 60?",
               "type": "multipleChoice",
               "options": [
-                "2² × 3 × 5",
+                "2 × 30",
                 "2 × 3 × 10",
                 "4 × 15",
-                "2 × 30"
+                "2² × 3 × 5"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "60 = 2 × 30 = 2 × 2 × 15 = 2² × 3 × 5."
             },
             {
@@ -422,12 +422,12 @@
               "text": "Care este cel mai mic număr prim par?",
               "type": "multipleChoice",
               "options": [
-                "2",
-                "4",
                 "0",
+                "4",
+                "2",
                 "6"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "2 este singurul număr prim par."
             },
             {
@@ -446,12 +446,12 @@
               "text": "Numărul 360 este divisibil cu 4 deoarece:",
               "type": "multipleChoice",
               "options": [
-                "Ultimele două cifre (60) formează un număr divisibil cu 4",
+                "Este par",
                 "Suma cifrelor este divisibilă cu 4",
                 "Se termină în 0",
-                "Este par"
+                "Ultimele două cifre (60) formează un număr divisibil cu 4"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Criteriul de divisibilitate cu 4: ultimele două cifre formează un număr divisibil cu 4. 60 : 4 = 15."
             },
             {
@@ -477,12 +477,12 @@
               "text": "CMMDC(12, 18) =",
               "type": "multipleChoice",
               "options": [
-                "6",
+                "36",
                 "3",
                 "12",
-                "36"
+                "6"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "12 = 2² × 3, 18 = 2 × 3². CMMDC = 2 × 3 = 6."
             },
             {
@@ -525,12 +525,12 @@
               "text": "CMMMC(8, 12) =",
               "type": "multipleChoice",
               "options": [
-                "24",
-                "48",
                 "96",
+                "48",
+                "24",
                 "12"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "8 = 2³, 12 = 2² × 3. CMMMC = 2³ × 3 = 24."
             },
             {
@@ -538,12 +538,12 @@
               "text": "CMMDC(15, 25) =",
               "type": "multipleChoice",
               "options": [
-                "5",
+                "1",
                 "15",
                 "25",
-                "1"
+                "5"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "15 = 3 × 5, 25 = 5². CMMDC = 5."
             },
             {
@@ -562,12 +562,12 @@
               "text": "CMMMC(5, 7) =",
               "type": "multipleChoice",
               "options": [
-                "35",
-                "12",
                 "70",
+                "12",
+                "35",
                 "1"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "5 și 7 sunt prime între ele, deci CMMMC = 5 × 7 = 35."
             },
             {
@@ -575,12 +575,12 @@
               "text": "CMMDC(9, 12, 15) =",
               "type": "multipleChoice",
               "options": [
-                "3",
-                "1",
                 "9",
+                "1",
+                "3",
                 "6"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "9 = 3², 12 = 2² × 3, 15 = 3 × 5. CMMDC = 3."
             },
             {
@@ -599,12 +599,12 @@
               "text": "CMMMC(10, 15) =",
               "type": "multipleChoice",
               "options": [
-                "30",
                 "150",
+                "30",
                 "5",
                 "45"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "10 = 2 × 5, 15 = 3 × 5. CMMMC = 2 × 3 × 5 = 30."
             },
             {
@@ -663,12 +663,12 @@
               "text": "Calculați: 3/4 - 1/2 =",
               "type": "multipleChoice",
               "options": [
-                "1/4",
-                "1/2",
                 "2/4",
+                "1/2",
+                "1/4",
                 "2/2"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "3/4 - 2/4 = 1/4."
             },
             {
@@ -676,12 +676,12 @@
               "text": "Calculați: 2/5 × 3/4 =",
               "type": "multipleChoice",
               "options": [
-                "3/10",
-                "6/9",
                 "5/9",
+                "6/9",
+                "3/10",
                 "6/20"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "2/5 × 3/4 = 6/20 = 3/10."
             },
             {
@@ -700,12 +700,12 @@
               "text": "Calculați: 5/6 : 2/3 =",
               "type": "multipleChoice",
               "options": [
-                "5/4",
+                "2/3",
                 "10/18",
                 "5/9",
-                "2/3"
+                "5/4"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "5/6 : 2/3 = 5/6 × 3/2 = 15/12 = 5/4."
             },
             {
@@ -724,12 +724,12 @@
               "text": "Care fracție este echivalentă cu 3/5?",
               "type": "multipleChoice",
               "options": [
-                "9/15",
+                "5/3",
                 "6/15",
                 "3/10",
-                "5/3"
+                "9/15"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "3/5 = (3×3)/(5×3) = 9/15."
             },
             {
@@ -761,12 +761,12 @@
               "text": "Calculați: (2/3)² =",
               "type": "multipleChoice",
               "options": [
-                "4/9",
                 "2/9",
+                "4/9",
                 "4/6",
                 "2/6"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "(2/3)² = 2²/3² = 4/9."
             },
             {
@@ -774,12 +774,12 @@
               "text": "Comparați: 3/8 și 5/12. Care este mai mare?",
               "type": "multipleChoice",
               "options": [
-                "5/12",
+                "Nu se pot compara",
                 "3/8",
                 "Sunt egale",
-                "Nu se pot compara"
+                "5/12"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "3/8 = 9/24, 5/12 = 10/24. 10/24 > 9/24, deci 5/12 > 3/8."
             }
           ]
@@ -818,12 +818,12 @@
               "text": "Calculați: 2,5 × 0,4 =",
               "type": "multipleChoice",
               "options": [
-                "1",
                 "10",
+                "1",
                 "0,1",
                 "1,5"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "2,5 × 0,4 = 1,00 = 1."
             },
             {
@@ -842,12 +842,12 @@
               "text": "Calculați: 5,2 - 3,75 =",
               "type": "multipleChoice",
               "options": [
-                "1,45",
-                "1,55",
                 "2,45",
+                "1,55",
+                "1,45",
                 "1,35"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "5,20 - 3,75 = 1,45."
             },
             {
@@ -855,12 +855,12 @@
               "text": "Transformați 7/20 în fracție zecimală:",
               "type": "multipleChoice",
               "options": [
-                "0,35",
                 "0,7",
+                "0,35",
                 "3,5",
                 "0,07"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "7/20 = 35/100 = 0,35."
             },
             {
@@ -879,12 +879,12 @@
               "text": "Rotunjit la o zecimală, 3,456 devine:",
               "type": "multipleChoice",
               "options": [
-                "3,5",
+                "4",
                 "3,4",
                 "3,46",
-                "4"
+                "3,5"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "A doua zecimală este 5, deci rotunjim în sus: 3,5."
             },
             {
@@ -892,12 +892,12 @@
               "text": "Calculați: 1,2 × 1,5 =",
               "type": "multipleChoice",
               "options": [
-                "1,8",
+                "0,18",
                 "1,7",
                 "2,7",
-                "0,18"
+                "1,8"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "1,2 × 1,5 = 1,80 = 1,8."
             },
             {
@@ -916,12 +916,12 @@
               "text": "Calculați: 4,8 : 0,6 =",
               "type": "multipleChoice",
               "options": [
-                "8",
                 "0,8",
+                "8",
                 "80",
                 "6"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "4,8 : 0,6 = 48 : 6 = 8."
             },
             {
@@ -947,12 +947,12 @@
               "text": "Calculați: 20% din 150 =",
               "type": "multipleChoice",
               "options": [
-                "30",
                 "20",
+                "30",
                 "15",
                 "75"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "20% din 150 = 0,20 × 150 = 30."
             },
             {
@@ -995,12 +995,12 @@
               "text": "Un obiect costă 120 lei după o reducere de 20%. Care a fost prețul inițial?",
               "type": "multipleChoice",
               "options": [
-                "150 lei",
+                "160 lei",
                 "144 lei",
                 "140 lei",
-                "160 lei"
+                "150 lei"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Prețul inițial × 0,8 = 120, deci prețul inițial = 120 / 0,8 = 150 lei."
             },
             {
@@ -1008,12 +1008,12 @@
               "text": "Calculați: 10% din 350 =",
               "type": "multipleChoice",
               "options": [
-                "35",
+                "70",
                 "3,5",
                 "350",
-                "70"
+                "35"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "10% din 350 = 350 / 10 = 35."
             },
             {
@@ -1056,12 +1056,12 @@
               "text": "Într-o clasă de 30 de elevi, 40% sunt fete. Câți băieți sunt?",
               "type": "multipleChoice",
               "options": [
-                "18",
                 "12",
+                "18",
                 "20",
                 "15"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "40% fete = 12 fete. Băieți: 30 - 12 = 18."
             },
             {
@@ -1069,12 +1069,12 @@
               "text": "Ce procent reprezintă 45 din 180?",
               "type": "multipleChoice",
               "options": [
-                "25%",
+                "15%",
                 "20%",
                 "30%",
-                "15%"
+                "25%"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "45/180 = 1/4 = 25%."
             },
             {
@@ -1100,12 +1100,12 @@
               "text": "Media aritmetică a numerelor 4, 8, 12 este:",
               "type": "multipleChoice",
               "options": [
-                "8",
-                "12",
                 "6",
+                "12",
+                "8",
                 "24"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "(4 + 8 + 12) / 3 = 24 / 3 = 8."
             },
             {
@@ -1124,12 +1124,12 @@
               "text": "Un elev are notele 7, 8, 9, 10. Media aritmetică este:",
               "type": "multipleChoice",
               "options": [
-                "8,5",
-                "8",
                 "9",
+                "8",
+                "8,5",
                 "8,25"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "(7 + 8 + 9 + 10) / 4 = 34 / 4 = 8,5."
             },
             {
@@ -1148,12 +1148,12 @@
               "text": "Un elev are notele 7, 8, 9 cu ponderile 1, 2, 3. Media ponderată este:",
               "type": "multipleChoice",
               "options": [
-                "8,33",
+                "7,5",
                 "8",
                 "8,5",
-                "7,5"
+                "8,33"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "(7×1 + 8×2 + 9×3) / (1+2+3) = (7+16+27)/6 = 50/6 ≈ 8,33."
             },
             {
@@ -1161,12 +1161,12 @@
               "text": "Calculați media aritmetică: 15, 20, 25, 30, 10 =",
               "type": "multipleChoice",
               "options": [
-                "20",
                 "25",
+                "20",
                 "15",
                 "22"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "(15 + 20 + 25 + 30 + 10) / 5 = 100 / 5 = 20."
             },
             {
@@ -1209,12 +1209,12 @@
               "text": "Un produs are 60% apă și 40% substanță. Dacă amestecăm 2 kg cu alt produs de 80% apă (3 kg), procentul de apă în amestec este:",
               "type": "multipleChoice",
               "options": [
-                "72%",
-                "70%",
                 "68%",
+                "70%",
+                "72%",
                 "75%"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Apă: 2×0,6 + 3×0,8 = 1,2 + 2,4 = 3,6 kg. Total: 5 kg. 3,6/5 = 72%."
             },
             {
@@ -1233,12 +1233,12 @@
               "text": "Trei teste au notele 6, 8, 10 cu ponderile 2, 3, 5. Media ponderată este:",
               "type": "multipleChoice",
               "options": [
-                "8,6",
                 "8",
+                "8,6",
                 "7,5",
                 "9"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "(6×2 + 8×3 + 10×5)/(2+3+5) = (12+24+50)/10 = 86/10 = 8,6."
             }
           ]
@@ -1262,12 +1262,12 @@
               "text": "Calculați: (-3) + (-5) =",
               "type": "multipleChoice",
               "options": [
-                "-8",
+                "2",
                 "8",
                 "-2",
-                "2"
+                "-8"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "(-3) + (-5) = -(3 + 5) = -8."
             },
             {
@@ -1286,12 +1286,12 @@
               "text": "Calculați: (-4) × 6 =",
               "type": "multipleChoice",
               "options": [
-                "-24",
                 "24",
+                "-24",
                 "-10",
                 "10"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "(-4) × 6 = -24. Un factor negativ dă produs negativ."
             },
             {
@@ -1299,12 +1299,12 @@
               "text": "Calculați: (-12) : (-3) =",
               "type": "multipleChoice",
               "options": [
-                "4",
                 "-4",
+                "4",
                 "36",
                 "-36"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "(-12) : (-3) = 4. Împărțirea a două numere negative dă rezultat pozitiv."
             },
             {
@@ -1360,12 +1360,12 @@
               "text": "Calculați: 5 - (-3) =",
               "type": "multipleChoice",
               "options": [
-                "8",
+                "-2",
                 "2",
                 "-8",
-                "-2"
+                "8"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "5 - (-3) = 5 + 3 = 8."
             },
             {
@@ -1384,12 +1384,12 @@
               "text": "Ordonați crescător: -3, 1, -5, 0, 2.",
               "type": "multipleChoice",
               "options": [
-                "-5, -3, 0, 1, 2",
                 "-3, -5, 0, 1, 2",
+                "-5, -3, 0, 1, 2",
                 "0, 1, 2, -3, -5",
                 "-5, -3, 1, 0, 2"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Pe axa numerelor: -5 < -3 < 0 < 1 < 2."
             },
             {
@@ -1415,12 +1415,12 @@
               "text": "Modulul numărului -7 este:",
               "type": "multipleChoice",
               "options": [
-                "7",
                 "-7",
+                "7",
                 "0",
                 "1/7"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "|-7| = 7. Modulul reprezintă distanța față de 0."
             },
             {
@@ -1463,12 +1463,12 @@
               "text": "Care dintre următoarele numere este irațional?",
               "type": "multipleChoice",
               "options": [
-                "√3",
+                "-4",
                 "0,5",
                 "2/7",
-                "-4"
+                "√3"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "√3 este irațional. Celelalte sunt raționale."
             },
             {
@@ -1476,12 +1476,12 @@
               "text": "Rezolvați: |x| = 4. Soluțiile sunt:",
               "type": "multipleChoice",
               "options": [
-                "x = 4 sau x = -4",
+                "x = 0",
                 "x = 4",
                 "x = -4",
-                "x = 0"
+                "x = 4 sau x = -4"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "|x| = 4 înseamnă x = 4 sau x = -4."
             },
             {
@@ -1524,12 +1524,12 @@
               "text": "Între numerele 3,14 și 3,15 există numere iraționale?",
               "type": "multipleChoice",
               "options": [
-                "Da, infinit de multe",
+                "Exact doi",
                 "Nu",
                 "Exact unul",
-                "Exact doi"
+                "Da, infinit de multe"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Între orice două numere reale există infinit de multe numere iraționale."
             },
             {
@@ -1568,12 +1568,12 @@
               "text": "Simplificați: √48 =",
               "type": "multipleChoice",
               "options": [
-                "4√3",
                 "2√12",
+                "4√3",
                 "6√2",
                 "√48"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "√48 = √(16 × 3) = 4√3."
             },
             {
@@ -1605,12 +1605,12 @@
               "text": "Calculați: √2 × √8 =",
               "type": "multipleChoice",
               "options": [
-                "4",
-                "√10",
                 "2√4",
+                "√10",
+                "4",
                 "√16"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "√2 × √8 = √16 = 4."
             },
             {
@@ -1629,12 +1629,12 @@
               "text": "Raționalizați numitorul: 1/√3 =",
               "type": "multipleChoice",
               "options": [
-                "√3/3",
+                "1/3",
                 "3/√3",
                 "√3",
-                "1/3"
+                "√3/3"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "1/√3 = 1/√3 × √3/√3 = √3/3."
             },
             {
@@ -1642,12 +1642,12 @@
               "text": "Simplificați: √72 =",
               "type": "multipleChoice",
               "options": [
-                "6√2",
+                "8√1",
                 "3√8",
                 "2√18",
-                "8√1"
+                "6√2"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "√72 = √(36 × 2) = 6√2."
             },
             {
@@ -1666,12 +1666,12 @@
               "text": "Calculați: √50 - √18 =",
               "type": "multipleChoice",
               "options": [
-                "2√2",
                 "√32",
+                "2√2",
                 "4√2",
                 "√2"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "√50 = 5√2, √18 = 3√2. Deci 5√2 - 3√2 = 2√2."
             },
             {
@@ -1679,12 +1679,12 @@
               "text": "Raționalizați: 6/(√2) =",
               "type": "multipleChoice",
               "options": [
-                "3√2",
-                "6√2",
                 "√2/6",
+                "6√2",
+                "3√2",
                 "2√3"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "6/√2 = 6√2/2 = 3√2."
             },
             {
@@ -1703,12 +1703,12 @@
               "text": "Simplificați: 2√3 × 3√3 =",
               "type": "multipleChoice",
               "options": [
-                "18",
+                "5√3",
                 "6√9",
                 "6√3",
-                "5√3"
+                "18"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "2√3 × 3√3 = 6 × (√3)² = 6 × 3 = 18."
             }
           ]
@@ -1747,12 +1747,12 @@
               "text": "Care este intersecția intervalelor [1, 5] și [3, 7]?",
               "type": "multipleChoice",
               "options": [
-                "[3, 5]",
                 "[1, 7]",
+                "[3, 5]",
                 "[1, 3]",
                 "(3, 5)"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Intersecția: numerele care aparțin ambelor intervale, adică [3, 5]."
             },
             {
@@ -1771,12 +1771,12 @@
               "text": "Intervalul (-∞, 3) conține:",
               "type": "multipleChoice",
               "options": [
-                "Toate numerele reale mai mici decât 3",
-                "Toate numerele reale mai mici sau egale cu 3",
                 "Doar numerele negative",
+                "Toate numerele reale mai mici sau egale cu 3",
+                "Toate numerele reale mai mici decât 3",
                 "Numerele de la -3 la 3"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "(-∞, 3) = {x ∈ ℝ | x < 3}."
             },
             {
@@ -1795,12 +1795,12 @@
               "text": "Care este reuniunea intervalelor (-∞, 2) și [2, +∞)?",
               "type": "multipleChoice",
               "options": [
-                "(-∞, +∞) = ℝ",
                 "∅",
+                "(-∞, +∞) = ℝ",
                 "{2}",
                 "(-∞, 2)"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "(-∞, 2) ∪ [2, +∞) = (-∞, +∞) = ℝ."
             },
             {
@@ -1819,12 +1819,12 @@
               "text": "Intersecția intervalelor [0, 3] și (5, 8) este:",
               "type": "multipleChoice",
               "options": [
-                "∅ (mulțimea vidă)",
                 "[0, 8]",
+                "∅ (mulțimea vidă)",
                 "[3, 5]",
                 "(0, 3)"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Intervalele nu se suprapun, deci intersecția este vidă."
             },
             {
@@ -1843,12 +1843,12 @@
               "text": "Câte numere întregi aparțin intervalului (-3, 4]?",
               "type": "multipleChoice",
               "options": [
-                "7",
                 "6",
+                "7",
                 "8",
                 "5"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Numerele întregi: -2, -1, 0, 1, 2, 3, 4 — în total 7."
             },
             {
@@ -1907,12 +1907,12 @@
               "text": "Dacă 2/x = 6/15, atunci x =",
               "type": "multipleChoice",
               "options": [
-                "5",
                 "3",
+                "5",
                 "6",
                 "10"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "2 × 15 = 6 × x → 30 = 6x → x = 5."
             },
             {
@@ -1955,12 +1955,12 @@
               "text": "O hartă are scara 1:50000. O distanță de 3 cm pe hartă reprezintă în realitate:",
               "type": "multipleChoice",
               "options": [
-                "1,5 km",
                 "150 m",
+                "1,5 km",
                 "15 km",
                 "1500 m"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "3 cm × 50000 = 150000 cm = 1500 m = 1,5 km."
             },
             {
@@ -1968,12 +1968,12 @@
               "text": "Trei numere sunt în raportul 1:2:3 și au suma 60. Cel mai mare este:",
               "type": "multipleChoice",
               "options": [
-                "30",
+                "36",
                 "20",
                 "10",
-                "36"
+                "30"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Total părți: 6. Cel mai mare: 3/6 × 60 = 30."
             },
             {
@@ -1992,12 +1992,12 @@
               "text": "Dacă x/3 = y/5 = 24/k, și x + y = 24, atunci k =",
               "type": "multipleChoice",
               "options": [
-                "8",
                 "24",
+                "8",
                 "3",
                 "5"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "x/3 = y/5 = (x+y)/(3+5) = 24/8. Deci k = 8."
             },
             {
@@ -2060,12 +2060,12 @@
               "text": "5 kg de mere costă 30 lei. Cât costă 8 kg?",
               "type": "multipleChoice",
               "options": [
-                "48 lei",
+                "56 lei",
                 "40 lei",
                 "38 lei",
-                "56 lei"
+                "48 lei"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Preț per kg: 30/5 = 6 lei. 8 × 6 = 48 lei."
             },
             {
@@ -2084,12 +2084,12 @@
               "text": "O mașină parcurge 240 km în 3 ore. Ce distanță parcurge în 5 ore cu aceeași viteză?",
               "type": "multipleChoice",
               "options": [
-                "400 km",
                 "300 km",
+                "400 km",
                 "360 km",
                 "480 km"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Viteză: 240/3 = 80 km/h. În 5 ore: 80 × 5 = 400 km."
             },
             {
@@ -2097,12 +2097,12 @@
               "text": "Dacă x și y sunt invers proporționale și x = 6 când y = 8, atunci când x = 12, y =",
               "type": "multipleChoice",
               "options": [
-                "4",
+                "8",
                 "16",
                 "2",
-                "8"
+                "4"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "x × y = 48. Când x = 12: y = 48/12 = 4."
             },
             {
@@ -2145,12 +2145,12 @@
               "text": "Împărțiți 180 în părți direct proporționale cu 2, 3, 4. Partea cea mai mare este:",
               "type": "multipleChoice",
               "options": [
-                "80",
                 "60",
+                "80",
                 "40",
                 "90"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Total: 2+3+4 = 9. Partea cea mai mare: 4/9 × 180 = 80."
             },
             {
@@ -2158,12 +2158,12 @@
               "text": "Împărțiți 120 în părți invers proporționale cu 2, 3, 6. Partea corespunzătoare lui 2 este:",
               "type": "multipleChoice",
               "options": [
-                "60",
-                "40",
                 "20",
+                "40",
+                "60",
                 "30"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Inversele: 1/2, 1/3, 1/6. Suma: 1. Partea pt 2: (1/2)/1 × 120 = 60."
             },
             {
@@ -2189,12 +2189,12 @@
               "text": "Dezvoltați: (a + b)² =",
               "type": "multipleChoice",
               "options": [
-                "a² + 2ab + b²",
                 "a² + b²",
+                "a² + 2ab + b²",
                 "a² + ab + b²",
                 "2a² + 2b²"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Pătratul unei sume: (a + b)² = a² + 2ab + b²."
             },
             {
@@ -2213,12 +2213,12 @@
               "text": "Calculați: (x + 3)² =",
               "type": "multipleChoice",
               "options": [
-                "x² + 6x + 9",
                 "x² + 3x + 9",
+                "x² + 6x + 9",
                 "x² + 9",
                 "x² + 6x + 3"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "(x + 3)² = x² + 2·x·3 + 9 = x² + 6x + 9."
             },
             {
@@ -2250,12 +2250,12 @@
               "text": "Calculați: (2x - 5)² =",
               "type": "multipleChoice",
               "options": [
-                "4x² - 20x + 25",
-                "4x² - 10x + 25",
                 "2x² - 20x + 25",
+                "4x² - 10x + 25",
+                "4x² - 20x + 25",
                 "4x² + 25"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "(2x - 5)² = 4x² - 2·2x·5 + 25 = 4x² - 20x + 25."
             },
             {
@@ -2274,12 +2274,12 @@
               "text": "Calculați: (a + b)³ =",
               "type": "multipleChoice",
               "options": [
-                "a³ + 3a²b + 3ab² + b³",
-                "a³ + b³",
                 "a³ + 3ab + b³",
+                "a³ + b³",
+                "a³ + 3a²b + 3ab² + b³",
                 "a³ + a²b + ab² + b³"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Cubul unei sume: (a+b)³ = a³ + 3a²b + 3ab² + b³."
             },
             {
@@ -2287,12 +2287,12 @@
               "text": "Calculați: 98 × 102 folosind formula de calcul prescurtat:",
               "type": "multipleChoice",
               "options": [
-                "9996",
                 "10000",
+                "9996",
                 "9998",
                 "10004"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "98 × 102 = (100-2)(100+2) = 100² - 4 = 9996."
             },
             {
@@ -2300,12 +2300,12 @@
               "text": "Dezvoltați: (3x + 2y)² =",
               "type": "multipleChoice",
               "options": [
-                "9x² + 12xy + 4y²",
                 "9x² + 6xy + 4y²",
+                "9x² + 12xy + 4y²",
                 "3x² + 12xy + 2y²",
                 "9x² + 4y²"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "(3x+2y)² = 9x² + 2·3x·2y + 4y² = 9x² + 12xy + 4y²."
             },
             {
@@ -2324,12 +2324,12 @@
               "text": "Factorizați: x² - 16 =",
               "type": "multipleChoice",
               "options": [
-                "(x-4)(x+4)",
-                "(x-8)(x+2)",
                 "(x-4)²",
+                "(x-8)(x+2)",
+                "(x-4)(x+4)",
                 "x(x-16)"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "x² - 16 = x² - 4² = (x-4)(x+4)."
             }
           ]
@@ -2344,12 +2344,12 @@
               "text": "Descompuneți: 6x² + 9x =",
               "type": "multipleChoice",
               "options": [
-                "3x(2x + 3)",
-                "6x(x + 9)",
                 "3(2x² + 3x)",
+                "6x(x + 9)",
+                "3x(2x + 3)",
                 "x(6x + 9)"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Factor comun 3x: 6x² + 9x = 3x(2x + 3)."
             },
             {
@@ -2368,12 +2368,12 @@
               "text": "Descompuneți: x² - 9 =",
               "type": "multipleChoice",
               "options": [
-                "(x-3)(x+3)",
+                "x(x-9)",
                 "(x-9)(x+1)",
                 "(x-3)²",
-                "x(x-9)"
+                "(x-3)(x+3)"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Diferență de pătrate: x² - 3² = (x-3)(x+3)."
             },
             {
@@ -2381,12 +2381,12 @@
               "text": "Descompuneți: x² + 5x + 6 =",
               "type": "multipleChoice",
               "options": [
-                "(x+2)(x+3)",
+                "(x+5)(x+1)",
                 "(x+1)(x+6)",
                 "(x-2)(x-3)",
-                "(x+5)(x+1)"
+                "(x+2)(x+3)"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Căutăm două numere cu suma 5 și produsul 6: 2 și 3. Deci (x+2)(x+3)."
             },
             {
@@ -2418,12 +2418,12 @@
               "text": "Descompuneți: 2x³ - 8x =",
               "type": "multipleChoice",
               "options": [
-                "2x(x-2)(x+2)",
-                "2x(x²-4)",
                 "2(x³-4x)",
+                "2x(x²-4)",
+                "2x(x-2)(x+2)",
                 "x(2x²-8)"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "2x³ - 8x = 2x(x² - 4) = 2x(x-2)(x+2)."
             },
             {
@@ -2442,12 +2442,12 @@
               "text": "Descompuneți: x³ + x² - x - 1 =",
               "type": "multipleChoice",
               "options": [
-                "(x+1)²(x-1)",
-                "(x+1)(x²-1)",
                 "(x-1)(x²+1)",
+                "(x+1)(x²-1)",
+                "(x+1)²(x-1)",
                 "x²(x+1)-(x+1)"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "x²(x+1) - (x+1) = (x+1)(x²-1) = (x+1)(x-1)(x+1) = (x+1)²(x-1)."
             },
             {
@@ -2455,12 +2455,12 @@
               "text": "Factorizați: ax + ay + bx + by =",
               "type": "multipleChoice",
               "options": [
-                "(a+b)(x+y)",
-                "(ax+by)",
                 "a(x+y)+b",
+                "(ax+by)",
+                "(a+b)(x+y)",
                 "ab + xy"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Grupare: a(x+y) + b(x+y) = (a+b)(x+y)."
             },
             {
@@ -2508,12 +2508,12 @@
               "text": "Care este soluția ecuației 2x + 6 = 0?",
               "type": "multipleChoice",
               "options": [
-                "x = -3",
+                "x = 6",
                 "x = 3",
                 "x = -6",
-                "x = 6"
+                "x = -3"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "2x = -6, deci x = -3."
             },
             {
@@ -2532,12 +2532,12 @@
               "text": "Care este soluția ecuației 5x + 10 = 25?",
               "type": "multipleChoice",
               "options": [
-                "x = 3",
-                "x = 5",
                 "x = 7",
+                "x = 5",
+                "x = 3",
                 "x = -3"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "5x = 15, deci x = 3."
             },
             {
@@ -2556,12 +2556,12 @@
               "text": "Care este soluția ecuației -4x + 8 = 0?",
               "type": "multipleChoice",
               "options": [
-                "x = 2",
                 "x = -2",
+                "x = 2",
                 "x = 4",
                 "x = -4"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "-4x = -8, deci x = 2."
             },
             {
@@ -2580,12 +2580,12 @@
               "text": "Care este soluția ecuației 7x - 14 = 0?",
               "type": "multipleChoice",
               "options": [
-                "x = 2",
+                "x = 14",
                 "x = -2",
                 "x = 7",
-                "x = 14"
+                "x = 2"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "7x = 14, deci x = 2."
             },
             {
@@ -2604,12 +2604,12 @@
               "text": "Care este soluția ecuației 2(x + 3) = 10?",
               "type": "multipleChoice",
               "options": [
-                "x = 2",
+                "x = 7",
                 "x = 5",
                 "x = 3",
-                "x = 7"
+                "x = 2"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "2x + 6 = 10, deci 2x = 4, x = 2."
             },
             {
@@ -2628,12 +2628,12 @@
               "text": "Care este soluția ecuației (x/2) + 3 = 5?",
               "type": "multipleChoice",
               "options": [
-                "x = 4",
-                "x = 6",
                 "x = 2",
+                "x = 6",
+                "x = 4",
                 "x = 8"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "x/2 = 2, deci x = 4."
             },
             {
@@ -2659,12 +2659,12 @@
               "text": "Formula discriminantului ecuației ax² + bx + c = 0 este:",
               "type": "multipleChoice",
               "options": [
-                "Δ = b² - 4ac",
-                "Δ = b² + 4ac",
                 "Δ = 4ac - b²",
+                "Δ = b² + 4ac",
+                "Δ = b² - 4ac",
                 "Δ = b - 4ac"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Discriminantul Δ = b² - 4ac determină natura rădăcinilor."
             },
             {
@@ -2683,12 +2683,12 @@
               "text": "Care sunt rădăcinile ecuației x² - 5x + 6 = 0?",
               "type": "multipleChoice",
               "options": [
-                "x₁=2, x₂=3",
+                "x₁=2, x₂=-3",
                 "x₁=1, x₂=6",
                 "x₁=-2, x₂=-3",
-                "x₁=2, x₂=-3"
+                "x₁=2, x₂=3"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "x = (5 ± 1)/2, deci x₁ = 2, x₂ = 3."
             },
             {
@@ -2731,12 +2731,12 @@
               "text": "Care sunt rădăcinile ecuației x² - 9 = 0?",
               "type": "multipleChoice",
               "options": [
-                "x = ±3",
+                "x = 3",
                 "x = 9",
                 "x = ±9",
-                "x = 3"
+                "x = ±3"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "x² = 9, deci x = ±3."
             },
             {
@@ -2755,12 +2755,12 @@
               "text": "Care este discriminantul ecuației 2x² - 4x + 2 = 0?",
               "type": "multipleChoice",
               "options": [
-                "Δ = 0",
                 "Δ = 8",
+                "Δ = 0",
                 "Δ = -8",
                 "Δ = 16"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Δ = (-4)² - 4·2·2 = 16 - 16 = 0."
             },
             {
@@ -2779,12 +2779,12 @@
               "text": "Care sunt rădăcinile ecuației x² + 2x - 8 = 0?",
               "type": "multipleChoice",
               "options": [
-                "x₁ = 2, x₂ = -4",
+                "x₁ = 8, x₂ = -1",
                 "x₁ = -2, x₂ = 4",
                 "x₁ = 1, x₂ = -8",
-                "x₁ = 8, x₂ = -1"
+                "x₁ = 2, x₂ = -4"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Δ = 4 + 32 = 36. x = (-2 ± 6)/2, deci x₁ = 2, x₂ = -4."
             },
             {
@@ -2810,12 +2810,12 @@
               "text": "Rezolvați sistemul: x + y = 7, x - y = 3. Soluția x =",
               "type": "multipleChoice",
               "options": [
-                "5",
+                "7",
                 "4",
                 "3",
-                "7"
+                "5"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Adunăm: 2x = 10 → x = 5. Apoi y = 7 - 5 = 2."
             },
             {
@@ -2834,12 +2834,12 @@
               "text": "Rezolvați: 2x + y = 8, x - y = 1. Atunci y =",
               "type": "multipleChoice",
               "options": [
-                "2",
+                "5",
                 "3",
                 "4",
-                "5"
+                "2"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Din ec. 2: x = y + 1. Înlocuim: 2(y+1) + y = 8 → 3y = 6 → y = 2."
             },
             {
@@ -2858,12 +2858,12 @@
               "text": "Rezolvați: 3x + 2y = 12, x + 2y = 8. Atunci x =",
               "type": "multipleChoice",
               "options": [
-                "2",
                 "4",
+                "2",
                 "3",
                 "6"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Scădem: (3x+2y) - (x+2y) = 12-8 → 2x = 4 → x = 2."
             },
             {
@@ -2871,12 +2871,12 @@
               "text": "Rezolvați: x + y = 10, 2x + 2y = 20. Câte soluții are sistemul?",
               "type": "multipleChoice",
               "options": [
-                "Infinit de multe",
-                "O soluție",
                 "Nicio soluție",
+                "O soluție",
+                "Infinit de multe",
                 "Două soluții"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "A doua ecuație e dublul primei — ecuații echivalente. Infinit de soluții."
             },
             {
@@ -2895,12 +2895,12 @@
               "text": "Suma a două numere este 15 și diferența lor este 3. Care este numărul mai mare?",
               "type": "multipleChoice",
               "options": [
-                "9",
-                "6",
                 "12",
+                "6",
+                "9",
                 "8"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "x + y = 15, x - y = 3. Adunăm: 2x = 18, x = 9."
             },
             {
@@ -2908,12 +2908,12 @@
               "text": "Rezolvați: x + 3y = 11, 2x - y = 1. Atunci y =",
               "type": "multipleChoice",
               "options": [
-                "3",
-                "2",
                 "4",
+                "2",
+                "3",
                 "1"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Din ec. 2: 2x = y + 1 → x = (y+1)/2. Înlocuim: (y+1)/2 + 3y = 11 → y+1+6y = 22 → 7y = 21 → y = 3."
             },
             {
@@ -2932,12 +2932,12 @@
               "text": "Rezolvați: 4x - y = 10, x + y = 5. Atunci x =",
               "type": "multipleChoice",
               "options": [
-                "3",
-                "5",
                 "2",
+                "5",
+                "3",
                 "4"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Adunăm: 5x = 15 → x = 3. Apoi y = 5 - 3 = 2."
             },
             {
@@ -2963,12 +2963,12 @@
               "text": "Rezolvați: 2x + 3 > 7. Soluția este:",
               "type": "multipleChoice",
               "options": [
-                "x > 2",
                 "x > 5",
+                "x > 2",
                 "x < 2",
                 "x > 7"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "2x > 4, deci x > 2."
             },
             {
@@ -2987,12 +2987,12 @@
               "text": "Rezolvați: -3x ≤ 9. Soluția este:",
               "type": "multipleChoice",
               "options": [
-                "x ≥ -3",
+                "x ≤ 3",
                 "x ≤ -3",
                 "x ≥ 3",
-                "x ≤ 3"
+                "x ≥ -3"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Împărțim la -3 și schimbăm sensul: x ≥ -3."
             },
             {
@@ -3024,12 +3024,12 @@
               "text": "Rezolvați: 5 - 2x > 1. Soluția este:",
               "type": "multipleChoice",
               "options": [
-                "x < 2",
+                "x > -2",
                 "x > 2",
                 "x < -2",
-                "x > -2"
+                "x < 2"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "-2x > -4, deci x < 2 (schimbăm sensul la împărțire cu -2)."
             },
             {
@@ -3048,12 +3048,12 @@
               "text": "Rezolvați dubla inecuație: -1 < 2x + 3 ≤ 9. Soluția este:",
               "type": "multipleChoice",
               "options": [
-                "-2 < x ≤ 3",
+                "-2 ≤ x < 3",
                 "-1 < x ≤ 9",
                 "0 < x ≤ 3",
-                "-2 ≤ x < 3"
+                "-2 < x ≤ 3"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "-1 - 3 < 2x ≤ 9 - 3 → -4 < 2x ≤ 6 → -2 < x ≤ 3."
             },
             {
@@ -3085,12 +3085,12 @@
               "text": "Care este cea mai mare valoare întreagă a lui x care satisface x - 4 < 3?",
               "type": "multipleChoice",
               "options": [
-                "6",
+                "3",
                 "7",
                 "-1",
-                "3"
+                "6"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "x < 7, deci cel mai mare întreg este 6."
             },
             {
@@ -3136,12 +3136,12 @@
               "text": "Care este panta (coeficientul angular) al funcției f(x) = -3x + 5?",
               "type": "multipleChoice",
               "options": [
-                "-3",
                 "5",
+                "-3",
                 "3",
                 "-5"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Panta este coeficientul lui x, adică a = -3."
             },
             {
@@ -3160,12 +3160,12 @@
               "text": "Zeroul funcției f(x) = 3x - 6 este:",
               "type": "multipleChoice",
               "options": [
-                "x = 2",
                 "x = -2",
+                "x = 2",
                 "x = 6",
                 "x = 3"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "3x - 6 = 0 → x = 2."
             },
             {
@@ -3184,12 +3184,12 @@
               "text": "Intersecția graficului f(x) = x + 2 cu axa Oy este:",
               "type": "multipleChoice",
               "options": [
-                "(0, 2)",
-                "(0, -2)",
                 "(-2, 0)",
+                "(0, -2)",
+                "(0, 2)",
                 "(2, 0)"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "f(0) = 2, deci intersecția cu Oy este (0, 2)."
             },
             {
@@ -3197,12 +3197,12 @@
               "text": "Care este intersecția graficului f(x) = 4x - 8 cu axa Ox?",
               "type": "multipleChoice",
               "options": [
-                "(2, 0)",
-                "(0, -8)",
                 "(-2, 0)",
+                "(0, -8)",
+                "(2, 0)",
                 "(8, 0)"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "4x - 8 = 0 → x = 2, deci punctul este (2, 0)."
             },
             {
@@ -3276,12 +3276,12 @@
               "text": "Graficul funcției f(x) = x² - 4x + 3 este o:",
               "type": "multipleChoice",
               "options": [
-                "Parabolă cu ramuri în sus",
-                "Dreaptă",
                 "Parabolă cu ramuri în jos",
+                "Dreaptă",
+                "Parabolă cu ramuri în sus",
                 "Hiperbola"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "a = 1 > 0, deci parabola are ramurile îndreptate în sus."
             },
             {
@@ -3300,12 +3300,12 @@
               "text": "Care este valoarea minimă a funcției f(x) = x² - 4x + 3?",
               "type": "multipleChoice",
               "options": [
-                "f(2) = -1",
                 "f(0) = 3",
+                "f(2) = -1",
                 "f(1) = 0",
                 "f(3) = 0"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "f(2) = 4 - 8 + 3 = -1 este valoarea minimă (vârful parabolei)."
             },
             {
@@ -3324,12 +3324,12 @@
               "text": "Zerouri ale funcției f(x) = x² - 4x + 3 sunt:",
               "type": "multipleChoice",
               "options": [
-                "x=1 și x=3",
                 "x=2 și x=4",
+                "x=1 și x=3",
                 "x=-1 și x=-3",
                 "x=0 și x=4"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "f(1) = 0 și f(3) = 0, deci x=1, x=3."
             },
             {
@@ -3348,12 +3348,12 @@
               "text": "Care este coordonata y a vârfului parabolei f(x) = x² - 6x + 8?",
               "type": "multipleChoice",
               "options": [
-                "-1",
+                "3",
                 "8",
                 "0",
-                "3"
+                "-1"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "xV = 3, f(3) = 9 - 18 + 8 = -1."
             },
             {
@@ -3372,12 +3372,12 @@
               "text": "Câte puncte de intersecție cu axa Ox are f(x) = x² + 1?",
               "type": "multipleChoice",
               "options": [
-                "0",
+                "Infinit",
                 "1",
                 "2",
-                "Infinit"
+                "0"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "x² + 1 > 0 pentru orice x real, deci graficul nu atinge Ox."
             },
             {
@@ -3427,12 +3427,12 @@
               "text": "Funcția f(x) = x² este monoton crescătoare pe intervalul:",
               "type": "multipleChoice",
               "options": [
-                "[0, +∞)",
                 "(-∞, 0]",
+                "[0, +∞)",
                 "(-∞, +∞)",
                 "[-1, 1]"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "f(x) = x² este descrescătoare pe (-∞, 0] și crescătoare pe [0, +∞)."
             },
             {
@@ -3451,12 +3451,12 @@
               "text": "Care este intersecția graficului f(x) = x² + 2x cu axa Oy?",
               "type": "multipleChoice",
               "options": [
-                "(0, 0)",
+                "(2, 0)",
                 "(0, 2)",
                 "(0, -2)",
-                "(2, 0)"
+                "(0, 0)"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "f(0) = 0, deci graficul trece prin origine."
             },
             {
@@ -3475,12 +3475,12 @@
               "text": "Zeroul funcției f(x) = 2x² - 8 este:",
               "type": "multipleChoice",
               "options": [
-                "x = ±2",
-                "x = 4",
                 "x = ±4",
+                "x = 4",
+                "x = ±2",
                 "x = 2"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "2x² = 8 → x² = 4 → x = ±2."
             },
             {
@@ -3499,12 +3499,12 @@
               "text": "Pe ce interval este descrescătoare funcția f(x) = -x² + 4x - 3?",
               "type": "multipleChoice",
               "options": [
-                "[2, +∞)",
                 "(-∞, 2]",
+                "[2, +∞)",
                 "(-∞, +∞)",
                 "[0, 4]"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "a < 0, vârf la x = 2. Funcția crește pe (-∞, 2] și descreşte pe [2, +∞)."
             },
             {
@@ -3523,12 +3523,12 @@
               "text": "Graficele f(x) = x² și g(x) = 2x se intersectează în punctele:",
               "type": "multipleChoice",
               "options": [
-                "(0, 0) și (2, 4)",
+                "(-1, 1) și (2, 4)",
                 "(1, 1) și (2, 4)",
                 "(0, 0) și (1, 2)",
-                "(-1, 1) și (2, 4)"
+                "(0, 0) și (2, 4)"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "x² = 2x → x² - 2x = 0 → x(x-2) = 0, deci x = 0 (y=0) și x = 2 (y=4)."
             },
             {
@@ -3547,12 +3547,12 @@
               "text": "Câte puncte comune au graficele f(x) = x² + 1 și g(x) = -x² - 1?",
               "type": "multipleChoice",
               "options": [
-                "0",
                 "1",
+                "0",
                 "2",
                 "Infinit"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "x² + 1 = -x² - 1 → 2x² = -2 → x² = -1, imposibil. Niciun punct comun."
             },
             {
@@ -3578,12 +3578,12 @@
               "text": "Dacă graficul unei funcții trece prin punctele (0, 3) și (2, 7), panta dreptei este:",
               "type": "multipleChoice",
               "options": [
-                "2",
-                "4",
                 "3",
+                "4",
+                "2",
                 "5"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Panta = (7-3)/(2-0) = 4/2 = 2."
             },
             {
@@ -3602,12 +3602,12 @@
               "text": "O dreaptă care coboară de la stânga la dreapta are panta:",
               "type": "multipleChoice",
               "options": [
-                "Negativă",
+                "Nedefinită",
                 "Pozitivă",
                 "Zero",
-                "Nedefinită"
+                "Negativă"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "O dreaptă descrescătoare are panta a < 0."
             },
             {
@@ -3626,12 +3626,12 @@
               "text": "Graficul unei funcții trece prin (1, 4), (3, 4), (5, 4). Ce tip de funcție poate fi?",
               "type": "multipleChoice",
               "options": [
-                "Funcție constantă f(x) = 4",
-                "Funcție liniară crescătoare",
                 "Funcție de gradul II",
+                "Funcție liniară crescătoare",
+                "Funcție constantă f(x) = 4",
                 "Nu se poate determina"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Toate punctele au aceeași valoare y = 4, deci f(x) = 4."
             },
             {
@@ -3674,12 +3674,12 @@
               "text": "Un grafic care are formă de U se numește:",
               "type": "multipleChoice",
               "options": [
-                "Parabolă cu ramuri în sus",
-                "Dreaptă",
                 "Parabolă cu ramuri în jos",
+                "Dreaptă",
+                "Parabolă cu ramuri în sus",
                 "Cerc"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Forma de U = parabolă cu a > 0 (ramuri în sus)."
             },
             {
@@ -3738,12 +3738,12 @@
               "text": "Două unghiuri complementare au suma măsurilor egală cu:",
               "type": "multipleChoice",
               "options": [
-                "90°",
                 "180°",
+                "90°",
                 "360°",
                 "45°"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Unghiuri complementare: suma = 90°."
             },
             {
@@ -3786,12 +3786,12 @@
               "text": "Un unghi drept măsoară:",
               "type": "multipleChoice",
               "options": [
-                "90°",
                 "180°",
+                "90°",
                 "45°",
                 "360°"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Unghiul drept = 90°."
             },
             {
@@ -3810,12 +3810,12 @@
               "text": "Două unghiuri complementare sunt în raportul 2:3. Unghiul mai mare măsoară:",
               "type": "multipleChoice",
               "options": [
-                "54°",
                 "36°",
+                "54°",
                 "60°",
                 "72°"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Total: 90°. Părți: 5. Unghiul mai mare: 3/5 × 90° = 54°."
             },
             {
@@ -3858,12 +3858,12 @@
               "text": "Bisectoarea unui unghi de 80° formează cu fiecare latură un unghi de:",
               "type": "multipleChoice",
               "options": [
-                "40°",
                 "80°",
+                "40°",
                 "20°",
                 "60°"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Bisectoarea împarte unghiul în două unghiuri egale: 80°/2 = 40°."
             },
             {
@@ -3889,12 +3889,12 @@
               "text": "Dacă două drepte paralele sunt tăiate de o secantă, unghiurile alterne interne sunt:",
               "type": "multipleChoice",
               "options": [
-                "Egale",
-                "Suplementare",
                 "Complementare",
+                "Suplementare",
+                "Egale",
                 "Opuse la vârf"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Unghiurile alterne interne formate de paralele cu o secantă sunt congruente."
             },
             {
@@ -3913,12 +3913,12 @@
               "text": "Dacă d₁ ∥ d₂ și un unghi format de secantă cu d₁ este 70°, unghiul altern intern este:",
               "type": "multipleChoice",
               "options": [
-                "70°",
                 "110°",
+                "70°",
                 "180°",
                 "35°"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Unghiurile alterne interne sunt egale: 70°."
             },
             {
@@ -3937,12 +3937,12 @@
               "text": "Două drepte paralele tăiate de o secantă formează un unghi de 65°. Unghiul co-intern este:",
               "type": "multipleChoice",
               "options": [
-                "115°",
+                "130°",
                 "65°",
                 "25°",
-                "130°"
+                "115°"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Unghiuri co-interne: 180° - 65° = 115°."
             },
             {
@@ -3961,12 +3961,12 @@
               "text": "Dacă d₁ ∥ d₂ și secanta formează cu d₁ un unghi de 50°, unghiul corespunzător pe d₂ este:",
               "type": "multipleChoice",
               "options": [
-                "50°",
+                "90°",
                 "130°",
                 "40°",
-                "90°"
+                "50°"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Unghiurile corespunzătoare sunt egale: 50°."
             },
             {
@@ -4009,12 +4009,12 @@
               "text": "Două drepte perpendiculare pe aceeași dreaptă sunt:",
               "type": "multipleChoice",
               "options": [
-                "Paralele între ele",
+                "Coincidente",
                 "Perpendiculare între ele",
                 "Secante",
-                "Coincidente"
+                "Paralele între ele"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Dacă d₁ ⊥ d și d₂ ⊥ d, atunci d₁ ∥ d₂."
             },
             {
@@ -4040,12 +4040,12 @@
               "text": "Simetricul punctului A(3, 2) față de axa Ox este:",
               "type": "multipleChoice",
               "options": [
-                "(3, -2)",
-                "(-3, 2)",
                 "(-3, -2)",
+                "(-3, 2)",
+                "(3, -2)",
                 "(2, 3)"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Simetria față de Ox: (x, y) → (x, -y), deci (3, -2)."
             },
             {
@@ -4064,12 +4064,12 @@
               "text": "Simetricul punctului B(4, -1) față de axa Oy este:",
               "type": "multipleChoice",
               "options": [
-                "(-4, -1)",
                 "(4, 1)",
+                "(-4, -1)",
                 "(-4, 1)",
                 "(1, -4)"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Simetria față de Oy: (x, y) → (-x, y), deci (-4, -1)."
             },
             {
@@ -4112,12 +4112,12 @@
               "text": "O translație mută fiecare punct cu același vector. Care este imaginea punctului (1, 3) prin translația de vector (2, -1)?",
               "type": "multipleChoice",
               "options": [
-                "(3, 2)",
-                "(3, 4)",
                 "(-1, 4)",
+                "(3, 4)",
+                "(3, 2)",
                 "(2, -3)"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "(1+2, 3+(-1)) = (3, 2)."
             },
             {
@@ -4136,12 +4136,12 @@
               "text": "Câte axe de simetrie are un dreptunghi (care nu este pătrat)?",
               "type": "multipleChoice",
               "options": [
-                "2",
+                "0",
                 "4",
                 "1",
-                "0"
+                "2"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Dreptunghiul are 2 axe de simetrie (pe mediatrici), nu pe diagonale."
             },
             {
@@ -4200,12 +4200,12 @@
               "text": "Teorema lui Pitagora spune că într-un triunghi dreptunghic:",
               "type": "multipleChoice",
               "options": [
-                "a² + b² = c²",
-                "a + b = c",
                 "a² - b² = c²",
+                "a + b = c",
+                "a² + b² = c²",
                 "a² + b² = 2c"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Suma pătratelor catetelor = pătratul ipotenuzei: a² + b² = c²."
             },
             {
@@ -4248,12 +4248,12 @@
               "text": "Aria unui triunghi echilateral cu latura a este:",
               "type": "multipleChoice",
               "options": [
-                "a²√3/4",
-                "a²/2",
                 "a·√3/2",
+                "a²/2",
+                "a²√3/4",
                 "a²√3"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "A = a²√3/4 este formula pentru triunghiul echilateral."
             },
             {
@@ -4272,12 +4272,12 @@
               "text": "Un triunghi dreptunghic are catetele 5 și 12. Ipotenuza este:",
               "type": "multipleChoice",
               "options": [
-                "13",
                 "17",
+                "13",
                 "15",
                 "√119"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "5² + 12² = 25 + 144 = 169 = 13²."
             },
             {
@@ -4296,12 +4296,12 @@
               "text": "Care este aria unui triunghi cu baza 10 cm și înălțimea 6 cm?",
               "type": "multipleChoice",
               "options": [
-                "30 cm²",
-                "60 cm²",
                 "16 cm²",
+                "60 cm²",
+                "30 cm²",
                 "15 cm²"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "A = b·h/2 = 10·6/2 = 30 cm²."
             },
             {
@@ -4320,12 +4320,12 @@
               "text": "Un triunghi dreptunghic are catetele 8 și 6. Care este aria?",
               "type": "multipleChoice",
               "options": [
-                "24",
-                "48",
                 "10",
+                "48",
+                "24",
                 "14"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Catetele sunt baza și înălțimea: A = 8·6/2 = 24."
             },
             {
@@ -4351,12 +4351,12 @@
               "text": "Criteriul LLL (latură-latură-latură) spune că două triunghiuri sunt congruente dacă:",
               "type": "multipleChoice",
               "options": [
-                "Au cele trei laturi respectiv egale",
                 "Au două laturi egale",
+                "Au cele trei laturi respectiv egale",
                 "Au o latură egală și un unghi egal",
                 "Au perimetrele egale"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "LLL: cele trei laturi ale unui triunghi sunt egale cu cele trei laturi ale celuilalt."
             },
             {
@@ -4375,12 +4375,12 @@
               "text": "Criteriul ULU (unghi-latură-unghi) necesită:",
               "type": "multipleChoice",
               "options": [
-                "Un unghi, latura dintre cele două unghiuri, și celălalt unghi",
-                "Două unghiuri și orice latură",
                 "O latură și două laturi",
+                "Două unghiuri și orice latură",
+                "Un unghi, latura dintre cele două unghiuri, și celălalt unghi",
                 "Trei unghiuri"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "ULU: două unghiuri și latura cuprinsă între ele."
             },
             {
@@ -4423,12 +4423,12 @@
               "text": "În triunghiul isoscel ABC cu AB = AC, bisectoarea din A este și:",
               "type": "multipleChoice",
               "options": [
-                "Mediană și înălțime din A",
                 "Doar mediană",
+                "Mediană și înălțime din A",
                 "Doar înălțime",
                 "Nici mediană, nici înălțime"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "În triunghiul isoscel, bisectoarea din vârful dintre laturile egale e și mediană și înălțime."
             },
             {
@@ -4471,12 +4471,12 @@
               "text": "Care criteriu de congruență se aplică la două triunghiuri dreptunghice cu o catetă și ipotenuza egale?",
               "type": "multipleChoice",
               "options": [
-                "Criteriul catetă-ipotenuză",
-                "LLL",
                 "ULU",
+                "LLL",
+                "Criteriul catetă-ipotenuză",
                 "Nu se poate stabili"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Criteriul catetă-ipotenuză (particular al LUL, cu unghiul drept)."
             },
             {
@@ -4502,12 +4502,12 @@
               "text": "Teorema lui Thales afirmă că o dreaptă paralelă cu o latură a unui triunghi determină pe celelalte două laturi segmente:",
               "type": "multipleChoice",
               "options": [
-                "Proporționale",
                 "Egale",
+                "Proporționale",
                 "Perpendiculare",
                 "Complementare"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Thales: o paralelă la o latură taie celelalte două laturi în segmente proporționale."
             },
             {
@@ -4526,12 +4526,12 @@
               "text": "Dacă ΔABC ~ ΔDEF cu raportul de similitudine k = 2, și AB = 6, atunci DE =",
               "type": "multipleChoice",
               "options": [
-                "3",
-                "12",
                 "6",
+                "12",
+                "3",
                 "9"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "k = AB/DE = 2, deci DE = AB/k = 6/2 = 3."
             },
             {
@@ -4574,12 +4574,12 @@
               "text": "Într-un triunghi, o dreaptă paralelă cu baza taie laturile în raportul 3:2. Dacă baza are 20 cm, segmentul paralel are:",
               "type": "multipleChoice",
               "options": [
-                "12 cm",
                 "8 cm",
+                "12 cm",
                 "15 cm",
                 "10 cm"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Segmentul este la 3/(3+2) = 3/5 din bază: 3/5 × 20 = 12 cm."
             },
             {
@@ -4598,12 +4598,12 @@
               "text": "ΔABC ~ ΔDEF, AB/DE = BC/EF = 3. Dacă aria ΔABC = 45, atunci aria ΔDEF =",
               "type": "multipleChoice",
               "options": [
-                "5",
+                "9",
                 "15",
                 "135",
-                "9"
+                "5"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Raportul ariilor = k² = 9. Aria ΔDEF = 45/9 = 5."
             },
             {
@@ -4622,12 +4622,12 @@
               "text": "În ΔABC, DE ∥ BC, AD = 4, DB = 6, AE = 3. Atunci EC =",
               "type": "multipleChoice",
               "options": [
-                "4,5",
                 "3",
+                "4,5",
                 "6",
                 "2"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Thales: AD/DB = AE/EC → 4/6 = 3/EC → EC = 18/4 = 4,5."
             },
             {
@@ -4653,12 +4653,12 @@
               "text": "Într-un triunghi dreptunghic, înălțimea pe ipotenuză creează două triunghiuri:",
               "type": "multipleChoice",
               "options": [
-                "Asemănătoare cu triunghiul inițial și între ele",
                 "Congruente",
+                "Asemănătoare cu triunghiul inițial și între ele",
                 "Echilaterale",
                 "Isoscele"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Înălțimea pe ipotenuză creează două triunghiuri asemănătoare cu cel inițial."
             },
             {
@@ -4701,12 +4701,12 @@
               "text": "Într-un triunghi dreptunghic cu ipotenuza 13 și o catetă 5, proiecția catetei de 5 pe ipotenuză este:",
               "type": "multipleChoice",
               "options": [
-                "25/13",
                 "5/13",
+                "25/13",
                 "12/13",
                 "169/5"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Teorema catetei: 5² = 13 × b' → b' = 25/13."
             },
             {
@@ -4725,12 +4725,12 @@
               "text": "Într-un triunghi dreptunghic cu catetele 6 și 8, înălțimea pe ipotenuză este:",
               "type": "multipleChoice",
               "options": [
-                "4,8",
+                "3,6",
                 "5",
                 "7",
-                "3,6"
+                "4,8"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Ipotenuza = 10. Aria = 6×8/2 = 24. Dar și Aria = 10×h/2 → h = 48/10 = 4,8."
             },
             {
@@ -4749,12 +4749,12 @@
               "text": "Într-un triunghi dreptunghic isoscel cu cateta a, ipotenuza este:",
               "type": "multipleChoice",
               "options": [
-                "a√2",
+                "a√3",
                 "2a",
                 "a/√2",
-                "a√3"
+                "a√2"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "a² + a² = c² → c = a√2."
             },
             {
@@ -4773,12 +4773,12 @@
               "text": "Un triunghi are laturile 7, 24, 25. Este dreptunghic?",
               "type": "multipleChoice",
               "options": [
-                "Da, deoarece 7² + 24² = 25²",
                 "Nu",
+                "Da, deoarece 7² + 24² = 25²",
                 "Da, deoarece 7 + 24 > 25",
                 "Nu se poate determina"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "7² + 24² = 49 + 576 = 625 = 25². Este dreptunghic."
             },
             {
@@ -4804,12 +4804,12 @@
               "text": "În triunghiul dreptunghic, sin α = ",
               "type": "multipleChoice",
               "options": [
-                "cateta opusă / ipotenuza",
+                "ipotenuza / cateta opusă",
                 "cateta alăturată / ipotenuza",
                 "cateta opusă / cateta alăturată",
-                "ipotenuza / cateta opusă"
+                "cateta opusă / ipotenuza"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "sin α = cateta opusă unghiului / ipotenuza."
             },
             {
@@ -4828,12 +4828,12 @@
               "text": "cos 60° =",
               "type": "multipleChoice",
               "options": [
-                "1/2",
+                "1",
                 "√3/2",
                 "√2/2",
-                "1"
+                "1/2"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "cos 60° = 1/2."
             },
             {
@@ -4876,12 +4876,12 @@
               "text": "Într-un triunghi dreptunghic cu cateta opusă 3 și ipotenuza 5, sin α =",
               "type": "multipleChoice",
               "options": [
-                "3/5",
+                "3/4",
                 "4/5",
                 "5/3",
-                "3/4"
+                "3/5"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "sin α = cateta opusă / ipotenuza = 3/5."
             },
             {
@@ -4900,12 +4900,12 @@
               "text": "sin 45° =",
               "type": "multipleChoice",
               "options": [
-                "√2/2",
                 "1/2",
+                "√2/2",
                 "√3/2",
                 "1"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "sin 45° = √2/2 ≈ 0,707."
             },
             {
@@ -4924,12 +4924,12 @@
               "text": "Într-un triunghi dreptunghic cu catete 5 și 12, tg al unghiului opus catetei 5 este:",
               "type": "multipleChoice",
               "options": [
-                "5/12",
+                "12/13",
                 "12/5",
                 "5/13",
-                "12/13"
+                "5/12"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "tg α = cateta opusă / cateta alăturată = 5/12."
             },
             {
@@ -4964,12 +4964,12 @@
               "text": "Aria unui dreptunghi cu laturile a și b este:",
               "type": "multipleChoice",
               "options": [
-                "A = a·b",
-                "A = 2(a+b)",
                 "A = a²+b²",
+                "A = 2(a+b)",
+                "A = a·b",
                 "A = (a+b)/2"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Aria dreptunghiului = lungime × lățime = a·b."
             },
             {
@@ -5012,12 +5012,12 @@
               "text": "Diagonalele unui romb sunt:",
               "type": "multipleChoice",
               "options": [
-                "Perpendiculare între ele",
+                "Niciuna",
                 "Egale în lungime",
                 "Paralele",
-                "Niciuna"
+                "Perpendiculare între ele"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Diagonalele unui romb se intersectează perpendicular."
             },
             {
@@ -5047,12 +5047,12 @@
               "text": "Perimetrul unui dreptunghi cu laturile 7 și 3 este:",
               "type": "multipleChoice",
               "options": [
-                "20",
+                "14",
                 "21",
                 "10",
-                "14"
+                "20"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "P = 2(a+b) = 2(7+3) = 20."
             },
             {
@@ -5095,12 +5095,12 @@
               "text": "Un romb cu un unghi de 90° este un:",
               "type": "multipleChoice",
               "options": [
-                "Pătrat",
+                "Paralelogram",
                 "Dreptunghi",
                 "Trapez",
-                "Paralelogram"
+                "Pătrat"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Un romb cu unghi drept are toate unghiurile de 90° (opuse egale), deci este pătrat."
             }
           ]
@@ -5115,12 +5115,12 @@
               "text": "Aria unui trapez cu bazele a, b și înălțimea h este:",
               "type": "multipleChoice",
               "options": [
-                "(a+b)·h/2",
                 "a·b·h",
+                "(a+b)·h/2",
                 "(a+b)/h",
                 "a·h"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "A = (a + b) × h / 2 este formula ariei trapezului."
             },
             {
@@ -5139,12 +5139,12 @@
               "text": "Aria unui trapez cu bazele 5 și 9, și înălțimea 4 este:",
               "type": "multipleChoice",
               "options": [
-                "28",
-                "36",
                 "14",
+                "36",
+                "28",
                 "20"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "A = (5+9)·4/2 = 14·4/2 = 28."
             },
             {
@@ -5163,12 +5163,12 @@
               "text": "Un trapez isoscel are bazele 10 și 4, iar latura nebază 5. Înălțimea este:",
               "type": "multipleChoice",
               "options": [
-                "4",
                 "3",
+                "4",
                 "5",
                 "√21"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "Proiecția laturii: (10-4)/2 = 3. h² = 5² - 3² = 25 - 9 = 16. h = 4."
             },
             {
@@ -5211,12 +5211,12 @@
               "text": "Un trapez cu bazele 14 cm și 6 cm, și înălțimea 5 cm are aria:",
               "type": "multipleChoice",
               "options": [
-                "50 cm²",
                 "70 cm²",
+                "50 cm²",
                 "35 cm²",
                 "100 cm²"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "A = (14+6)·5/2 = 20·5/2 = 50 cm²."
             },
             {
@@ -5235,12 +5235,12 @@
               "text": "Un trapez dreptunghic are bazele 8 și 5, iar înălțimea 4. Aria este:",
               "type": "multipleChoice",
               "options": [
-                "26",
+                "13",
                 "20",
                 "32",
-                "13"
+                "26"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "A = (8+5)·4/2 = 13·4/2 = 26."
             },
             {
@@ -5266,12 +5266,12 @@
               "text": "Lungimea cercului de rază r este:",
               "type": "multipleChoice",
               "options": [
-                "2πr",
-                "πr²",
                 "πr",
+                "πr²",
+                "2πr",
                 "2πr²"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Circumferința = 2πr (sau πd, unde d = 2r)."
             },
             {
@@ -5301,12 +5301,12 @@
               "text": "Aria unui sector de cerc cu raza r și unghiul α (în grade) este:",
               "type": "multipleChoice",
               "options": [
-                "πr²α/360",
-                "2πrα/360",
                 "πr²/α",
+                "2πrα/360",
+                "πr²α/360",
                 "rα/2"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Aria sectorului = (α/360) × πr²."
             },
             {
@@ -5325,12 +5325,12 @@
               "text": "Un unghi înscris care se sprijină pe diametru măsoară:",
               "type": "multipleChoice",
               "options": [
-                "90°",
-                "180°",
                 "45°",
+                "180°",
+                "90°",
                 "60°"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Teorema lui Thales: orice unghi înscris în semicerc este drept (90°)."
             },
             {
@@ -5362,12 +5362,12 @@
               "text": "Lungimea unui arc de cerc cu raza r și unghiul central α (în grade) este:",
               "type": "multipleChoice",
               "options": [
-                "2πrα/360",
-                "πr²α/360",
                 "rα",
+                "πr²α/360",
+                "2πrα/360",
                 "πrα"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Lungimea arcului = (α/360) × 2πr."
             },
             {
@@ -5386,12 +5386,12 @@
               "text": "Un cerc cu raza 10 cm are circumferința de aproximativ:",
               "type": "multipleChoice",
               "options": [
-                "62,8 cm",
+                "314 cm",
                 "31,4 cm",
                 "100 cm",
-                "314 cm"
+                "62,8 cm"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "C = 2πr = 2 × 3,14 × 10 = 62,8 cm."
             },
             {
@@ -5417,12 +5417,12 @@
               "text": "Suma unghiurilor interioare ale unui poligon cu n laturi este:",
               "type": "multipleChoice",
               "options": [
-                "(n - 2) × 180°",
-                "n × 180°",
                 "(n - 1) × 180°",
+                "n × 180°",
+                "(n - 2) × 180°",
                 "n × 360°"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Formula: suma unghiurilor = (n - 2) × 180°."
             },
             {
@@ -5441,12 +5441,12 @@
               "text": "Câte diagonale are un hexagon?",
               "type": "multipleChoice",
               "options": [
-                "9",
-                "6",
                 "12",
+                "6",
+                "9",
                 "3"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Număr diagonale = n(n-3)/2 = 6×3/2 = 9."
             },
             {
@@ -5601,12 +5601,12 @@
               "text": "Volumul unui cub cu latura 4 cm este:",
               "type": "multipleChoice",
               "options": [
-                "64 cm³",
                 "16 cm³",
+                "64 cm³",
                 "96 cm³",
                 "48 cm³"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "V = a³ = 4³ = 64 cm³."
             },
             {
@@ -5625,12 +5625,12 @@
               "text": "Aria laterală a unui paralelipiped dreptunghic cu dimensiunile 3, 4, 5 este:",
               "type": "multipleChoice",
               "options": [
-                "70",
-                "94",
                 "60",
+                "94",
+                "70",
                 "47"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Al = 2h(l+w) = 2×5×(3+4) = 70. (h = 5, baza 3×4)"
             },
             {
@@ -5673,12 +5673,12 @@
               "text": "Diagonala feței unui cub cu latura 6 este:",
               "type": "multipleChoice",
               "options": [
-                "6√2",
-                "6√3",
                 "12",
+                "6√3",
+                "6√2",
                 "6"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "Diagonala feței = a√2 = 6√2."
             },
             {
@@ -5697,12 +5697,12 @@
               "text": "Volumul unei prisme triunghiulare cu baza de arie 12 cm² și înălțimea 10 cm este:",
               "type": "multipleChoice",
               "options": [
-                "120 cm³",
+                "22 cm³",
                 "60 cm³",
                 "240 cm³",
-                "22 cm³"
+                "120 cm³"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "V = Ab × h = 12 × 10 = 120 cm³."
             },
             {
@@ -5728,12 +5728,12 @@
               "text": "Volumul unei piramide cu aria bazei Ab și înălțimea h este:",
               "type": "multipleChoice",
               "options": [
-                "Ab × h / 3",
+                "2 × Ab × h / 3",
                 "Ab × h",
                 "Ab × h / 2",
-                "2 × Ab × h / 3"
+                "Ab × h / 3"
               ],
-              "correctIndex": 0,
+              "correctIndex": 3,
               "explanation": "Volumul piramidei = (1/3) × aria bazei × înălțimea."
             },
             {
@@ -5752,12 +5752,12 @@
               "text": "Volumul unei piramide cu baza pătrat de latură 6 și înălțimea 10 este:",
               "type": "multipleChoice",
               "options": [
-                "120",
-                "360",
                 "60",
+                "360",
+                "120",
                 "180"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "V = (1/3) × 6² × 10 = (1/3) × 360 = 120."
             },
             {
@@ -5800,12 +5800,12 @@
               "text": "O piramidă patrulateră regulată cu baza de latură 8 cm și apotema feței laterale 5 cm are aria laterală:",
               "type": "multipleChoice",
               "options": [
-                "80 cm²",
-                "160 cm²",
                 "40 cm²",
+                "160 cm²",
+                "80 cm²",
                 "100 cm²"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "P = 4 × 8 = 32. Al = P × ap/2 = 32 × 5/2 = 80 cm²."
             },
             {
@@ -5903,12 +5903,12 @@
               "text": "Volumul unui con cu raza r și înălțimea h este:",
               "type": "multipleChoice",
               "options": [
-                "πr²h/3",
                 "πr²h",
+                "πr²h/3",
                 "2πrh/3",
                 "πrh"
               ],
-              "correctIndex": 0,
+              "correctIndex": 1,
               "explanation": "V_con = (1/3)πr²h."
             },
             {
@@ -5927,12 +5927,12 @@
               "text": "Aria totală a unui cilindru cu r = 3 cm și h = 5 cm este (π ≈ 3,14):",
               "type": "multipleChoice",
               "options": [
-                "150,72 cm²",
-                "94,2 cm²",
                 "141,3 cm²",
+                "94,2 cm²",
+                "150,72 cm²",
                 "56,52 cm²"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "At = 2πr(r+h) = 2×3,14×3×(3+5) = 6,28×24 = 150,72 cm²."
             },
             {
@@ -5999,12 +5999,12 @@
               "text": "Volumul unei sfere cu raza 3 cm este:",
               "type": "multipleChoice",
               "options": [
-                "36π cm³",
-                "27π cm³",
                 "12π cm³",
+                "27π cm³",
+                "36π cm³",
                 "108π cm³"
               ],
-              "correctIndex": 0,
+              "correctIndex": 2,
               "explanation": "V = (4/3)π×3³ = (4/3)×27π = 36π cm³."
             },
             {
@@ -6017,6 +6017,1083 @@
               ],
               "correctIndex": 0,
               "explanation": "Al = πrg = π×3×5 = 15π."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "trickyTopics": [
+    {
+      "id": "tr1",
+      "title": "Capcane cu numere și operații",
+      "subtitle": "Ordinea operațiilor, puteri, divisibilitate",
+      "iconName": "exclamationmark.triangle.fill",
+      "colorHex": "#FF6B35",
+      "lessons": [
+        {
+          "id": "tr1l1",
+          "title": "Ordinea operațiilor – capcane",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "tr1l1q1",
+              "text": "Calculați: 2 + 3 × 4² =",
+              "type": "multipleChoice",
+              "options": ["50", "400", "80", "54"],
+              "correctIndex": 0,
+              "explanation": "4² = 16, apoi 3 × 16 = 48, apoi 2 + 48 = 50. Greșeala frecventă: (2+3) × 4² = 80."
+            },
+            {
+              "id": "tr1l1q2",
+              "text": "Care este valoarea: 0⁰ este definită în matematica școlară?",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "0⁰ este o formă nedeterminată. În programa de clasa a 8-a, 0⁰ nu este definită."
+            },
+            {
+              "id": "tr1l1q3",
+              "text": "Calculați: 100 - 3 × (8 + 2²) =",
+              "type": "multipleChoice",
+              "options": ["64", "36", "76", "48"],
+              "correctIndex": 0,
+              "explanation": "2² = 4, 8 + 4 = 12, 3 × 12 = 36, deci 100 - 36 = 64. Greșeala frecventă: (8+2)² = 100."
+            },
+            {
+              "id": "tr1l1q4",
+              "text": "Calculați: (-1)²⁰²⁵ =",
+              "type": "multipleChoice",
+              "options": ["1", "-1", "0", "2025"],
+              "correctIndex": 1,
+              "explanation": "(-1) la putere impară = -1. 2025 este impar, deci (-1)²⁰²⁵ = -1."
+            },
+            {
+              "id": "tr1l1q5",
+              "text": "Calculați: 2³ × 2⁴ =",
+              "type": "multipleChoice",
+              "options": ["2⁷", "2¹²", "4⁷", "4¹²"],
+              "correctIndex": 0,
+              "explanation": "La înmulțirea puterilor cu aceeași bază, se adună exponenții: 2³ × 2⁴ = 2³⁺⁴ = 2⁷ = 128."
+            },
+            {
+              "id": "tr1l1q6",
+              "text": "Dacă a = 0, atunci a⁵ = 1.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "0⁵ = 0, nu 1. Regula aⁿ = 1 funcționează doar când a ≠ 0 și n = 0."
+            },
+            {
+              "id": "tr1l1q7",
+              "text": "Calculați: 5 - 2 × 3 + 4 : 2 =",
+              "type": "multipleChoice",
+              "options": ["1", "6.5", "3", "-1"],
+              "correctIndex": 0,
+              "explanation": "Se efectuează × și : întâi: 2×3=6 și 4:2=2. Apoi 5-6+2=1."
+            },
+            {
+              "id": "tr1l1q8",
+              "text": "Calculați: (2³)² =",
+              "type": "multipleChoice",
+              "options": ["32", "64", "512", "128"],
+              "correctIndex": 1,
+              "explanation": "(2³)² = 2³ˣ² = 2⁶ = 64. Greșeala frecventă: 2³⁺² = 2⁵ = 32."
+            },
+            {
+              "id": "tr1l1q9",
+              "text": "Câte numere naturale sunt în intervalul [3, 10)?",
+              "type": "multipleChoice",
+              "options": ["8", "7", "6", "9"],
+              "correctIndex": 1,
+              "explanation": "Numerele sunt: 3, 4, 5, 6, 7, 8, 9. Sunt 7 numere (10 nu este inclus)."
+            },
+            {
+              "id": "tr1l1q10",
+              "text": "Calculați: |(-3)² - 10| =",
+              "type": "multipleChoice",
+              "options": ["1", "-1", "19", "7"],
+              "correctIndex": 0,
+              "explanation": "(-3)² = 9, apoi 9 - 10 = -1, apoi |-1| = 1."
+            },
+            {
+              "id": "tr1l1q11",
+              "text": "Produsul a oricâtor numere pare este par.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Orice produs care conține cel puțin un factor par este par."
+            },
+            {
+              "id": "tr1l1q12",
+              "text": "Calculați: 3⁴ : 3² + 3⁰ =",
+              "type": "multipleChoice",
+              "options": ["10", "9", "27", "12"],
+              "correctIndex": 0,
+              "explanation": "3⁴ : 3² = 3² = 9, iar 3⁰ = 1. Deci 9 + 1 = 10."
+            }
+          ]
+        },
+        {
+          "id": "tr1l2",
+          "title": "Divisibilitate și numere prime – capcane",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "tr1l2q1",
+              "text": "1 este număr prim.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "1 nu este nici prim, nici compus. Un număr prim are exact doi divizori: 1 și el însuși."
+            },
+            {
+              "id": "tr1l2q2",
+              "text": "Care este cel mai mic număr prim par?",
+              "type": "multipleChoice",
+              "options": ["4", "2", "0", "6"],
+              "correctIndex": 1,
+              "explanation": "2 este singurul număr prim par. Toate celelalte numere pare sunt divizibile cu 2."
+            },
+            {
+              "id": "tr1l2q3",
+              "text": "Câți divizori are numărul 12?",
+              "type": "multipleChoice",
+              "options": ["4", "6", "5", "3"],
+              "correctIndex": 1,
+              "explanation": "Divizorii lui 12: 1, 2, 3, 4, 6, 12. Sunt 6 divizori."
+            },
+            {
+              "id": "tr1l2q4",
+              "text": "Un număr care se termină în 0 este întotdeauna divizibil cu 4.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "Exemplu: 10 se termină în 0 dar 10 : 4 = 2,5. Nu e divizibil cu 4."
+            },
+            {
+              "id": "tr1l2q5",
+              "text": "Care este CMMDC(24, 36)?",
+              "type": "multipleChoice",
+              "options": ["6", "12", "24", "72"],
+              "correctIndex": 1,
+              "explanation": "24 = 2³ × 3, 36 = 2² × 3². CMMDC = 2² × 3 = 12."
+            },
+            {
+              "id": "tr1l2q6",
+              "text": "Care este CMMMC(6, 8)?",
+              "type": "multipleChoice",
+              "options": ["48", "24", "12", "16"],
+              "correctIndex": 1,
+              "explanation": "6 = 2 × 3, 8 = 2³. CMMMC = 2³ × 3 = 24."
+            },
+            {
+              "id": "tr1l2q7",
+              "text": "Suma a două numere impare este întotdeauna pară.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "(2k+1) + (2m+1) = 2(k+m+1), care este par."
+            },
+            {
+              "id": "tr1l2q8",
+              "text": "Câte numere prime sunt între 20 și 30?",
+              "type": "multipleChoice",
+              "options": ["3", "2", "1", "4"],
+              "correctIndex": 1,
+              "explanation": "Numerele prime între 20 și 30: 23 și 29. Sunt doar 2."
+            },
+            {
+              "id": "tr1l2q9",
+              "text": "Dacă CMMDC(a, b) = 1, atunci a și b sunt prime.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "CMMDC(a,b)=1 înseamnă că a și b sunt coprime, nu neapărat prime. Ex: CMMDC(4,9)=1."
+            },
+            {
+              "id": "tr1l2q10",
+              "text": "CMMDC(a, b) × CMMMC(a, b) = ?",
+              "type": "multipleChoice",
+              "options": ["a + b", "a × b", "a - b", "a² + b²"],
+              "correctIndex": 1,
+              "explanation": "Proprietate fundamentală: CMMDC(a,b) × CMMMC(a,b) = a × b."
+            },
+            {
+              "id": "tr1l2q11",
+              "text": "Un număr este divizibil cu 6 dacă și numai dacă este divizibil cu:",
+              "type": "multipleChoice",
+              "options": ["2 sau 3", "2 și 3", "12", "2 și 6"],
+              "correctIndex": 1,
+              "explanation": "6 = 2 × 3, iar 2 și 3 sunt coprime. Deci n | 6 ⇔ n | 2 și n | 3."
+            },
+            {
+              "id": "tr1l2q12",
+              "text": "Numărul 2²⁰ - 1 este impar.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "2²⁰ este par, deci 2²⁰ - 1 este impar (par - 1 = impar)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tr2",
+      "title": "Fracții și procente – greșeli frecvente",
+      "subtitle": "Capcane cu fracții, zecimale, procente",
+      "iconName": "xmark.octagon.fill",
+      "colorHex": "#E91E63",
+      "lessons": [
+        {
+          "id": "tr2l1",
+          "title": "Fracții – capcane de calcul",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "tr2l1q1",
+              "text": "Calculați: 1/2 + 1/3 =",
+              "type": "multipleChoice",
+              "options": ["2/5", "5/6", "1/5", "3/5"],
+              "correctIndex": 1,
+              "explanation": "1/2 + 1/3 = 3/6 + 2/6 = 5/6. Greșeala frecventă: adunarea numărătorilor și numitorilor separat."
+            },
+            {
+              "id": "tr2l1q2",
+              "text": "Calculați: 3/4 - 2/3 =",
+              "type": "multipleChoice",
+              "options": ["1/12", "1/1", "5/7", "1/7"],
+              "correctIndex": 0,
+              "explanation": "3/4 - 2/3 = 9/12 - 8/12 = 1/12."
+            },
+            {
+              "id": "tr2l1q3",
+              "text": "0,(9) = 1 (0 virgulă 9 periodic).",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "0,(9) = 0,999... = 1. Se demonstrează: x = 0,(9), 10x = 9,(9), 10x - x = 9, x = 1."
+            },
+            {
+              "id": "tr2l1q4",
+              "text": "Calculați: (2/3)² =",
+              "type": "multipleChoice",
+              "options": ["4/6", "4/9", "2/9", "4/3"],
+              "correctIndex": 1,
+              "explanation": "(2/3)² = 2²/3² = 4/9. Greșeala: ridicarea doar a numărătorului."
+            },
+            {
+              "id": "tr2l1q5",
+              "text": "Calculați: 5/6 × 3/10 =",
+              "type": "multipleChoice",
+              "options": ["15/60", "1/4", "8/16", "5/20"],
+              "correctIndex": 1,
+              "explanation": "5/6 × 3/10 = 15/60 = 1/4 (se simplifică)."
+            },
+            {
+              "id": "tr2l1q6",
+              "text": "Inversul fracției 0 este nedefinit.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Inversul lui a este 1/a. 1/0 nu este definit, deci inversul lui 0 nu există."
+            },
+            {
+              "id": "tr2l1q7",
+              "text": "Calculați: 2/3 : 4/5 =",
+              "type": "multipleChoice",
+              "options": ["8/15", "5/6", "10/12", "6/20"],
+              "correctIndex": 1,
+              "explanation": "2/3 : 4/5 = 2/3 × 5/4 = 10/12 = 5/6."
+            },
+            {
+              "id": "tr2l1q8",
+              "text": "Care fracție este mai mare: 3/7 sau 5/12?",
+              "type": "multipleChoice",
+              "options": ["3/7", "5/12", "Sunt egale", "Nu se pot compara"],
+              "correctIndex": 0,
+              "explanation": "3/7 = 36/84, 5/12 = 35/84. Deci 3/7 > 5/12."
+            },
+            {
+              "id": "tr2l1q9",
+              "text": "Calculați: 1 - 1/2 + 1/3 - 1/4 =",
+              "type": "multipleChoice",
+              "options": ["7/12", "1/4", "5/12", "1/12"],
+              "correctIndex": 0,
+              "explanation": "= 12/12 - 6/12 + 4/12 - 3/12 = 7/12."
+            },
+            {
+              "id": "tr2l1q10",
+              "text": "Dacă a/b < 1 și a, b > 0, atunci a < b.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Dacă a/b < 1 și b > 0, înmulțind cu b obținem a < b."
+            },
+            {
+              "id": "tr2l1q11",
+              "text": "Fracția 7/14 simplificată este:",
+              "type": "multipleChoice",
+              "options": ["7/14", "1/2", "1/7", "2/7"],
+              "correctIndex": 1,
+              "explanation": "7/14 = 7/(7×2) = 1/2."
+            },
+            {
+              "id": "tr2l1q12",
+              "text": "Calculați: 1/(1/3) =",
+              "type": "multipleChoice",
+              "options": ["1/3", "3", "1/9", "9"],
+              "correctIndex": 1,
+              "explanation": "1/(1/3) = 1 × 3/1 = 3. Inversul lui 1/3 este 3."
+            }
+          ]
+        },
+        {
+          "id": "tr2l2",
+          "title": "Procente – capcane",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "tr2l2q1",
+              "text": "Un produs costă 200 lei. Crește cu 50%, apoi scade cu 50%. Prețul final este:",
+              "type": "multipleChoice",
+              "options": ["200 lei", "150 lei", "100 lei", "175 lei"],
+              "correctIndex": 1,
+              "explanation": "200 + 50% = 300. 300 - 50% = 150. NU revine la 200!"
+            },
+            {
+              "id": "tr2l2q2",
+              "text": "20% din 50 este egal cu 50% din 20.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "20% din 50 = 10. 50% din 20 = 10. Sunt egale! (comutativitatea înmulțirii)"
+            },
+            {
+              "id": "tr2l2q3",
+              "text": "Dintr-o clasă de 30 elevi, 40% sunt fete. Câți băieți sunt?",
+              "type": "multipleChoice",
+              "options": ["12", "18", "15", "20"],
+              "correctIndex": 1,
+              "explanation": "40% fete = 12 fete. Băieți: 30 - 12 = 18."
+            },
+            {
+              "id": "tr2l2q4",
+              "text": "Un produs are reducere de 25%. Ce procent trebuie adăugat la prețul redus pentru a reveni la prețul inițial?",
+              "type": "multipleChoice",
+              "options": ["25%", "33,(3)%", "30%", "50%"],
+              "correctIndex": 1,
+              "explanation": "Dacă prețul era 100, acum e 75. Trebuie adăugat 25/75 = 1/3 ≈ 33,(3)%."
+            },
+            {
+              "id": "tr2l2q5",
+              "text": "0,25 exprimat ca procent este:",
+              "type": "multipleChoice",
+              "options": ["0,25%", "2,5%", "25%", "250%"],
+              "correctIndex": 2,
+              "explanation": "0,25 × 100 = 25%."
+            },
+            {
+              "id": "tr2l2q6",
+              "text": "Dacă A este cu 20% mai mare decât B, atunci B este cu 20% mai mic decât A.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "Dacă A = 1,2B, atunci B = A/1,2 = A × 5/6. B este cu 1/6 ≈ 16,67% mai mic decât A, nu 20%."
+            },
+            {
+              "id": "tr2l2q7",
+              "text": "Cât reprezintă 150% din 80?",
+              "type": "multipleChoice",
+              "options": ["120", "130", "110", "160"],
+              "correctIndex": 0,
+              "explanation": "150% din 80 = 1,5 × 80 = 120."
+            },
+            {
+              "id": "tr2l2q8",
+              "text": "Un magazin aplică două reduceri succesive: 20% și apoi 30%. Reducerea totală este de 50%.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "Preț × 0,8 × 0,7 = Preț × 0,56. Reducerea totală: 44%, nu 50%."
+            },
+            {
+              "id": "tr2l2q9",
+              "text": "Care este 12,5% din 240?",
+              "type": "multipleChoice",
+              "options": ["30", "28", "24", "32"],
+              "correctIndex": 0,
+              "explanation": "12,5% = 1/8. 240/8 = 30."
+            },
+            {
+              "id": "tr2l2q10",
+              "text": "Într-un test, Maria a răspuns corect la 18 din 24 de întrebări. Procentul de răspunsuri corecte este:",
+              "type": "multipleChoice",
+              "options": ["72%", "75%", "80%", "78%"],
+              "correctIndex": 1,
+              "explanation": "18/24 = 3/4 = 75%."
+            },
+            {
+              "id": "tr2l2q11",
+              "text": "Dacă 30% dintr-un număr este 45, care este numărul?",
+              "type": "multipleChoice",
+              "options": ["135", "150", "120", "180"],
+              "correctIndex": 1,
+              "explanation": "30% × x = 45, deci x = 45/0,3 = 150."
+            },
+            {
+              "id": "tr2l2q12",
+              "text": "1/3 exprimat ca procent exact este 33%.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "1/3 = 33,(3)% = 33,333...%, nu exact 33%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tr3",
+      "title": "Ecuații și inecuații – cazuri speciale",
+      "subtitle": "Greșeli de semn, ecuații capcană",
+      "iconName": "bolt.trianglebadge.exclamationmark.fill",
+      "colorHex": "#9C27B0",
+      "lessons": [
+        {
+          "id": "tr3l1",
+          "title": "Ecuații – capcane de rezolvare",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "tr3l1q1",
+              "text": "Rezolvați: 2(x - 3) = 2x - 6. Câte soluții are?",
+              "type": "multipleChoice",
+              "options": ["0", "1", "2", "Infinit"],
+              "correctIndex": 3,
+              "explanation": "2x - 6 = 2x - 6 este identitate. Orice x real este soluție."
+            },
+            {
+              "id": "tr3l1q2",
+              "text": "Rezolvați: 3x + 1 = 3(x + 1). Câte soluții are?",
+              "type": "multipleChoice",
+              "options": ["0", "1", "2", "Infinit"],
+              "correctIndex": 0,
+              "explanation": "3x + 1 = 3x + 3 ⟹ 1 = 3, fals. Ecuația nu are soluții."
+            },
+            {
+              "id": "tr3l1q3",
+              "text": "Dacă x² = 9, atunci x = 3.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "x² = 9 ⟹ x = 3 SAU x = -3. Sunt două soluții, nu doar x = 3."
+            },
+            {
+              "id": "tr3l1q4",
+              "text": "Rezolvați: |x - 2| = 5. Suma soluțiilor este:",
+              "type": "multipleChoice",
+              "options": ["4", "7", "-3", "0"],
+              "correctIndex": 0,
+              "explanation": "x - 2 = 5 ⟹ x = 7 sau x - 2 = -5 ⟹ x = -3. Suma: 7 + (-3) = 4."
+            },
+            {
+              "id": "tr3l1q5",
+              "text": "Ecuația x² + 1 = 0 are soluții reale.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "x² ≥ 0 pentru orice x real, deci x² + 1 ≥ 1 > 0. Nu are soluții reale."
+            },
+            {
+              "id": "tr3l1q6",
+              "text": "Rezolvați: (x-1)(x+2) = 0. Produsul soluțiilor este:",
+              "type": "multipleChoice",
+              "options": ["2", "-2", "1", "-1"],
+              "correctIndex": 1,
+              "explanation": "x = 1 sau x = -2. Produsul: 1 × (-2) = -2."
+            },
+            {
+              "id": "tr3l1q7",
+              "text": "Rezolvați: x/0 = 5.",
+              "type": "multipleChoice",
+              "options": ["x = 0", "x = 5", "Imposibil", "x = ∞"],
+              "correctIndex": 2,
+              "explanation": "Împărțirea la 0 nu este definită. Ecuația nu are sens."
+            },
+            {
+              "id": "tr3l1q8",
+              "text": "Dacă 2x - 4 = 0, atunci x =",
+              "type": "multipleChoice",
+              "options": ["-2", "2", "4", "0"],
+              "correctIndex": 1,
+              "explanation": "2x = 4, x = 2."
+            },
+            {
+              "id": "tr3l1q9",
+              "text": "Rezolvați: √x = -3.",
+              "type": "multipleChoice",
+              "options": ["x = 9", "x = -9", "Imposibil", "x = -3"],
+              "correctIndex": 2,
+              "explanation": "√x ≥ 0 pentru orice x ≥ 0. Nu poate fi egală cu -3."
+            },
+            {
+              "id": "tr3l1q10",
+              "text": "Ecuația |x| = -1 are soluții.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "|x| ≥ 0 pentru orice x. Nu poate fi egal cu -1."
+            },
+            {
+              "id": "tr3l1q11",
+              "text": "Rezolvați: x² - 5x + 6 = 0. Suma soluțiilor este:",
+              "type": "multipleChoice",
+              "options": ["5", "6", "-5", "1"],
+              "correctIndex": 0,
+              "explanation": "Conform relațiilor lui Viète: x₁ + x₂ = 5 (coeficientul lui x cu semn schimbat)."
+            },
+            {
+              "id": "tr3l1q12",
+              "text": "Dacă x² = x, atunci x = 1.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "x² = x ⟹ x² - x = 0 ⟹ x(x-1) = 0 ⟹ x = 0 sau x = 1. Sunt două soluții."
+            }
+          ]
+        },
+        {
+          "id": "tr3l2",
+          "title": "Inecuații și sisteme – capcane",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "tr3l2q1",
+              "text": "Dacă -2x > 6, atunci:",
+              "type": "multipleChoice",
+              "options": ["x > -3", "x < -3", "x > 3", "x < 3"],
+              "correctIndex": 1,
+              "explanation": "Împărțind la -2, se schimbă sensul inegalității: x < -3."
+            },
+            {
+              "id": "tr3l2q2",
+              "text": "La înmulțirea unei inecuații cu un număr negativ, sensul inecuației se păstrează.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "La înmulțirea/împărțirea cu un număr negativ, sensul inecuației se SCHIMBĂ."
+            },
+            {
+              "id": "tr3l2q3",
+              "text": "Sistemul: x + y = 10, x + y = 12 are:",
+              "type": "multipleChoice",
+              "options": ["O soluție", "Nicio soluție", "Infinit soluții", "Două soluții"],
+              "correctIndex": 1,
+              "explanation": "x + y nu poate fi simultan 10 și 12. Sistemul este incompatibil."
+            },
+            {
+              "id": "tr3l2q4",
+              "text": "Rezolvați: x² ≤ 0. Soluția este:",
+              "type": "multipleChoice",
+              "options": ["x ∈ ∅", "x = 0", "x ≤ 0", "x ∈ ℝ"],
+              "correctIndex": 1,
+              "explanation": "x² ≥ 0 mereu. x² ≤ 0 doar dacă x² = 0, adică x = 0."
+            },
+            {
+              "id": "tr3l2q5",
+              "text": "Dacă a > b și c > d, atunci a + c > b + d.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Inegalitățile de ACELAȘI sens se pot aduna: a+c > b+d."
+            },
+            {
+              "id": "tr3l2q6",
+              "text": "Sistemul: x + y = 5, 2x + 2y = 10 are:",
+              "type": "multipleChoice",
+              "options": ["O soluție unică", "Nicio soluție", "Infinit soluții", "Exact 2 soluții"],
+              "correctIndex": 2,
+              "explanation": "A doua ecuație este dublul primei. Sistemul are infinit de soluții."
+            },
+            {
+              "id": "tr3l2q7",
+              "text": "Rezolvați: 3x - 1 > 2x + 4. Soluția este:",
+              "type": "multipleChoice",
+              "options": ["x > 5", "x < 5", "x > 3", "x < 3"],
+              "correctIndex": 0,
+              "explanation": "3x - 2x > 4 + 1 ⟹ x > 5."
+            },
+            {
+              "id": "tr3l2q8",
+              "text": "Dacă a > b, atunci a² > b².",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "Contraexemplu: -1 > -2, dar (-1)² = 1 < 4 = (-2)². Funcționează doar pentru a,b ≥ 0."
+            },
+            {
+              "id": "tr3l2q9",
+              "text": "Care este soluția sistemului: x - y = 3, 2x + y = 12?",
+              "type": "multipleChoice",
+              "options": ["x=5, y=2", "x=3, y=6", "x=4, y=1", "x=6, y=3"],
+              "correctIndex": 0,
+              "explanation": "Adunăm: 3x = 15, x = 5. Din prima: y = 5 - 3 = 2."
+            },
+            {
+              "id": "tr3l2q10",
+              "text": "Inecuația 2x + 1 ≥ 2x + 3 are soluții.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "Simplificăm: 1 ≥ 3, fals. Nu are nicio soluție."
+            },
+            {
+              "id": "tr3l2q11",
+              "text": "Rezolvați: |2x - 1| ≤ 3. Soluția este:",
+              "type": "multipleChoice",
+              "options": ["x ∈ [-1, 2]", "x ∈ (-1, 2)", "x ∈ [-2, 1]", "x ∈ (-∞, -1] ∪ [2, +∞)"],
+              "correctIndex": 0,
+              "explanation": "-3 ≤ 2x-1 ≤ 3 ⟹ -2 ≤ 2x ≤ 4 ⟹ -1 ≤ x ≤ 2."
+            },
+            {
+              "id": "tr3l2q12",
+              "text": "Dacă a < 0 și b < 0, atunci ab > 0.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Produsul a două numere negative este pozitiv."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tr4",
+      "title": "Geometrie plană – capcane",
+      "subtitle": "Triunghiuri, patrulatere, arii, unghiuri",
+      "iconName": "triangle.fill",
+      "colorHex": "#FF5722",
+      "lessons": [
+        {
+          "id": "tr4l1",
+          "title": "Triunghiuri și unghiuri – capcane",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "tr4l1q1",
+              "text": "Un triunghi are unghiurile de 60°, 60° și 60°. Este triunghi isoscel?",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Un triunghi echilateral este și isoscel (are cel puțin două laturi egale)."
+            },
+            {
+              "id": "tr4l1q2",
+              "text": "Într-un triunghi dreptunghic, ipotenuza are lungimea 13, o catetă are 5. Cealaltă catetă este:",
+              "type": "multipleChoice",
+              "options": ["8", "12", "18", "10"],
+              "correctIndex": 1,
+              "explanation": "c² = 13² - 5² = 169 - 25 = 144. c = 12."
+            },
+            {
+              "id": "tr4l1q3",
+              "text": "Suma unghiurilor exterioare ale unui triunghi este:",
+              "type": "multipleChoice",
+              "options": ["180°", "360°", "540°", "270°"],
+              "correctIndex": 1,
+              "explanation": "Suma unghiurilor exterioare ale oricărui poligon convex este 360°."
+            },
+            {
+              "id": "tr4l1q4",
+              "text": "Un triunghi poate avea două unghiuri obtuze.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "Două unghiuri obtuze ar avea suma > 180°, imposibil în triunghi."
+            },
+            {
+              "id": "tr4l1q5",
+              "text": "Aria unui triunghi cu baza 10 și înălțimea 6 este:",
+              "type": "multipleChoice",
+              "options": ["60", "30", "16", "36"],
+              "correctIndex": 1,
+              "explanation": "Aria = b × h / 2 = 10 × 6 / 2 = 30."
+            },
+            {
+              "id": "tr4l1q6",
+              "text": "Într-un triunghi isoscel cu unghiul din vârf de 40°, unghiurile de la bază sunt:",
+              "type": "multipleChoice",
+              "options": ["40°", "70°", "80°", "60°"],
+              "correctIndex": 1,
+              "explanation": "Suma: 40 + 2x = 180, 2x = 140, x = 70°."
+            },
+            {
+              "id": "tr4l1q7",
+              "text": "Mediana unui triunghi împarte triunghiul în două triunghiuri de arii egale.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Mediana împarte baza în două segmente egale, deci cele două triunghiuri au aceeași bază și aceeași înălțime."
+            },
+            {
+              "id": "tr4l1q8",
+              "text": "Un triunghi are laturile 3, 4 și 8. Este valid?",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "Inegalitatea triunghiului: 3 + 4 = 7 < 8. Nu formează triunghi."
+            },
+            {
+              "id": "tr4l1q9",
+              "text": "Într-un triunghi dreptunghic cu catetele 6 și 8, lungimea medianei la ipotenuză este:",
+              "type": "multipleChoice",
+              "options": ["7", "5", "10", "6"],
+              "correctIndex": 1,
+              "explanation": "Ipotenuza = √(36+64) = 10. Mediana la ipotenuză = ipotenuza/2 = 5."
+            },
+            {
+              "id": "tr4l1q10",
+              "text": "Un unghi înscris în semicerc este de 90°.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Teorema lui Thales: unghiul înscris în semicerc este drept (90°)."
+            },
+            {
+              "id": "tr4l1q11",
+              "text": "Dacă două triunghiuri au toate laturile proporționale, ele sunt:",
+              "type": "multipleChoice",
+              "options": ["Congruente", "Asemănătoare", "Egale", "Simetrice"],
+              "correctIndex": 1,
+              "explanation": "Criteriul LLL de asemănare: laturi proporționale ⟹ triunghiuri asemănătoare."
+            },
+            {
+              "id": "tr4l1q12",
+              "text": "Linia mijlocie a unui triunghi este egală cu jumătate din latura căreia îi este paralelă.",
+              "type": "multipleChoice",
+              "options": ["latura opusă", "înălțimea", "mediana", "bisectoarea"],
+              "correctIndex": 0,
+              "explanation": "Linia mijlocie este paralelă cu a treia latură și egală cu jumătatea ei."
+            }
+          ]
+        },
+        {
+          "id": "tr4l2",
+          "title": "Patrulatere și cerc – capcane",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "tr4l2q1",
+              "text": "Un pătrat este romb.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Pătratul are toate laturile egale, deci este un caz particular de romb."
+            },
+            {
+              "id": "tr4l2q2",
+              "text": "Aria unui romb cu diagonalele de 6 și 8 este:",
+              "type": "multipleChoice",
+              "options": ["48", "24", "14", "32"],
+              "correctIndex": 1,
+              "explanation": "Aria romb = d₁ × d₂ / 2 = 6 × 8 / 2 = 24."
+            },
+            {
+              "id": "tr4l2q3",
+              "text": "Un dreptunghi este paralelogram.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Dreptunghiul are laturile opuse paralele, deci este paralelogram."
+            },
+            {
+              "id": "tr4l2q4",
+              "text": "Suma unghiurilor unui patrulater convex este:",
+              "type": "multipleChoice",
+              "options": ["180°", "360°", "270°", "540°"],
+              "correctIndex": 1,
+              "explanation": "Suma unghiurilor unui patrulater = (4-2) × 180° = 360°."
+            },
+            {
+              "id": "tr4l2q5",
+              "text": "Lungimea cercului cu raza 7 este:",
+              "type": "multipleChoice",
+              "options": ["7π", "14π", "49π", "21π"],
+              "correctIndex": 1,
+              "explanation": "L = 2πr = 2π × 7 = 14π."
+            },
+            {
+              "id": "tr4l2q6",
+              "text": "Un trapez isoscel are diagonalele egale.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Proprietate specifică trapezului isoscel: diagonalele sunt congruente."
+            },
+            {
+              "id": "tr4l2q7",
+              "text": "Aria unui trapez cu bazele 8 și 12, înălțimea 5 este:",
+              "type": "multipleChoice",
+              "options": ["100", "50", "40", "60"],
+              "correctIndex": 1,
+              "explanation": "Aria = (B + b) × h / 2 = (12 + 8) × 5 / 2 = 50."
+            },
+            {
+              "id": "tr4l2q8",
+              "text": "Diagonalele unui paralelogram se bisectează reciproc.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Proprietate fundamentală: diagonalele paralelogramului se înjumătățesc reciproc."
+            },
+            {
+              "id": "tr4l2q9",
+              "text": "Aria unui disc cu raza 3 este:",
+              "type": "multipleChoice",
+              "options": ["6π", "9π", "3π", "12π"],
+              "correctIndex": 1,
+              "explanation": "Aria disc = πr² = π × 9 = 9π."
+            },
+            {
+              "id": "tr4l2q10",
+              "text": "Un romb are diagonalele egale. Este pătrat?",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Un romb cu diagonale egale are toate unghiurile drepte, deci este pătrat."
+            },
+            {
+              "id": "tr4l2q11",
+              "text": "Unghiul la centru corespunzător unui arc este dublu față de unghiul înscris care subîntinde același arc.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Teorema unghiului înscris: unghiul la centru = 2 × unghiul înscris."
+            },
+            {
+              "id": "tr4l2q12",
+              "text": "Lungimea unui arc de cerc cu raza 10 și unghi la centru de 90° este:",
+              "type": "multipleChoice",
+              "options": ["5π", "10π", "25π", "20π"],
+              "correctIndex": 0,
+              "explanation": "L_arc = (unghi/360) × 2πr = (90/360) × 20π = 5π."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tr5",
+      "title": "Funcții și grafice – interpretare",
+      "subtitle": "Funcții liniare, pătratice, grafice",
+      "iconName": "chart.xyaxis.line",
+      "colorHex": "#795548",
+      "lessons": [
+        {
+          "id": "tr5l1",
+          "title": "Funcții liniare – capcane",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "tr5l1q1",
+              "text": "Funcția f(x) = 3 este funcție constantă. Graficul ei este o dreaptă:",
+              "type": "multipleChoice",
+              "options": ["verticală", "orizontală", "oblică crescătoare", "oblică descrescătoare"],
+              "correctIndex": 1,
+              "explanation": "f(x) = 3 este o dreaptă orizontală, paralelă cu Ox, la distanță 3."
+            },
+            {
+              "id": "tr5l1q2",
+              "text": "Funcția f(x) = 2x - 1 intersectează axa Oy în punctul:",
+              "type": "multipleChoice",
+              "options": ["(0, 2)", "(0, -1)", "(1, 0)", "(-1, 0)"],
+              "correctIndex": 1,
+              "explanation": "Pe axa Oy, x = 0: f(0) = -1. Punctul este (0, -1)."
+            },
+            {
+              "id": "tr5l1q3",
+              "text": "Două drepte paralele au aceeași pantă.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Drepte paralele: y = m₁x + n₁ și y = m₂x + n₂ cu m₁ = m₂."
+            },
+            {
+              "id": "tr5l1q4",
+              "text": "Funcția f(x) = -x + 5 este:",
+              "type": "multipleChoice",
+              "options": ["crescătoare", "descrescătoare", "constantă", "nu e funcție"],
+              "correctIndex": 1,
+              "explanation": "Coeficientul lui x este -1 < 0, deci funcția este descrescătoare."
+            },
+            {
+              "id": "tr5l1q5",
+              "text": "Graficul funcției f(x) = x trece prin originea axelor.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "f(0) = 0, deci graficul trece prin (0, 0)."
+            },
+            {
+              "id": "tr5l1q6",
+              "text": "Funcția f(x) = 2x + 3 intersectează axa Ox în punctul:",
+              "type": "multipleChoice",
+              "options": ["(-3/2, 0)", "(3/2, 0)", "(-3, 0)", "(3, 0)"],
+              "correctIndex": 0,
+              "explanation": "f(x) = 0: 2x + 3 = 0, x = -3/2. Punctul: (-3/2, 0)."
+            },
+            {
+              "id": "tr5l1q7",
+              "text": "Dacă f(x) = ax + b cu a > 0 și b < 0, graficul trece prin cadranele:",
+              "type": "multipleChoice",
+              "options": ["I, II, III", "I, III, IV", "I, II, IV", "II, III, IV"],
+              "correctIndex": 1,
+              "explanation": "a > 0: crescătoare. b < 0: intersectează Oy sub origine. Trece prin I, III, IV."
+            },
+            {
+              "id": "tr5l1q8",
+              "text": "Două funcții liniare cu pante m₁ și m₂ sunt perpendiculare dacă m₁ × m₂ = -1.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Condiția de perpendicularitate: m₁ × m₂ = -1."
+            },
+            {
+              "id": "tr5l1q9",
+              "text": "Distanța de la originea O(0,0) la dreapta y = 3x + 4 este egală cu distanța la y = 3x - 4.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Ambele drepte au aceeași pantă (m=3) și |n| = 4. Distanța = |n|/√(1+m²) = 4/√10. Distanțele sunt egale."
+            },
+            {
+              "id": "tr5l1q10",
+              "text": "Funcția f: ℝ → ℝ, f(x) = |x| este funcție liniară.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "f(x) = |x| nu este liniară. Graficul are formă de V, nu este o dreaptă."
+            },
+            {
+              "id": "tr5l1q11",
+              "text": "Panta dreptei care trece prin A(1, 3) și B(4, 9) este:",
+              "type": "multipleChoice",
+              "options": ["3", "2", "6", "1"],
+              "correctIndex": 1,
+              "explanation": "m = (9-3)/(4-1) = 6/3 = 2."
+            },
+            {
+              "id": "tr5l1q12",
+              "text": "Funcția f(x) = 0·x + 5 este funcție de gradul I.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "Dacă coeficientul lui x este 0, funcția este constantă (f(x) = 5), nu de gradul I."
+            }
+          ]
+        },
+        {
+          "id": "tr5l2",
+          "title": "Funcții pătratice – capcane",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "tr5l2q1",
+              "text": "Vârful parabolei f(x) = x² - 4x + 3 este:",
+              "type": "multipleChoice",
+              "options": ["(2, -1)", "(2, 1)", "(-2, -1)", "(4, 3)"],
+              "correctIndex": 0,
+              "explanation": "xᵥ = -b/(2a) = 4/2 = 2. yᵥ = 4 - 8 + 3 = -1. Vârful: (2, -1)."
+            },
+            {
+              "id": "tr5l2q2",
+              "text": "Funcția f(x) = -x² + 1 are vârful deasupra axei Ox.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Vârful: x = 0, f(0) = 1 > 0. Da, este deasupra axei Ox."
+            },
+            {
+              "id": "tr5l2q3",
+              "text": "Ecuația x² - 6x + 9 = 0 are:",
+              "type": "multipleChoice",
+              "options": ["Două soluții distincte", "O soluție dublă", "Nicio soluție reală", "Trei soluții"],
+              "correctIndex": 1,
+              "explanation": "Δ = 36 - 36 = 0. Soluție dublă: x = 3. (x-3)² = 0."
+            },
+            {
+              "id": "tr5l2q4",
+              "text": "Parabola f(x) = x² - 1 intersectează axa Ox în:",
+              "type": "multipleChoice",
+              "options": ["un punct", "două puncte", "niciun punct", "trei puncte"],
+              "correctIndex": 1,
+              "explanation": "x² - 1 = 0 ⟹ x = ±1. Două puncte de intersecție: (-1, 0) și (1, 0)."
+            },
+            {
+              "id": "tr5l2q5",
+              "text": "Dacă a < 0 în f(x) = ax² + bx + c, parabola are ramurile în sus.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 1,
+              "explanation": "Dacă a < 0, parabola are ramurile în JOS (concavitate inversă)."
+            },
+            {
+              "id": "tr5l2q6",
+              "text": "Semnul lui f(x) = x² + 2x + 5 este:",
+              "type": "multipleChoice",
+              "options": ["Pozitiv pentru orice x", "Negativ pentru orice x", "Schimbă semn", "Zero pentru x = -1"],
+              "correctIndex": 0,
+              "explanation": "Δ = 4 - 20 = -16 < 0 și a = 1 > 0. f(x) > 0 pentru orice x real."
+            },
+            {
+              "id": "tr5l2q7",
+              "text": "Funcția f(x) = (x-1)² are valoarea minimă:",
+              "type": "multipleChoice",
+              "options": ["-1", "0", "1", "Nu are minim"],
+              "correctIndex": 1,
+              "explanation": "(x-1)² ≥ 0. Minimul este 0, atins pentru x = 1."
+            },
+            {
+              "id": "tr5l2q8",
+              "text": "Dacă f(x) = x² și g(x) = 2x², atunci f și g au același vârf.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Ambele au vârful în (0, 0). g este doar mai îngustă."
+            },
+            {
+              "id": "tr5l2q9",
+              "text": "Produsul rădăcinilor ecuației 2x² - 3x + 1 = 0 este:",
+              "type": "multipleChoice",
+              "options": ["3/2", "1/2", "-1/2", "2"],
+              "correctIndex": 1,
+              "explanation": "Relațiile lui Viète: x₁ × x₂ = c/a = 1/2."
+            },
+            {
+              "id": "tr5l2q10",
+              "text": "Graficul funcției f(x) = -x² trece prin cadranele III și IV.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "f(x) = -x² ≤ 0 pentru orice x. Pentru x > 0, f(x) < 0 (cadranul IV). Pentru x < 0, f(x) < 0 (cadranul III). Deci trece prin III și IV."
+            },
+            {
+              "id": "tr5l2q11",
+              "text": "Numărul de puncte în care parabola y = x² - 4 intersectează dreapta y = 0 este:",
+              "type": "multipleChoice",
+              "options": ["0", "1", "2", "4"],
+              "correctIndex": 2,
+              "explanation": "x² - 4 = 0 ⟹ x = ±2. Două puncte de intersecție."
+            },
+            {
+              "id": "tr5l2q12",
+              "text": "Axa de simetrie a parabolei f(x) = x² - 8x + 12 este x = 4.",
+              "type": "trueFalse",
+              "options": ["Adevărat", "Fals"],
+              "correctIndex": 0,
+              "explanation": "Axa de simetrie: x = -b/(2a) = 8/2 = 4."
             }
           ]
         }
@@ -6225,6 +7302,306 @@
               "options": ["18√2 cm³", "36√2 cm³", "72√2 cm³", "12√2 cm³"],
               "correctIndex": 0,
               "explanation": "V = a³√2/12 = 216√2/12 = 18√2 cm³."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "title": "Subiectul III - Algebră",
+      "subtitle": "Probleme de algebră din examen",
+      "iconName": "function",
+      "colorHex": "#5856D6",
+      "lessons": [
+        {
+          "id": "t11l1",
+          "title": "Examen 2025 - Algebră",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "t11l1q1",
+              "text": "Ana cumpără caiete, pixuri și creioane. Un caiet costă 5 lei, un pix costă 3 lei și un creion costă 2 lei. Ana cumpără de 3 ori mai multe creioane decât caiete și de 2 ori mai multe pixuri decât caiete. Dacă Ana a cumpărat 3 caiete, care este suma totală plătită?",
+              "type": "multipleChoice",
+              "options": ["45 lei", "51 lei", "39 lei", "57 lei"],
+              "correctIndex": 1,
+              "explanation": "Ana cumpără 3 caiete, 2 × 3 = 6 pixuri și 3 × 3 = 9 creioane.\nSuma = 3 × 5 + 6 × 3 + 9 × 2 = 15 + 18 + 18 = 51 lei."
+            },
+            {
+              "id": "t11l1q2",
+              "text": "Într-un magazin, prețul unui produs a fost redus cu 20%. După reducere, prețul este 96 lei. Care a fost prețul inițial?",
+              "type": "multipleChoice",
+              "options": ["116 lei", "120 lei", "115,20 lei", "110 lei"],
+              "correctIndex": 1,
+              "explanation": "Fie x prețul inițial. După reducerea de 20%, prețul devine 0,8x.\n0,8x = 96 ⇒ x = 96 / 0,8 = 120 lei."
+            },
+            {
+              "id": "t11l1q3",
+              "text": "Suma a trei numere consecutive este 84. Care este cel mai mare dintre cele trei numere?",
+              "type": "multipleChoice",
+              "options": ["27", "28", "29", "30"],
+              "correctIndex": 2,
+              "explanation": "Fie numerele n, n+1, n+2.\nn + (n+1) + (n+2) = 84 ⇒ 3n + 3 = 84 ⇒ 3n = 81 ⇒ n = 27.\nCel mai mare număr este n + 2 = 29."
+            },
+            {
+              "id": "t11l1q4",
+              "text": "Un elev rezolvă 40% din problemele unui test, adică 12 probleme. Câte probleme are testul în total?",
+              "type": "multipleChoice",
+              "options": ["28", "30", "32", "36"],
+              "correctIndex": 1,
+              "explanation": "Fie x numărul total de probleme.\n40% × x = 12 ⇒ 0,4x = 12 ⇒ x = 12 / 0,4 = 30 probleme."
+            },
+            {
+              "id": "t11l1q5",
+              "text": "Produsul a două numere naturale consecutive este 156. Care este suma celor două numere?",
+              "type": "multipleChoice",
+              "options": ["23", "25", "27", "29"],
+              "correctIndex": 1,
+              "explanation": "Fie numerele n și n+1.\nn(n+1) = 156 ⇒ n² + n - 156 = 0.\nΔ = 1 + 624 = 625 ⇒ √Δ = 25 ⇒ n = (-1+25)/2 = 12.\nNumerele sunt 12 și 13, suma lor este 25."
+            }
+          ]
+        },
+        {
+          "id": "t11l2",
+          "title": "Examen 2024 - Algebră",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "t11l2q1",
+              "text": "Într-o clasă sunt 30 de elevi. Aceștia stau câte 2 pe bancă, iar 6 bănci rămân libere. Câte bănci sunt în clasă?",
+              "type": "multipleChoice",
+              "options": ["15", "18", "21", "24"],
+              "correctIndex": 2,
+              "explanation": "30 de elevi stau câte 2, deci ocupă 30 / 2 = 15 bănci.\nMai sunt 6 bănci libere, deci totalul este 15 + 6 = 21 bănci."
+            },
+            {
+              "id": "t11l2q2",
+              "text": "Rezolvați ecuația: 3(x - 2) + 4 = 2x + 5. Valoarea lui x este:",
+              "type": "multipleChoice",
+              "options": ["3", "5", "7", "9"],
+              "correctIndex": 2,
+              "explanation": "3x - 6 + 4 = 2x + 5 ⇒ 3x - 2 = 2x + 5 ⇒ 3x - 2x = 5 + 2 ⇒ x = 7."
+            },
+            {
+              "id": "t11l2q3",
+              "text": "Vârsta tatălui este de 4 ori vârsta fiului. Peste 20 de ani, tatăl va avea de 2 ori vârsta fiului. Ce vârstă are fiul acum?",
+              "type": "multipleChoice",
+              "options": ["8 ani", "10 ani", "12 ani", "15 ani"],
+              "correctIndex": 1,
+              "explanation": "Fie f vârsta fiului. Tatăl are 4f ani.\nPeste 20 de ani: 4f + 20 = 2(f + 20) ⇒ 4f + 20 = 2f + 40 ⇒ 2f = 20 ⇒ f = 10 ani."
+            },
+            {
+              "id": "t11l2q4",
+              "text": "Maria are cu 25% mai mulți bani decât Ion. Dacă Ion are 80 lei, câți lei are Maria?",
+              "type": "multipleChoice",
+              "options": ["95 lei", "100 lei", "105 lei", "110 lei"],
+              "correctIndex": 1,
+              "explanation": "Maria are 80 + 25% × 80 = 80 + 20 = 100 lei."
+            },
+            {
+              "id": "t11l2q5",
+              "text": "Două numere au suma 56 și diferența 12. Găsiți numărul mai mare.",
+              "type": "multipleChoice",
+              "options": ["28", "30", "34", "36"],
+              "correctIndex": 2,
+              "explanation": "Fie a > b. a + b = 56 și a - b = 12.\nAdunăm: 2a = 68 ⇒ a = 34."
+            }
+          ]
+        },
+        {
+          "id": "t11l3",
+          "title": "Probleme Practice",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "t11l3q1",
+              "text": "Un robinet umple un bazin în 6 ore, iar altul în 3 ore. În cât timp umplu bazinul ambele robinete deschise simultan?",
+              "type": "multipleChoice",
+              "options": ["1,5 ore", "2 ore", "2,5 ore", "3 ore"],
+              "correctIndex": 1,
+              "explanation": "Primul robinet umple 1/6 din bazin pe oră, al doilea 1/3.\nÎmpreună: 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2 din bazin pe oră.\nTimp = 1 / (1/2) = 2 ore."
+            },
+            {
+              "id": "t11l3q2",
+              "text": "Un tren parcurge distanța dintre orașele A și B cu viteza de 80 km/h în 3 ore. Cu ce viteză trebuie să circule pentru a parcurge aceeași distanță în 2 ore?",
+              "type": "multipleChoice",
+              "options": ["100 km/h", "110 km/h", "120 km/h", "130 km/h"],
+              "correctIndex": 2,
+              "explanation": "Distanța = 80 × 3 = 240 km.\nViteza necesară = 240 / 2 = 120 km/h."
+            },
+            {
+              "id": "t11l3q3",
+              "text": "Rezolvați sistemul: x + y = 10 și 2x - y = 5. Valoarea lui x este:",
+              "type": "multipleChoice",
+              "options": ["3", "4", "5", "6"],
+              "correctIndex": 2,
+              "explanation": "Adunăm ecuațiile: (x + y) + (2x - y) = 10 + 5 ⇒ 3x = 15 ⇒ x = 5."
+            },
+            {
+              "id": "t11l3q4",
+              "text": "Un număr se mărește cu 30% și se obține 91. Care este numărul inițial?",
+              "type": "multipleChoice",
+              "options": ["60", "65", "70", "75"],
+              "correctIndex": 2,
+              "explanation": "Fie x numărul. 1,3x = 91 ⇒ x = 91 / 1,3 = 70."
+            },
+            {
+              "id": "t11l3q5",
+              "text": "Trei muncitori pot termina o lucrare în 12 zile. În câte zile ar termina lucrarea 4 muncitori, lucrând în același ritm?",
+              "type": "multipleChoice",
+              "options": ["8 zile", "9 zile", "10 zile", "11 zile"],
+              "correctIndex": 1,
+              "explanation": "Lucrarea totală = 3 × 12 = 36 muncitori-zile.\nCu 4 muncitori: 36 / 4 = 9 zile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t12",
+      "title": "Subiectul III - Geometrie",
+      "subtitle": "Probleme de geometrie din examen",
+      "iconName": "triangle.fill",
+      "colorHex": "#FF2D55",
+      "lessons": [
+        {
+          "id": "t12l1",
+          "title": "Examen 2025 - Geometrie",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "t12l1q1",
+              "text": "Un cub are latura de 6 cm. Calculați aria totală a cubului.",
+              "type": "multipleChoice",
+              "options": ["180 cm²", "216 cm²", "252 cm²", "144 cm²"],
+              "correctIndex": 1,
+              "explanation": "Aria totală a cubului = 6 × l² = 6 × 36 = 216 cm²."
+            },
+            {
+              "id": "t12l1q2",
+              "text": "Într-un trapez dreptunghic ABCD, AB ∥ CD, AB = 12 cm, CD = 8 cm și înălțimea h = 5 cm. Aria trapezului este:",
+              "type": "multipleChoice",
+              "options": ["40 cm²", "45 cm²", "50 cm²", "60 cm²"],
+              "correctIndex": 2,
+              "explanation": "Aria trapezului = (AB + CD) × h / 2 = (12 + 8) × 5 / 2 = 20 × 5 / 2 = 50 cm²."
+            },
+            {
+              "id": "t12l1q3",
+              "text": "Un triunghi echilateral are latura de 8 cm. Calculați înălțimea triunghiului.",
+              "type": "multipleChoice",
+              "options": ["4 cm", "4√2 cm", "4√3 cm", "8√3 cm"],
+              "correctIndex": 2,
+              "explanation": "Înălțimea triunghiului echilateral = l√3/2 = 8√3/2 = 4√3 cm."
+            },
+            {
+              "id": "t12l1q4",
+              "text": "Diagonala unui cub cu latura 6 cm este:",
+              "type": "multipleChoice",
+              "options": ["6√2 cm", "6√3 cm", "12 cm", "9 cm"],
+              "correctIndex": 1,
+              "explanation": "Diagonala cubului = l√3 = 6√3 cm."
+            },
+            {
+              "id": "t12l1q5",
+              "text": "Aria unui triunghi echilateral cu latura de 10 cm este:",
+              "type": "multipleChoice",
+              "options": ["25 cm²", "25√3 cm²", "50 cm²", "50√3 cm²"],
+              "correctIndex": 1,
+              "explanation": "Aria triunghiului echilateral = l²√3/4 = 100√3/4 = 25√3 cm²."
+            }
+          ]
+        },
+        {
+          "id": "t12l2",
+          "title": "Examen 2024 - Geometrie",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "t12l2q1",
+              "text": "Un cerc are raza de 7 cm. Lungimea cercului este:",
+              "type": "multipleChoice",
+              "options": ["14π cm", "28π cm", "49π cm", "7π cm"],
+              "correctIndex": 0,
+              "explanation": "Lungimea cercului = 2πr = 2π × 7 = 14π cm."
+            },
+            {
+              "id": "t12l2q2",
+              "text": "AB este diametrul unui cerc cu centrul O. Punctul C este pe cerc astfel încât arcul AC = 60°. Unghiul ACB este:",
+              "type": "multipleChoice",
+              "options": ["60°", "90°", "120°", "45°"],
+              "correctIndex": 1,
+              "explanation": "Orice unghi înscris în semicerc (care subîntinde diametrul) este unghi drept = 90°."
+            },
+            {
+              "id": "t12l2q3",
+              "text": "Într-un cerc cu raza de 10 cm, o coardă se află la distanța de 6 cm de centru. Lungimea coardei este:",
+              "type": "multipleChoice",
+              "options": ["12 cm", "14 cm", "16 cm", "18 cm"],
+              "correctIndex": 2,
+              "explanation": "Fie d = 6 cm distanța de la centru la coardă, r = 10 cm.\nJumătatea coardei = √(r² - d²) = √(100 - 36) = √64 = 8 cm.\nCoarda = 2 × 8 = 16 cm."
+            },
+            {
+              "id": "t12l2q4",
+              "text": "Aria unui sector de cerc cu raza 12 cm și unghi la centru de 60° este:",
+              "type": "multipleChoice",
+              "options": ["12π cm²", "24π cm²", "36π cm²", "48π cm²"],
+              "correctIndex": 1,
+              "explanation": "Aria sectorului = (α/360°) × πr² = (60/360) × π × 144 = (1/6) × 144π = 24π cm²."
+            },
+            {
+              "id": "t12l2q5",
+              "text": "Două drepte perpendiculare se intersectează în centrul unui cerc cu raza 5 cm, împărțindu-l în 4 arce egale. Lungimea unui arc este:",
+              "type": "multipleChoice",
+              "options": ["2,5π cm", "5π cm", "10π cm", "1,25π cm"],
+              "correctIndex": 0,
+              "explanation": "Lungimea cercului = 2πr = 10π cm.\nFiecare arc = 10π / 4 = 2,5π cm."
+            }
+          ]
+        },
+        {
+          "id": "t12l3",
+          "title": "Probleme Practice",
+          "xpReward": 100,
+          "questions": [
+            {
+              "id": "t12l3q1",
+              "text": "Un dreptunghi are perimetrul de 40 cm și lungimea de 3 ori mai mare decât lățimea. Aria dreptunghiului este:",
+              "type": "multipleChoice",
+              "options": ["50 cm²", "75 cm²", "100 cm²", "120 cm²"],
+              "correctIndex": 1,
+              "explanation": "Fie lățimea = x. Lungimea = 3x.\n2(x + 3x) = 40 ⇒ 8x = 40 ⇒ x = 5 cm.\nAria = 5 × 15 = 75 cm²."
+            },
+            {
+              "id": "t12l3q2",
+              "text": "Într-un triunghi dreptunghic, catetele au lungimile 6 cm și 8 cm. Ipotenuza este:",
+              "type": "multipleChoice",
+              "options": ["9 cm", "10 cm", "11 cm", "12 cm"],
+              "correctIndex": 1,
+              "explanation": "Teorema lui Pitagora: c² = a² + b² = 36 + 64 = 100 ⇒ c = 10 cm."
+            },
+            {
+              "id": "t12l3q3",
+              "text": "Un romb are diagonalele de 10 cm și 24 cm. Latura rombului este:",
+              "type": "multipleChoice",
+              "options": ["12 cm", "13 cm", "14 cm", "15 cm"],
+              "correctIndex": 1,
+              "explanation": "Diagonalele se înjumătățesc reciproc: jumătățile sunt 5 cm și 12 cm.\nLatura = √(5² + 12²) = √(25 + 144) = √169 = 13 cm."
+            },
+            {
+              "id": "t12l3q4",
+              "text": "Un con are raza bazei de 3 cm și generatoarea de 5 cm. Aria laterală a conului este:",
+              "type": "multipleChoice",
+              "options": ["9π cm²", "12π cm²", "15π cm²", "25π cm²"],
+              "correctIndex": 2,
+              "explanation": "Aria laterală a conului = πrl = π × 3 × 5 = 15π cm²."
+            },
+            {
+              "id": "t12l3q5",
+              "text": "Un paralelogram are baza de 14 cm și înălțimea corespunzătoare de 9 cm. Aria paralelogramului este:",
+              "type": "multipleChoice",
+              "options": ["63 cm²", "112 cm²", "126 cm²", "140 cm²"],
+              "correctIndex": 2,
+              "explanation": "Aria paralelogramului = baza × înălțimea = 14 × 9 = 126 cm²."
             }
           ]
         }
