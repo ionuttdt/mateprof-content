@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 3,
   "minAppVersion": "1.1",
   "adsEnabled": true,
   "examDate": "2026-06-25",
@@ -8478,6 +8478,28 @@
               ],
               "correctIndex": 0,
               "explanation": "6² + 8² = 36 + 64 = 100 = 10². Da, este triplet pitagoreic."
+            },
+            {
+              "id": "t8l1q_d1",
+              "text": "În triunghiul dreptunghic din figură, catetele sunt a = 3 cm și b = 4 cm. Cât măsoară ipotenuza c?",
+              "type": "multipleChoice",
+              "options": ["5 cm", "7 cm", "√7 cm", "6 cm"],
+              "correctIndex": 0,
+              "explanation": "Teorema lui Pitagora: c² = a² + b² = 9 + 16 = 25, deci c = 5 cm.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "polygon", "points": [15, 80, 75, 80, 15, 20], "strokeWidth": 2, "fill": "light" },
+                  { "type": "rightAngleMarker", "x1": 15, "y1": 80, "x2": 75, "y2": 80, "x3": 15, "y3": 20 },
+                  { "type": "text", "x1": 45, "y1": 80, "label": "b = 4 cm", "dy": 13, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 15, "y1": 50, "label": "a = 3 cm", "dx": -16, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 48, "y1": 48, "label": "c = ?", "dx": 10, "color": "accent", "fontSize": 12 },
+                  { "type": "point", "x1": 15, "y1": 80 },
+                  { "type": "point", "x1": 75, "y1": 80 },
+                  { "type": "point", "x1": 15, "y1": 20 }
+                ]
+              }
             }
           ]
         },
@@ -9958,6 +9980,26 @@
               ],
               "correctIndex": 0,
               "explanation": "Proprietatea trapezului isoscel: unghiurile de la aceeași bază sunt congruente."
+            },
+            {
+              "id": "t9l2q_d1",
+              "text": "Trapezul dreptunghic din figură are bazele B = 7 cm, b = 4 cm și înălțimea h = 5 cm. Care este aria lui?",
+              "type": "multipleChoice",
+              "options": ["27,5 cm²", "35 cm²", "55 cm²", "22 cm²"],
+              "correctIndex": 0,
+              "explanation": "Aria trapezului = (B + b) · h / 2 = (7 + 4) · 5 / 2 = 27,5 cm².",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "polygon", "points": [15, 75, 85, 75, 55, 25, 15, 25], "strokeWidth": 2, "fill": "light" },
+                  { "type": "rightAngleMarker", "x1": 15, "y1": 75, "x2": 85, "y2": 75, "x3": 15, "y3": 25 },
+                  { "type": "rightAngleMarker", "x1": 15, "y1": 25, "x2": 15, "y2": 75, "x3": 55, "y3": 25 },
+                  { "type": "segment", "x1": 55, "y1": 25, "x2": 55, "y2": 75, "color": "accent", "strokeWidth": 1.2, "dashed": true, "label": "h = 5", "dx": 14 },
+                  { "type": "text", "x1": 50, "y1": 75, "label": "B = 7 cm", "dy": 14, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 35, "y1": 25, "label": "b = 4 cm", "dy": -12, "color": "secondary", "fontSize": 11 }
+                ]
+              }
             }
           ]
         },
@@ -10109,6 +10151,126 @@
               ],
               "correctIndex": 0,
               "explanation": "Jumătate de cerc (semicercul) corespunde unui unghi central de 180°."
+            },
+            {
+              "id": "t9l3q_d1",
+              "text": "Cercul din figură are raza r = 5 cm. Care este aria discului?",
+              "type": "multipleChoice",
+              "options": ["25π cm²", "10π cm²", "5π cm²", "50π cm²"],
+              "correctIndex": 0,
+              "explanation": "Aria discului = π · r² = π · 5² = 25π cm².",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "circle", "cx": 50, "cy": 50, "r": 32, "strokeWidth": 2, "fill": "light" },
+                  { "type": "segment", "x1": 50, "y1": 50, "x2": 82, "y2": 50, "color": "accent", "strokeWidth": 1.5, "dashed": true, "label": "r = 5 cm", "dy": -11 },
+                  { "type": "point", "x1": 50, "y1": 50 },
+                  { "type": "text", "x1": 50, "y1": 50, "label": "O", "dx": -9, "dy": -9, "color": "secondary", "fontSize": 11 }
+                ]
+              }
+            },
+            {
+              "id": "t9l3q_d2",
+              "text": "În cercul din figură, unghiul la centru ∠AOB = 100°. Cât măsoară unghiul înscris ∠ACB, care subîntinde același arc AB?",
+              "type": "multipleChoice",
+              "options": ["25°", "50°", "100°", "200°"],
+              "correctIndex": 1,
+              "explanation": "Unghiul înscris este jumătate din unghiul la centru care subîntinde același arc: 100° : 2 = 50°.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "circle", "cx": 50, "cy": 50, "r": 32, "strokeWidth": 2, "fill": "light" },
+                  { "type": "segment", "x1": 50, "y1": 50, "x2": 25.5, "y2": 70.6 },
+                  { "type": "segment", "x1": 50, "y1": 50, "x2": 74.5, "y2": 70.6 },
+                  { "type": "segment", "x1": 50, "y1": 18, "x2": 25.5, "y2": 70.6, "color": "accent", "strokeWidth": 1.5 },
+                  { "type": "segment", "x1": 50, "y1": 18, "x2": 74.5, "y2": 70.6, "color": "accent", "strokeWidth": 1.5 },
+                  { "type": "angleMarker", "x1": 50, "y1": 50, "x2": 25.5, "y2": 70.6, "x3": 74.5, "y3": 70.6, "label": "100°" },
+                  { "type": "angleMarker", "x1": 50, "y1": 18, "x2": 25.5, "y2": 70.6, "x3": 74.5, "y3": 70.6, "label": "?", "color": "accent" },
+                  { "type": "point", "x1": 50, "y1": 50 },
+                  { "type": "point", "x1": 25.5, "y1": 70.6 },
+                  { "type": "point", "x1": 74.5, "y1": 70.6 },
+                  { "type": "point", "x1": 50, "y1": 18 },
+                  { "type": "text", "x1": 50, "y1": 50, "label": "O", "dx": -9, "dy": 9, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 25.5, "y1": 70.6, "label": "A", "dx": -9, "dy": 2, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 74.5, "y1": 70.6, "label": "B", "dx": 9, "dy": 2, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 50, "y1": 18, "label": "C", "dy": -10, "color": "secondary", "fontSize": 11 }
+                ]
+              }
+            },
+            {
+              "id": "t9l3q_d3",
+              "text": "Sectorul de cerc din figură are unghiul la centru de 90° și raza de 6 cm. Cât este lungimea arcului AB (evidențiat)?",
+              "type": "multipleChoice",
+              "options": ["3π cm", "6π cm", "9π cm", "12π cm"],
+              "correctIndex": 0,
+              "explanation": "Lungimea arcului = 2πr·(u/360) = 2π·6·(90/360) = 12π : 4 = 3π cm.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "circle", "cx": 50, "cy": 50, "r": 32, "strokeWidth": 2, "fill": "light" },
+                  { "type": "segment", "x1": 50, "y1": 50, "x2": 50, "y2": 18 },
+                  { "type": "segment", "x1": 50, "y1": 50, "x2": 82, "y2": 50 },
+                  { "type": "arc", "cx": 50, "cy": 50, "r": 32, "startAngle": 270, "endAngle": 360, "color": "accent", "strokeWidth": 3 },
+                  { "type": "rightAngleMarker", "x1": 50, "y1": 50, "x2": 50, "y2": 18, "x3": 82, "y3": 50 },
+                  { "type": "point", "x1": 50, "y1": 50 },
+                  { "type": "point", "x1": 50, "y1": 18 },
+                  { "type": "point", "x1": 82, "y1": 50 },
+                  { "type": "text", "x1": 50, "y1": 50, "label": "O", "dx": -9, "dy": 9, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 50, "y1": 18, "label": "A", "dy": -9, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 82, "y1": 50, "label": "B", "dx": 9, "dy": 2, "color": "secondary", "fontSize": 11 }
+                ]
+              }
+            },
+            {
+              "id": "t9l3q_d4",
+              "text": "Sectorul de cerc din figură are unghiul la centru de 60° și raza de 6 cm. Cât este aria sectorului?",
+              "type": "multipleChoice",
+              "options": ["6π cm²", "12π cm²", "18π cm²", "36π cm²"],
+              "correctIndex": 0,
+              "explanation": "Aria sectorului = πr²·(u/360) = π·36·(60/360) = 36π : 6 = 6π cm².",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "circle", "cx": 50, "cy": 50, "r": 32, "strokeWidth": 2, "fill": "light" },
+                  { "type": "segment", "x1": 50, "y1": 50, "x2": 50, "y2": 18 },
+                  { "type": "segment", "x1": 50, "y1": 50, "x2": 77.7, "y2": 34 },
+                  { "type": "arc", "cx": 50, "cy": 50, "r": 32, "startAngle": 270, "endAngle": 330, "color": "accent", "strokeWidth": 3 },
+                  { "type": "angleMarker", "x1": 50, "y1": 50, "x2": 50, "y2": 18, "x3": 77.7, "y3": 34, "label": "60°" },
+                  { "type": "point", "x1": 50, "y1": 50 },
+                  { "type": "point", "x1": 50, "y1": 18 },
+                  { "type": "point", "x1": 77.7, "y1": 34 },
+                  { "type": "text", "x1": 50, "y1": 50, "label": "O", "dx": -9, "dy": 9, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 50, "y1": 18, "label": "A", "dy": -9, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 77.7, "y1": 34, "label": "B", "dx": 9, "color": "secondary", "fontSize": 11 }
+                ]
+              }
+            },
+            {
+              "id": "t9l3q_d5",
+              "text": "Dreapta d este tangentă la cerc în punctul T, iar OT este rază. Cât măsoară unghiul dintre rază și tangentă, ∠OTd?",
+              "type": "multipleChoice",
+              "options": ["45°", "60°", "90°", "180°"],
+              "correctIndex": 2,
+              "explanation": "Raza dusă în punctul de tangență este perpendiculară pe tangentă, deci unghiul este de 90°.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "circle", "cx": 42, "cy": 55, "r": 27, "strokeWidth": 2, "fill": "light" },
+                  { "type": "segment", "x1": 10, "y1": 28, "x2": 80, "y2": 28, "color": "accent", "strokeWidth": 1.5 },
+                  { "type": "segment", "x1": 42, "y1": 55, "x2": 42, "y2": 28 },
+                  { "type": "rightAngleMarker", "x1": 42, "y1": 28, "x2": 42, "y2": 55, "x3": 80, "y3": 28 },
+                  { "type": "point", "x1": 42, "y1": 55 },
+                  { "type": "point", "x1": 42, "y1": 28 },
+                  { "type": "text", "x1": 42, "y1": 55, "label": "O", "dx": -9, "dy": 6, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 42, "y1": 28, "label": "T", "dx": -3, "dy": -9, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 80, "y1": 28, "label": "d", "dx": 6, "color": "accent", "fontSize": 11 }
+                ]
+              }
             }
           ]
         },
@@ -10689,6 +10851,93 @@
               ],
               "correctIndex": 0,
               "explanation": "Suma unghiurilor oricărui patrulater = 360°."
+            },
+            {
+              "id": "t9l7q_d1",
+              "text": "Pătratul ABCD din figură este înscris într-un cerc de rază 5 cm. Cât este lungimea laturii pătratului?",
+              "type": "multipleChoice",
+              "options": ["5 cm", "5√2 cm", "10 cm", "5√3 cm"],
+              "correctIndex": 1,
+              "explanation": "Diagonala pătratului = diametrul = 10 cm. Latura = diagonala : √2 = 10/√2 = 5√2 cm.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "circle", "cx": 50, "cy": 50, "r": 32, "strokeWidth": 2 },
+                  { "type": "polygon", "points": [72.6, 72.6, 27.4, 72.6, 27.4, 27.4, 72.6, 27.4], "strokeWidth": 2, "fill": "light" },
+                  { "type": "point", "x1": 50, "y1": 50 },
+                  { "type": "text", "x1": 50, "y1": 50, "label": "O", "dx": -8, "dy": 7, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 72.6, "y1": 72.6, "label": "C", "dx": 8, "dy": 4, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 27.4, "y1": 72.6, "label": "D", "dx": -8, "dy": 4, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 27.4, "y1": 27.4, "label": "A", "dx": -8, "dy": -3, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 72.6, "y1": 27.4, "label": "B", "dx": 8, "dy": -3, "color": "secondary", "fontSize": 11 }
+                ]
+              }
+            },
+            {
+              "id": "t9l7q_d2",
+              "text": "Hexagonul regulat din figură este înscris într-un cerc de rază 6 cm. Cât este lungimea laturii hexagonului?",
+              "type": "multipleChoice",
+              "options": ["3 cm", "6 cm", "6√2 cm", "12 cm"],
+              "correctIndex": 1,
+              "explanation": "La hexagonul regulat înscris, latura este egală cu raza cercului: l = r = 6 cm.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "circle", "cx": 50, "cy": 50, "r": 32, "strokeWidth": 2 },
+                  { "type": "polygon", "points": [82, 50, 66, 77.7, 34, 77.7, 18, 50, 34, 22.3, 66, 22.3], "strokeWidth": 2, "fill": "light" },
+                  { "type": "segment", "x1": 50, "y1": 50, "x2": 82, "y2": 50, "color": "accent", "strokeWidth": 1.5, "dashed": true, "label": "r=6", "dy": -9 },
+                  { "type": "point", "x1": 50, "y1": 50 },
+                  { "type": "text", "x1": 50, "y1": 50, "label": "O", "dx": -2, "dy": 8, "color": "secondary", "fontSize": 11 }
+                ]
+              }
+            },
+            {
+              "id": "t9l7q_d3",
+              "text": "În pătratul cu latura de 10 cm din figură este înscris un cerc (tangent la toate laturile). Cât este aria cercului?",
+              "type": "multipleChoice",
+              "options": ["10π cm²", "25π cm²", "50π cm²", "100π cm²"],
+              "correctIndex": 1,
+              "explanation": "Diametrul cercului = latura pătratului = 10 cm, deci raza = 5 cm. Aria = πr² = 25π cm².",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "polygon", "points": [14, 14, 86, 14, 86, 86, 14, 86], "strokeWidth": 2, "fill": "light" },
+                  { "type": "circle", "cx": 50, "cy": 50, "r": 36, "strokeWidth": 2, "color": "accent" },
+                  { "type": "point", "x1": 50, "y1": 50 },
+                  { "type": "segment", "x1": 50, "y1": 50, "x2": 86, "y2": 50, "color": "accent", "strokeWidth": 1.5, "dashed": true, "label": "r", "dy": -9 },
+                  { "type": "text", "x1": 50, "y1": 14, "label": "latura = 10 cm", "dy": -6, "color": "secondary", "fontSize": 11 }
+                ]
+              }
+            },
+            {
+              "id": "t9l7q_d4",
+              "text": "AB este diametrul cercului, iar C este un punct pe cerc. Cât măsoară unghiul ∠ACB?",
+              "type": "multipleChoice",
+              "options": ["45°", "60°", "90°", "120°"],
+              "correctIndex": 2,
+              "explanation": "Unghiul înscris care subîntinde diametrul este drept (teorema lui Thales): ∠ACB = 90°.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "arc", "cx": 50, "cy": 55, "r": 36, "startAngle": 180, "endAngle": 360 },
+                  { "type": "segment", "x1": 14, "y1": 55, "x2": 86, "y2": 55 },
+                  { "type": "segment", "x1": 29.4, "y1": 25.5, "x2": 14, "y2": 55, "color": "accent", "strokeWidth": 1.5 },
+                  { "type": "segment", "x1": 29.4, "y1": 25.5, "x2": 86, "y2": 55, "color": "accent", "strokeWidth": 1.5 },
+                  { "type": "rightAngleMarker", "x1": 29.4, "y1": 25.5, "x2": 14, "y2": 55, "x3": 86, "y3": 55 },
+                  { "type": "point", "x1": 50, "y1": 55 },
+                  { "type": "point", "x1": 14, "y1": 55 },
+                  { "type": "point", "x1": 86, "y1": 55 },
+                  { "type": "point", "x1": 29.4, "y1": 25.5 },
+                  { "type": "text", "x1": 50, "y1": 55, "label": "O", "dy": 9, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 14, "y1": 55, "label": "A", "dx": -8, "dy": 2, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 86, "y1": 55, "label": "B", "dx": 8, "dy": 2, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 29.4, "y1": 25.5, "label": "C", "dx": -3, "dy": -9, "color": "secondary", "fontSize": 11 }
+                ]
+              }
             }
           ]
         },
@@ -13133,6 +13382,80 @@
               ],
               "correctIndex": 0,
               "explanation": "L_arc = (unghi/360) × 2πr = (90/360) × 20π = 5π."
+            },
+            {
+              "id": "tr4l2q_d1",
+              "text": "CAPCANĂ: AB este diametru și C este pe cerc. Mulți elevi spun că ∠ACB = 180° fiindcă „subîntinde diametrul”. Cât este corect?",
+              "type": "multipleChoice",
+              "options": ["90°", "180°", "360°", "45°"],
+              "correctIndex": 0,
+              "explanation": "Unghiul ÎNSCRIS care subîntinde diametrul este 90°. Doar unghiul la CENTRU (∠AOB) este 180°.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "arc", "cx": 50, "cy": 55, "r": 36, "startAngle": 180, "endAngle": 360 },
+                  { "type": "segment", "x1": 14, "y1": 55, "x2": 86, "y2": 55 },
+                  { "type": "segment", "x1": 29.4, "y1": 25.5, "x2": 14, "y2": 55, "color": "accent", "strokeWidth": 1.5 },
+                  { "type": "segment", "x1": 29.4, "y1": 25.5, "x2": 86, "y2": 55, "color": "accent", "strokeWidth": 1.5 },
+                  { "type": "rightAngleMarker", "x1": 29.4, "y1": 25.5, "x2": 14, "y2": 55, "x3": 86, "y3": 55 },
+                  { "type": "point", "x1": 50, "y1": 55 },
+                  { "type": "point", "x1": 14, "y1": 55 },
+                  { "type": "point", "x1": 86, "y1": 55 },
+                  { "type": "point", "x1": 29.4, "y1": 25.5 },
+                  { "type": "text", "x1": 50, "y1": 55, "label": "O", "dy": 9, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 14, "y1": 55, "label": "A", "dx": -8, "dy": 2, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 86, "y1": 55, "label": "B", "dx": 8, "dy": 2, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 29.4, "y1": 25.5, "label": "C", "dx": -3, "dy": -9, "color": "secondary", "fontSize": 11 }
+                ]
+              }
+            },
+            {
+              "id": "tr4l2q_d2",
+              "text": "CAPCANĂ: Cercul din figură are diametrul de 10 cm. Cât este aria discului? (Atenție: în formulă se folosește RAZA, nu diametrul!)",
+              "type": "multipleChoice",
+              "options": ["25π cm²", "100π cm²", "50π cm²", "10π cm²"],
+              "correctIndex": 0,
+              "explanation": "Diametrul = 10 cm ⇒ raza = 5 cm. Aria = πr² = π·5² = 25π cm². Greșeala frecventă: a folosi r = 10.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "circle", "cx": 50, "cy": 50, "r": 36, "strokeWidth": 2, "fill": "light" },
+                  { "type": "segment", "x1": 14, "y1": 50, "x2": 86, "y2": 50, "color": "accent", "strokeWidth": 1.5, "label": "d = 10 cm", "dy": -9 },
+                  { "type": "point", "x1": 50, "y1": 50 },
+                  { "type": "text", "x1": 50, "y1": 50, "label": "O", "dy": 9, "color": "secondary", "fontSize": 11 }
+                ]
+              }
+            },
+            {
+              "id": "tr4l2q_d3",
+              "text": "CAPCANĂ: Din punctul exterior P se duc două tangente la cerc, PA și PB. Care este relația corectă între lungimile lor?",
+              "type": "multipleChoice",
+              "options": ["PA = PB", "PA > PB", "PA < PB", "Depinde de rază"],
+              "correctIndex": 0,
+              "explanation": "Cele două segmente tangente duse dintr-un punct exterior la cerc sunt congruente: PA = PB.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "circle", "cx": 36, "cy": 50, "r": 25, "strokeWidth": 2, "fill": "light" },
+                  { "type": "segment", "x1": 90, "y1": 50, "x2": 50.9, "y2": 29.9, "color": "accent", "strokeWidth": 1.5 },
+                  { "type": "segment", "x1": 90, "y1": 50, "x2": 50.9, "y2": 70.1, "color": "accent", "strokeWidth": 1.5 },
+                  { "type": "segment", "x1": 36, "y1": 50, "x2": 50.9, "y2": 29.9 },
+                  { "type": "segment", "x1": 36, "y1": 50, "x2": 50.9, "y2": 70.1 },
+                  { "type": "rightAngleMarker", "x1": 50.9, "y1": 29.9, "x2": 36, "y2": 50, "x3": 90, "y3": 50 },
+                  { "type": "rightAngleMarker", "x1": 50.9, "y1": 70.1, "x2": 36, "y2": 50, "x3": 90, "y3": 50 },
+                  { "type": "point", "x1": 36, "y1": 50 },
+                  { "type": "point", "x1": 90, "y1": 50 },
+                  { "type": "point", "x1": 50.9, "y1": 29.9 },
+                  { "type": "point", "x1": 50.9, "y1": 70.1 },
+                  { "type": "text", "x1": 36, "y1": 50, "label": "O", "dx": -8, "dy": 4, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 90, "y1": 50, "label": "P", "dx": 7, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 50.9, "y1": 29.9, "label": "A", "dx": -4, "dy": -8, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 50.9, "y1": 70.1, "label": "B", "dx": -4, "dy": 9, "color": "secondary", "fontSize": 11 }
+                ]
+              }
             }
           ]
         }
@@ -14795,6 +15118,106 @@
         }
       ],
       "grade": 6
+    }
+  ],
+  "figuriGeometriceTopics": [
+    {
+      "id": "fg1",
+      "title": "Figuri geometrice",
+      "subtitle": "Probleme simple cu desen",
+      "iconName": "triangle.fill",
+      "colorHex": "#14B8A6",
+      "grade": 8,
+      "lessons": [
+        {
+          "id": "fg1l1",
+          "title": "Recunoaște figura",
+          "xpReward": 60,
+          "questions": [
+            {
+              "id": "fg1l1q1",
+              "text": "În triunghiul dreptunghic din figură, catetele sunt a = 6 cm și b = 8 cm. Cât măsoară ipotenuza c?",
+              "type": "multipleChoice",
+              "options": ["10 cm", "12 cm", "14 cm", "√14 cm"],
+              "correctIndex": 0,
+              "explanation": "Teorema lui Pitagora: c² = a² + b² = 36 + 64 = 100, deci c = 10 cm.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "showGrid": true,
+                "showAxes": true,
+                "shapes": [
+                  { "type": "polygon", "points": [10, 85, 80, 85, 10, 25], "strokeWidth": 2.2, "fill": "light", "color": "accent" },
+                  { "type": "rightAngleMarker", "x1": 10, "y1": 85, "x2": 80, "y2": 85, "x3": 10, "y3": 25, "color": "accent" },
+                  { "type": "text", "x1": 45, "y1": 85, "label": "b = 8 cm", "dy": 12, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 10, "y1": 55, "label": "a = 6 cm", "dx": -18, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 48, "y1": 52, "label": "c = ?", "dx": 8, "dy": -4, "color": "accent", "fontSize": 12 },
+                  { "type": "point", "x1": 10, "y1": 85, "color": "accent" },
+                  { "type": "point", "x1": 80, "y1": 85, "color": "accent" },
+                  { "type": "point", "x1": 10, "y1": 25, "color": "accent" },
+                  { "type": "text", "x1": 10, "y1": 85, "label": "A", "dx": -8, "dy": 10, "fontSize": 12 },
+                  { "type": "text", "x1": 80, "y1": 85, "label": "B", "dx": 8, "dy": 10, "fontSize": 12 },
+                  { "type": "text", "x1": 10, "y1": 25, "label": "C", "dx": -8, "dy": -8, "fontSize": 12 }
+                ]
+              }
+            },
+            {
+              "id": "fg1l1q2",
+              "text": "În triunghiul ABC din figură, două unghiuri măsoară 50° și 70°. Cât are al treilea unghi?",
+              "type": "multipleChoice",
+              "options": ["50°", "60°", "70°", "80°"],
+              "correctIndex": 1,
+              "explanation": "Suma unghiurilor într-un triunghi este 180°. Deci al treilea unghi = 180° − 50° − 70° = 60°.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "polygon", "points": [18, 80, 82, 80, 55, 22], "strokeWidth": 2.2, "fill": "light", "color": "accent" },
+                  { "type": "angleMarker", "x1": 18, "y1": 80, "x2": 82, "y2": 80, "x3": 55, "y3": 22, "color": "secondary" },
+                  { "type": "angleMarker", "x1": 82, "y1": 80, "x2": 55, "y2": 22, "x3": 18, "y3": 80, "color": "secondary" },
+                  { "type": "angleMarker", "x1": 55, "y1": 22, "x2": 18, "y2": 80, "x3": 82, "y3": 80, "color": "accent" },
+                  { "type": "text", "x1": 28, "y1": 74, "label": "50°", "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 72, "y1": 74, "label": "70°", "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 55, "y1": 35, "label": "?", "color": "accent", "fontSize": 15 },
+                  { "type": "point", "x1": 18, "y1": 80, "color": "accent" },
+                  { "type": "point", "x1": 82, "y1": 80, "color": "accent" },
+                  { "type": "point", "x1": 55, "y1": 22, "color": "accent" },
+                  { "type": "text", "x1": 18, "y1": 80, "label": "A", "dx": -9, "dy": 10, "fontSize": 12 },
+                  { "type": "text", "x1": 82, "y1": 80, "label": "B", "dx": 9, "dy": 10, "fontSize": 12 },
+                  { "type": "text", "x1": 55, "y1": 22, "label": "C", "dx": 0, "dy": -12, "fontSize": 12 }
+                ]
+              }
+            },
+            {
+              "id": "fg1l1q3",
+              "text": "Pătratul ABCD din figură are latura de 5 cm. Care este perimetrul său?",
+              "type": "multipleChoice",
+              "options": ["10 cm", "15 cm", "20 cm", "25 cm"],
+              "correctIndex": 2,
+              "explanation": "Perimetrul pătratului = 4 × latura = 4 × 5 = 20 cm.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "polygon", "points": [25, 25, 75, 25, 75, 75, 25, 75], "strokeWidth": 2.2, "fill": "light", "color": "accent" },
+                  { "type": "rightAngleMarker", "x1": 25, "y1": 75, "x2": 75, "y2": 75, "x3": 25, "y3": 25, "color": "accent" },
+                  { "type": "rightAngleMarker", "x1": 75, "y1": 75, "x2": 25, "y2": 75, "x3": 75, "y3": 25, "color": "accent" },
+                  { "type": "text", "x1": 50, "y1": 75, "label": "5 cm", "dy": 12, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 25, "y1": 50, "label": "5 cm", "dx": -18, "color": "secondary", "fontSize": 11 },
+                  { "type": "point", "x1": 25, "y1": 25, "color": "accent" },
+                  { "type": "point", "x1": 75, "y1": 25, "color": "accent" },
+                  { "type": "point", "x1": 75, "y1": 75, "color": "accent" },
+                  { "type": "point", "x1": 25, "y1": 75, "color": "accent" },
+                  { "type": "text", "x1": 25, "y1": 25, "label": "A", "dx": -8, "dy": -8, "fontSize": 12 },
+                  { "type": "text", "x1": 75, "y1": 25, "label": "B", "dx": 8, "dy": -8, "fontSize": 12 },
+                  { "type": "text", "x1": 75, "y1": 75, "label": "C", "dx": 8, "dy": 10, "fontSize": 12 },
+                  { "type": "text", "x1": 25, "y1": 75, "label": "D", "dx": -8, "dy": 10, "fontSize": 12 }
+                ]
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
