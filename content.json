@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "minAppVersion": "1.1",
   "adsEnabled": true,
   "examDate": "2026-06-25",
@@ -15212,6 +15212,176 @@
                   { "type": "text", "x1": 75, "y1": 25, "label": "B", "dx": 8, "dy": -8, "fontSize": 12 },
                   { "type": "text", "x1": 75, "y1": 75, "label": "C", "dx": 8, "dy": 10, "fontSize": 12 },
                   { "type": "text", "x1": 25, "y1": 75, "label": "D", "dx": -8, "dy": 10, "fontSize": 12 }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "fg1l2",
+          "title": "Perimetru și arie",
+          "xpReward": 60,
+          "questions": [
+            {
+              "id": "fg1l2q1",
+              "text": "Dreptunghiul ABCD din figură are lungimea L = 9 cm și lățimea l = 4 cm. Care este aria sa?",
+              "type": "multipleChoice",
+              "options": ["26 cm²", "36 cm²", "13 cm²", "18 cm²"],
+              "correctIndex": 1,
+              "explanation": "Aria dreptunghiului = L × l = 9 × 4 = 36 cm². Atenție: 26 cm este perimetrul, adică 2 × (9 + 4).",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "polygon", "points": [15, 75, 78, 75, 78, 47, 15, 47], "strokeWidth": 2.2, "fill": "light", "color": "accent" },
+                  { "type": "rightAngleMarker", "x1": 15, "y1": 75, "x2": 78, "y2": 75, "x3": 15, "y3": 47, "color": "accent" },
+                  { "type": "rightAngleMarker", "x1": 78, "y1": 75, "x2": 15, "y2": 75, "x3": 78, "y3": 47, "color": "accent" },
+                  { "type": "text", "x1": 46, "y1": 75, "label": "L = 9 cm", "dy": 12, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 15, "y1": 61, "label": "l = 4 cm", "dx": -18, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 46, "y1": 61, "label": "A = ?", "color": "accent", "fontSize": 13 },
+                  { "type": "point", "x1": 15, "y1": 75, "color": "accent" },
+                  { "type": "point", "x1": 78, "y1": 75, "color": "accent" },
+                  { "type": "point", "x1": 78, "y1": 47, "color": "accent" },
+                  { "type": "point", "x1": 15, "y1": 47, "color": "accent" },
+                  { "type": "text", "x1": 15, "y1": 75, "label": "A", "dx": -9, "dy": 10, "fontSize": 12 },
+                  { "type": "text", "x1": 78, "y1": 75, "label": "B", "dx": 9, "dy": 10, "fontSize": 12 },
+                  { "type": "text", "x1": 78, "y1": 47, "label": "C", "dx": 9, "dy": -8, "fontSize": 12 },
+                  { "type": "text", "x1": 15, "y1": 47, "label": "D", "dx": -9, "dy": -8, "fontSize": 12 }
+                ]
+              }
+            },
+            {
+              "id": "fg1l2q2",
+              "text": "Triunghiul ABC din figură are baza b = 10 cm și înălțimea h = 6 cm. Care este aria sa?",
+              "type": "multipleChoice",
+              "options": ["60 cm²", "16 cm²", "30 cm²", "80 cm²"],
+              "correctIndex": 2,
+              "explanation": "Aria triunghiului = (b × h) : 2 = (10 × 6) : 2 = 30 cm². Dacă uiți împărțirea la 2 obții greșit 60 cm².",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "polygon", "points": [12, 80, 82, 80, 50, 38], "strokeWidth": 2.2, "fill": "light", "color": "accent" },
+                  { "type": "segment", "x1": 50, "y1": 38, "x2": 50, "y2": 80, "dashed": true, "color": "secondary" },
+                  { "type": "rightAngleMarker", "x1": 50, "y1": 80, "x2": 82, "y2": 80, "x3": 50, "y3": 38, "color": "secondary" },
+                  { "type": "text", "x1": 47, "y1": 80, "label": "b = 10 cm", "dy": 12, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 50, "y1": 59, "label": "h = 6 cm", "dx": 24, "color": "secondary", "fontSize": 11 },
+                  { "type": "point", "x1": 12, "y1": 80, "color": "accent" },
+                  { "type": "point", "x1": 82, "y1": 80, "color": "accent" },
+                  { "type": "point", "x1": 50, "y1": 38, "color": "accent" },
+                  { "type": "text", "x1": 12, "y1": 80, "label": "A", "dx": -9, "dy": 10, "fontSize": 12 },
+                  { "type": "text", "x1": 82, "y1": 80, "label": "B", "dx": 9, "dy": 10, "fontSize": 12 },
+                  { "type": "text", "x1": 50, "y1": 38, "label": "C", "dx": 0, "dy": -12, "fontSize": 12 }
+                ]
+              }
+            },
+            {
+              "id": "fg1l2q3",
+              "text": "Cercul din figură are raza r = 5 cm. Care este lungimea cercului?",
+              "type": "multipleChoice",
+              "options": ["25π cm", "10π cm", "5π cm", "20π cm"],
+              "correctIndex": 1,
+              "explanation": "Lungimea cercului = 2 × π × r = 2 × π × 5 = 10π cm ≈ 31,4 cm. Atenție: 25π cm² este aria discului.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "circle", "cx": 50, "cy": 50, "r": 30, "strokeWidth": 2.2, "fill": "light", "color": "accent" },
+                  { "type": "segment", "x1": 50, "y1": 50, "x2": 80, "y2": 50, "dashed": true, "color": "secondary" },
+                  { "type": "point", "x1": 50, "y1": 50, "color": "accent" },
+                  { "type": "text", "x1": 65, "y1": 50, "label": "r = 5 cm", "dy": -7, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 50, "y1": 50, "label": "O", "dx": -8, "dy": 9, "fontSize": 12 },
+                  { "type": "text", "x1": 50, "y1": 14, "label": "L = ?", "dy": -3, "color": "accent", "fontSize": 13 }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "fg1l3",
+          "title": "Patrulatere și cercuri",
+          "xpReward": 60,
+          "questions": [
+            {
+              "id": "fg1l3q1",
+              "text": "Trapezul ABCD din figură are bazele B = 10 cm și b = 6 cm, iar înălțimea h = 4 cm. Care este aria sa?",
+              "type": "multipleChoice",
+              "options": ["64 cm²", "24 cm²", "20 cm²", "32 cm²"],
+              "correctIndex": 3,
+              "explanation": "Aria trapezului = ((B + b) × h) : 2 = ((10 + 6) × 4) : 2 = 64 : 2 = 32 cm².",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "polygon", "points": [20, 78, 80, 78, 68, 54, 32, 54], "strokeWidth": 2.2, "fill": "light", "color": "accent" },
+                  { "type": "segment", "x1": 32, "y1": 54, "x2": 32, "y2": 78, "dashed": true, "color": "secondary" },
+                  { "type": "rightAngleMarker", "x1": 32, "y1": 78, "x2": 80, "y2": 78, "x3": 32, "y3": 54, "color": "secondary" },
+                  { "type": "text", "x1": 50, "y1": 78, "label": "B = 10 cm", "dy": 12, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 50, "y1": 54, "label": "b = 6 cm", "dy": -10, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 32, "y1": 66, "label": "h = 4 cm", "dx": -20, "color": "secondary", "fontSize": 11 },
+                  { "type": "point", "x1": 20, "y1": 78, "color": "accent" },
+                  { "type": "point", "x1": 80, "y1": 78, "color": "accent" },
+                  { "type": "point", "x1": 68, "y1": 54, "color": "accent" },
+                  { "type": "point", "x1": 32, "y1": 54, "color": "accent" },
+                  { "type": "text", "x1": 20, "y1": 78, "label": "A", "dx": -9, "dy": 10, "fontSize": 12 },
+                  { "type": "text", "x1": 80, "y1": 78, "label": "B", "dx": 9, "dy": 10, "fontSize": 12 },
+                  { "type": "text", "x1": 68, "y1": 54, "label": "C", "dx": 9, "dy": -8, "fontSize": 12 },
+                  { "type": "text", "x1": 32, "y1": 54, "label": "D", "dx": -9, "dy": -8, "fontSize": 12 }
+                ]
+              }
+            },
+            {
+              "id": "fg1l3q2",
+              "text": "Rombul ABCD din figură are diagonalele d₁ = 8 cm și d₂ = 6 cm. Care este aria sa?",
+              "type": "multipleChoice",
+              "options": ["24 cm²", "48 cm²", "28 cm²", "14 cm²"],
+              "correctIndex": 0,
+              "explanation": "Aria rombului = (d₁ × d₂) : 2 = (8 × 6) : 2 = 24 cm². Diagonalele rombului sunt perpendiculare și se înjumătățesc.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "polygon", "points": [26, 52, 50, 70, 74, 52, 50, 34], "strokeWidth": 2.2, "fill": "light", "color": "accent" },
+                  { "type": "segment", "x1": 26, "y1": 52, "x2": 74, "y2": 52, "dashed": true, "color": "secondary" },
+                  { "type": "segment", "x1": 50, "y1": 34, "x2": 50, "y2": 70, "dashed": true, "color": "secondary" },
+                  { "type": "rightAngleMarker", "x1": 50, "y1": 52, "x2": 74, "y2": 52, "x3": 50, "y3": 34, "color": "secondary" },
+                  { "type": "text", "x1": 34, "y1": 52, "label": "d₁ = 8 cm", "dy": -7, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 50, "y1": 42, "label": "d₂ = 6 cm", "dx": 26, "color": "secondary", "fontSize": 11 },
+                  { "type": "point", "x1": 50, "y1": 52, "color": "secondary" },
+                  { "type": "point", "x1": 26, "y1": 52, "color": "accent" },
+                  { "type": "point", "x1": 50, "y1": 70, "color": "accent" },
+                  { "type": "point", "x1": 74, "y1": 52, "color": "accent" },
+                  { "type": "point", "x1": 50, "y1": 34, "color": "accent" },
+                  { "type": "text", "x1": 26, "y1": 52, "label": "A", "dx": -9, "dy": 0, "fontSize": 12 },
+                  { "type": "text", "x1": 50, "y1": 70, "label": "B", "dx": 0, "dy": 12, "fontSize": 12 },
+                  { "type": "text", "x1": 74, "y1": 52, "label": "C", "dx": 9, "dy": 0, "fontSize": 12 },
+                  { "type": "text", "x1": 50, "y1": 34, "label": "D", "dx": 0, "dy": -11, "fontSize": 12 }
+                ]
+              }
+            },
+            {
+              "id": "fg1l3q3",
+              "text": "În figură, dreptele a și b sunt paralele, tăiate de secanta d. Unul dintre unghiuri are 65°. Cât măsoară unghiul x, corespondentul său?",
+              "type": "multipleChoice",
+              "options": ["115°", "65°", "25°", "130°"],
+              "correctIndex": 1,
+              "explanation": "Când două drepte paralele sunt tăiate de o secantă, unghiurile corespondente sunt congruente, deci x = 65°. (115° ar fi suplementul lui, nu corespondentul.)",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "segment", "x1": 12, "y1": 35, "x2": 88, "y2": 35, "strokeWidth": 2.2, "color": "primary" },
+                  { "type": "segment", "x1": 12, "y1": 70, "x2": 88, "y2": 70, "strokeWidth": 2.2, "color": "primary" },
+                  { "type": "segment", "x1": 28, "y1": 88, "x2": 72, "y2": 18, "strokeWidth": 2, "color": "secondary" },
+                  { "type": "angleMarker", "x1": 39.3, "y1": 70, "x2": 88, "y2": 70, "x3": 72, "y3": 18, "color": "secondary" },
+                  { "type": "angleMarker", "x1": 61.3, "y1": 35, "x2": 88, "y2": 35, "x3": 72, "y3": 18, "color": "accent" },
+                  { "type": "text", "x1": 39.3, "y1": 70, "label": "65°", "dx": 18, "dy": -9, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 61.3, "y1": 35, "label": "x", "dx": 16, "dy": -9, "color": "accent", "fontSize": 13 },
+                  { "type": "point", "x1": 61.3, "y1": 35, "color": "accent" },
+                  { "type": "point", "x1": 39.3, "y1": 70, "color": "accent" },
+                  { "type": "text", "x1": 12, "y1": 35, "label": "a", "dx": -8, "dy": 0, "fontSize": 12 },
+                  { "type": "text", "x1": 12, "y1": 70, "label": "b", "dx": -8, "dy": 0, "fontSize": 12 },
+                  { "type": "text", "x1": 72, "y1": 18, "label": "d", "dx": 7, "dy": -4, "fontSize": 12 }
                 ]
               }
             }
