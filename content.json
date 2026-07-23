@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "minAppVersion": "1.1",
   "adsEnabled": true,
   "examDate": "2026-06-25",
@@ -15382,6 +15382,188 @@
                   { "type": "text", "x1": 12, "y1": 35, "label": "a", "dx": -8, "dy": 0, "fontSize": 12 },
                   { "type": "text", "x1": 12, "y1": 70, "label": "b", "dx": -8, "dy": 0, "fontSize": 12 },
                   { "type": "text", "x1": 72, "y1": 18, "label": "d", "dx": 7, "dy": -4, "fontSize": 12 }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "fg1l4",
+          "title": "Asemănare și Pitagora",
+          "xpReward": 70,
+          "questions": [
+            {
+              "id": "fg1l4q1",
+              "text": "Triunghiurile din figură sunt asemenea: △ABC ~ △DEF. Se știe că AB = 6 cm, BC = 9 cm și DE = 4 cm. Cât măsoară latura EF?",
+              "type": "multipleChoice",
+              "options": ["4 cm", "6 cm", "9 cm", "13,5 cm"],
+              "correctIndex": 1,
+              "explanation": "În triunghiuri asemenea laturile corespondente sunt proporționale: EF/BC = DE/AB. Deci EF = BC × (DE : AB) = 9 × (4 : 6) = 9 × 2/3 = 6 cm.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "polygon", "points": [12, 80, 50, 80, 30, 40], "strokeWidth": 2.2, "fill": "light", "color": "accent" },
+                  { "type": "angleMarker", "x1": 50, "y1": 80, "x2": 12, "y2": 80, "x3": 30, "y3": 40, "color": "secondary" },
+                  { "type": "text", "x1": 31, "y1": 80, "label": "6 cm", "dy": 12, "color": "secondary", "fontSize": 10 },
+                  { "type": "text", "x1": 40, "y1": 60, "label": "9 cm", "dx": 12, "color": "secondary", "fontSize": 10 },
+                  { "type": "point", "x1": 12, "y1": 80, "color": "accent" },
+                  { "type": "point", "x1": 50, "y1": 80, "color": "accent" },
+                  { "type": "point", "x1": 30, "y1": 40, "color": "accent" },
+                  { "type": "text", "x1": 12, "y1": 80, "label": "A", "dx": -8, "dy": 10, "fontSize": 11 },
+                  { "type": "text", "x1": 50, "y1": 80, "label": "B", "dx": 8, "dy": 10, "fontSize": 11 },
+                  { "type": "text", "x1": 30, "y1": 40, "label": "C", "dx": 0, "dy": -10, "fontSize": 11 },
+                  { "type": "polygon", "points": [60, 80, 88, 80, 74, 55], "strokeWidth": 2.2, "fill": "light", "color": "accent" },
+                  { "type": "angleMarker", "x1": 88, "y1": 80, "x2": 60, "y2": 80, "x3": 74, "y3": 55, "color": "secondary" },
+                  { "type": "text", "x1": 74, "y1": 80, "label": "4 cm", "dy": 12, "color": "secondary", "fontSize": 10 },
+                  { "type": "text", "x1": 81, "y1": 67, "label": "?", "dx": 8, "color": "accent", "fontSize": 13 },
+                  { "type": "point", "x1": 60, "y1": 80, "color": "accent" },
+                  { "type": "point", "x1": 88, "y1": 80, "color": "accent" },
+                  { "type": "point", "x1": 74, "y1": 55, "color": "accent" },
+                  { "type": "text", "x1": 60, "y1": 80, "label": "D", "dx": -8, "dy": 10, "fontSize": 11 },
+                  { "type": "text", "x1": 88, "y1": 80, "label": "E", "dx": 8, "dy": 10, "fontSize": 11 },
+                  { "type": "text", "x1": 74, "y1": 55, "label": "F", "dx": 6, "dy": -8, "fontSize": 11 }
+                ]
+              }
+            },
+            {
+              "id": "fg1l4q2",
+              "text": "Dreptunghiul ABCD din figură are lungimea L = 12 cm și lățimea l = 5 cm. Cât măsoară diagonala AC?",
+              "type": "multipleChoice",
+              "options": ["17 cm", "13 cm", "√119 cm", "7 cm"],
+              "correctIndex": 1,
+              "explanation": "Diagonala împarte dreptunghiul în două triunghiuri dreptunghice. Cu teorema lui Pitagora: AC = √(L² + l²) = √(12² + 5²) = √(144 + 25) = √169 = 13 cm.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "polygon", "points": [15, 72, 80, 72, 80, 42, 15, 42], "strokeWidth": 2.2, "fill": "light", "color": "accent" },
+                  { "type": "segment", "x1": 15, "y1": 72, "x2": 80, "y2": 42, "dashed": true, "color": "accent" },
+                  { "type": "rightAngleMarker", "x1": 80, "y1": 72, "x2": 15, "y2": 72, "x3": 80, "y3": 42, "color": "secondary" },
+                  { "type": "text", "x1": 47, "y1": 72, "label": "L = 12 cm", "dy": 12, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 15, "y1": 57, "label": "l = 5 cm", "dx": -18, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 47, "y1": 57, "label": "d = ?", "dy": -3, "color": "accent", "fontSize": 12 },
+                  { "type": "point", "x1": 15, "y1": 72, "color": "accent" },
+                  { "type": "point", "x1": 80, "y1": 72, "color": "accent" },
+                  { "type": "point", "x1": 80, "y1": 42, "color": "accent" },
+                  { "type": "point", "x1": 15, "y1": 42, "color": "accent" },
+                  { "type": "text", "x1": 15, "y1": 72, "label": "A", "dx": -8, "dy": 10, "fontSize": 11 },
+                  { "type": "text", "x1": 80, "y1": 72, "label": "B", "dx": 8, "dy": 10, "fontSize": 11 },
+                  { "type": "text", "x1": 80, "y1": 42, "label": "C", "dx": 8, "dy": -8, "fontSize": 11 },
+                  { "type": "text", "x1": 15, "y1": 42, "label": "D", "dx": -8, "dy": -8, "fontSize": 11 }
+                ]
+              }
+            },
+            {
+              "id": "fg1l4q3",
+              "text": "În figură, un cerc este înscris într-un pătrat cu latura de 10 cm (raza cercului este 5 cm). Care este aria zonei hașurate, dintre pătrat și cerc? (π ≈ 3,14)",
+              "type": "multipleChoice",
+              "options": ["78,5 cm²", "21,5 cm²", "100 cm²", "25 cm²"],
+              "correctIndex": 1,
+              "explanation": "Aria hașurată = aria pătratului − aria cercului = l² − π × r² = 10² − 3,14 × 5² = 100 − 78,5 = 21,5 cm².",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "polygon", "points": [20, 22, 80, 22, 80, 82, 20, 82], "strokeWidth": 2.2, "fill": "light", "color": "accent" },
+                  { "type": "circle", "cx": 50, "cy": 52, "r": 30, "strokeWidth": 2, "color": "primary" },
+                  { "type": "segment", "x1": 50, "y1": 52, "x2": 80, "y2": 52, "dashed": true, "color": "secondary" },
+                  { "type": "point", "x1": 50, "y1": 52, "color": "primary" },
+                  { "type": "text", "x1": 65, "y1": 52, "label": "r = 5 cm", "dy": -6, "color": "secondary", "fontSize": 10 },
+                  { "type": "text", "x1": 50, "y1": 82, "label": "l = 10 cm", "dy": 12, "color": "secondary", "fontSize": 11 },
+                  { "type": "text", "x1": 27, "y1": 29, "label": "?", "color": "accent", "fontSize": 13 }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "fg1l5",
+          "title": "Cerc și trigonometrie",
+          "xpReward": 70,
+          "questions": [
+            {
+              "id": "fg1l5q1",
+              "text": "În figură, unghiul la centru AOB are 80°. Cât măsoară unghiul înscris ACB, care subîntinde același arc AB?",
+              "type": "multipleChoice",
+              "options": ["20°", "40°", "80°", "160°"],
+              "correctIndex": 1,
+              "explanation": "Unghiul înscris are măsura egală cu jumătate din unghiul la centru care subîntinde același arc: ACB = AOB : 2 = 80° : 2 = 40°.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "circle", "cx": 50, "cy": 52, "r": 32, "strokeWidth": 2, "color": "accent" },
+                  { "type": "segment", "x1": 50, "y1": 52, "x2": 71, "y2": 76, "strokeWidth": 1.8, "color": "primary" },
+                  { "type": "segment", "x1": 50, "y1": 52, "x2": 29, "y2": 76, "strokeWidth": 1.8, "color": "primary" },
+                  { "type": "segment", "x1": 50, "y1": 20, "x2": 71, "y2": 76, "strokeWidth": 1.8, "color": "secondary" },
+                  { "type": "segment", "x1": 50, "y1": 20, "x2": 29, "y2": 76, "strokeWidth": 1.8, "color": "secondary" },
+                  { "type": "angleMarker", "x1": 50, "y1": 52, "x2": 71, "y2": 76, "x3": 29, "y3": 76, "color": "accent" },
+                  { "type": "angleMarker", "x1": 50, "y1": 20, "x2": 71, "y2": 76, "x3": 29, "y3": 76, "color": "secondary" },
+                  { "type": "text", "x1": 50, "y1": 58, "label": "80°", "color": "accent", "fontSize": 11 },
+                  { "type": "text", "x1": 50, "y1": 28, "label": "?", "color": "secondary", "fontSize": 13 },
+                  { "type": "point", "x1": 50, "y1": 52, "color": "accent" },
+                  { "type": "point", "x1": 71, "y1": 76, "color": "primary" },
+                  { "type": "point", "x1": 29, "y1": 76, "color": "primary" },
+                  { "type": "point", "x1": 50, "y1": 20, "color": "secondary" },
+                  { "type": "text", "x1": 50, "y1": 52, "label": "O", "dx": -8, "dy": 4, "fontSize": 11 },
+                  { "type": "text", "x1": 71, "y1": 76, "label": "A", "dx": 9, "dy": 4, "fontSize": 11 },
+                  { "type": "text", "x1": 29, "y1": 76, "label": "B", "dx": -9, "dy": 4, "fontSize": 11 },
+                  { "type": "text", "x1": 50, "y1": 20, "label": "C", "dx": 0, "dy": -9, "fontSize": 11 }
+                ]
+              }
+            },
+            {
+              "id": "fg1l5q2",
+              "text": "Din punctul exterior P se duce o tangentă la cerc, în punctul de contact T. Raza este OT = 6 cm, iar distanța OP = 10 cm. Cât măsoară tangenta PT?",
+              "type": "multipleChoice",
+              "options": ["4 cm", "6 cm", "8 cm", "√136 cm"],
+              "correctIndex": 2,
+              "explanation": "Tangenta este perpendiculară pe rază în punctul de contact, deci triunghiul OTP este dreptunghic în T. Cu teorema lui Pitagora: PT = √(OP² − OT²) = √(10² − 6²) = √(100 − 36) = √64 = 8 cm.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "circle", "cx": 35, "cy": 58, "r": 24, "strokeWidth": 2, "color": "accent" },
+                  { "type": "segment", "x1": 35, "y1": 58, "x2": 35, "y2": 34, "strokeWidth": 1.8, "color": "secondary" },
+                  { "type": "segment", "x1": 35, "y1": 34, "x2": 82, "y2": 34, "strokeWidth": 2, "color": "accent" },
+                  { "type": "segment", "x1": 35, "y1": 58, "x2": 82, "y2": 34, "dashed": true, "color": "primary" },
+                  { "type": "rightAngleMarker", "x1": 35, "y1": 34, "x2": 35, "y2": 58, "x3": 82, "y3": 34, "color": "secondary" },
+                  { "type": "text", "x1": 35, "y1": 46, "label": "r = 6", "dx": -16, "color": "secondary", "fontSize": 10 },
+                  { "type": "text", "x1": 58, "y1": 34, "label": "PT = ?", "dy": -6, "color": "accent", "fontSize": 11 },
+                  { "type": "text", "x1": 58, "y1": 46, "label": "10", "dx": 8, "color": "primary", "fontSize": 10 },
+                  { "type": "point", "x1": 35, "y1": 58, "color": "accent" },
+                  { "type": "point", "x1": 35, "y1": 34, "color": "accent" },
+                  { "type": "point", "x1": 82, "y1": 34, "color": "primary" },
+                  { "type": "text", "x1": 35, "y1": 58, "label": "O", "dx": -8, "dy": 6, "fontSize": 11 },
+                  { "type": "text", "x1": 35, "y1": 34, "label": "T", "dx": -8, "dy": -4, "fontSize": 11 },
+                  { "type": "text", "x1": 82, "y1": 34, "label": "P", "dx": 8, "dy": -4, "fontSize": 11 }
+                ]
+              }
+            },
+            {
+              "id": "fg1l5q3",
+              "text": "Triunghiul ABC din figură este dreptunghic în B și are unghiul A = 30°, iar ipotenuza AC = 10 cm. Cât măsoară cateta BC, opusă unghiului de 30°? (sin 30° = 1/2)",
+              "type": "multipleChoice",
+              "options": ["10 cm", "5√3 cm", "5 cm", "8,66 cm"],
+              "correctIndex": 2,
+              "explanation": "Cateta opusă unui unghi = ipotenuza × sinusul acelui unghi. BC = AC × sin 30° = 10 × (1/2) = 5 cm.",
+              "diagram": {
+                "viewBoxWidth": 100,
+                "viewBoxHeight": 100,
+                "shapes": [
+                  { "type": "polygon", "points": [15, 78, 80, 78, 80, 35], "strokeWidth": 2.2, "fill": "light", "color": "accent" },
+                  { "type": "rightAngleMarker", "x1": 80, "y1": 78, "x2": 15, "y2": 78, "x3": 80, "y3": 35, "color": "secondary" },
+                  { "type": "angleMarker", "x1": 15, "y1": 78, "x2": 80, "y2": 78, "x3": 80, "y3": 35, "color": "accent" },
+                  { "type": "text", "x1": 24, "y1": 76, "label": "30°", "color": "accent", "fontSize": 10 },
+                  { "type": "text", "x1": 47, "y1": 56, "label": "AC = 10 cm", "dx": 4, "dy": -6, "color": "secondary", "fontSize": 10 },
+                  { "type": "text", "x1": 80, "y1": 56, "label": "?", "dx": 8, "color": "accent", "fontSize": 13 },
+                  { "type": "point", "x1": 15, "y1": 78, "color": "accent" },
+                  { "type": "point", "x1": 80, "y1": 78, "color": "accent" },
+                  { "type": "point", "x1": 80, "y1": 35, "color": "accent" },
+                  { "type": "text", "x1": 15, "y1": 78, "label": "A", "dx": -8, "dy": 10, "fontSize": 11 },
+                  { "type": "text", "x1": 80, "y1": 78, "label": "B", "dx": 8, "dy": 10, "fontSize": 11 },
+                  { "type": "text", "x1": 80, "y1": 35, "label": "C", "dx": 8, "dy": -8, "fontSize": 11 }
                 ]
               }
             }
